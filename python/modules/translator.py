@@ -2,9 +2,6 @@
 # Example output: [ { topic: "Fruits", words: [ {
 #   "word": "apple",
 #   "translations": {
-#     "en": {
-#       "value": "apple",
-#     },
-#     "pl": {
-#        "value": "jabłko",
-#     }, ] } ]
+#     "en": "apple",
+#     "pl": "jabłko"
+#  }]
