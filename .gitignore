@@ -1,0 +1,12 @@
+# Add all other non-production files/folders here
+
+# Editors
+.vscode/
+.idea/
+
+# Ignore all data files, but keep the folder
+data/*.json
+data/*.db
+
+# Environment
+.env.local
