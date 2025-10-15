@@ -1,4 +1,5 @@
 # Add all other non-production files/folders here
+target/
 
 # Editors
 .vscode/

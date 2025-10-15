@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+
+<MenuBar xmlns="http://javafx.com/javafx"
+         xmlns:fx="http://javafx.com/fxml"
+         fx:controller="com.example.app.controller.MenuBarController">
+
+    <menus>
+        <Menu text="File">
+            <items>
+                <MenuItem text="New"/>
+                <MenuItem text="Open…"/>
+                <SeparatorMenuItem/>
+                <MenuItem text="Save"/>
+                <MenuItem text="Quit"/>
+            </items>
+        </Menu>
+        <Menu text="Edit">
+            <items>
+                <MenuItem text="Undo"/>
+                <MenuItem text="Redo"/>
+            </items>
+        </Menu>
+        <Menu text="Help">
+            <items>
+                <MenuItem text="About"/>
+            </items>
+        </Menu>
+    </menus>
+</MenuBar>
