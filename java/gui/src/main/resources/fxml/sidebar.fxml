@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
 
-<VBox xmlns="http://javafx.com/javafx"
-      xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.app.controller.SidebarController"
-      prefWidth="160" spacing="10" alignment="CENTER">
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
 
-    <Slider fx:id="depthSlider" min="1" max="3" blockIncrement="1"
-            majorTickUnit="1" showTickMarks="true" snapToTicks="true"/>
+<VBox alignment="CENTER" prefWidth="160" spacing="10" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.language_proximity_analysis.controller.SidebarController">
 
-    <ListView fx:id="graphList" VBox.vgrow="ALWAYS"/>
+        <Slider fx:id="depthSlider" blockIncrement="1" majorTickUnit="1" max="3" min="1" minorTickCount="0" showTickLabels="true" showTickMarks="true" snapToTicks="true">
+                <cursor>
+                        <Cursor fx:constant="HAND" />
+                </cursor>
+                <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                </padding>
+        </Slider>
+        <TextField fx:id="searchField" promptText="Search...">
+      <cursor>
+         <Cursor fx:constant="TEXT" />
+      </cursor></TextField>
+        <ListView fx:id="graphList" VBox.vgrow="ALWAYS" />
 </VBox>

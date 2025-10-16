@@ -3,7 +3,7 @@
 
 <MenuBar xmlns="http://javafx.com/javafx"
          xmlns:fx="http://javafx.com/fxml"
-         fx:controller="com.example.app.controller.MenuBarController">
+         fx:controller="com.language_proximity_analysis.controller.MenuBarController">
 
     <menus>
         <Menu text="File">
