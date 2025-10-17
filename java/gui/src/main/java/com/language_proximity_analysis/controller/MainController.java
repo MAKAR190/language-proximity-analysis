@@ -6,7 +6,7 @@ public class MainController {
 
     @FXML private MenuBarController menuBarPaneController;
     @FXML private SidebarController sidebarPaneController;
-    // @FXML private GraphController graphPaneController;
+    // @FXML private GraphViewController graphPaneController;
 
     @FXML
     public void initialize() {
