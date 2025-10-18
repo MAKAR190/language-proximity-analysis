@@ -5,16 +5,15 @@ import org.graphstream.graph.implementations.SingleGraph;
 import org.graphstream.ui.fx_viewer.FxViewPanel;
 import org.graphstream.ui.fx_viewer.FxViewer;
 
+import com.language_proximity_analysis.graphstream.GraphManager;
+
 import javafx.scene.layout.StackPane;
 
 public class GraphView extends StackPane{
     private Graph graph;
      public GraphView() {
-        graph = new SingleGraph("MyGraph");
-
-        graph.addNode("A");
-        graph.addNode("B");
-        graph.addEdge("AB", "A", "B");
+        GraphManager graphManager = new GraphManager();
+        graph = graphManager.getWordGraphs().get(0);
 
         FxViewer viewer = new FxViewer(graph, FxViewer.ThreadingModel.GRAPH_IN_ANOTHER_THREAD);
         viewer.enableAutoLayout();
