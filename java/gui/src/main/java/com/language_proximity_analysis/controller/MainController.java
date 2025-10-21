@@ -4,15 +4,14 @@ import javafx.fxml.FXML;
 
 public class MainController {
 
-    @FXML private MenuBarController menuBarPaneController;
-    @FXML private SidebarController sidebarPaneController;
-    // @FXML private GraphViewController graphPaneController;
+    @FXML private MenuBarController menuBarController;
+    @FXML private SidebarController sidebarController;
+    @FXML private GraphViewController graphViewController;
 
     @FXML
     public void initialize() {
-        // Example of connecting subcontrollers:
-        // sidebarPaneController.setOnSelectionChanged((word, depth) ->
-        //         graphPaneController.updateGraph(word, depth)
-        // );
+        sidebarController.setOnSelectionChanged((word, depth) ->
+                graphViewController.updateGraph(word, depth)
+        );
     }
 }
