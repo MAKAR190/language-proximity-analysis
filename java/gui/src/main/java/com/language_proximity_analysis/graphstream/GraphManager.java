@@ -4,6 +4,8 @@ import java.util.ArrayList;
 
 import org.graphstream.graph.Graph;
 
+import com.google.gson.JsonObject;
+
 public class GraphManager {
     private static GraphManager instance;
     private ArrayList<Graph> wordGraphs;
@@ -12,9 +14,12 @@ public class GraphManager {
 
     private GraphManager() {
         try {
-            wordGraphs = DataLoader.load("src\\main\\resources\\data\\words.json");
-            topicGraphs = DataLoader.load("src\\main\\resources\\data\\topics.json");
-            languageGraphs = DataLoader.load("src\\main\\resources\\data\\languages.json");
+            JsonObject wordJson = DataLoader.load("src\\main\\resources\\test_data\\words.json");
+            JsonObject topicJson = DataLoader.load("src\\main\\resources\\test_data\\topics.json");
+            JsonObject languageJson = DataLoader.load("src\\main\\resources\\test_data\\languages.json");
+            wordGraphs = GraphBuilder.buildGraphsFromJson(wordJson);
+            topicGraphs = GraphBuilder.buildGraphsFromJson(topicJson);
+            languageGraphs = GraphBuilder.buildGraphsFromJson(languageJson);
         } catch (Exception e) {
             System.err.println(e);
         }

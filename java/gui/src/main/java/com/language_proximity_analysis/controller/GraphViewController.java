@@ -28,13 +28,14 @@ public class GraphViewController {
             viewer.close();
             graphView.getChildren().clear();
         }
-
+        word = word.toLowerCase();
         graph = graphManager.findGraph(word, depth);
-            viewer = new FxViewer(graph, FxViewer.ThreadingModel.GRAPH_IN_ANOTHER_THREAD);
-            viewer.enableAutoLayout();
+        graph.setAttribute("ui.stylesheet", "url('src\\main\\resources\\css\\graph.css')");
+        viewer = new FxViewer(graph, FxViewer.ThreadingModel.GRAPH_IN_ANOTHER_THREAD);
+        viewer.enableAutoLayout();
 
-            viewPanel = (FxViewPanel) viewer.addDefaultView(false);
-            graphView.getChildren().add(viewPanel);
+        viewPanel = (FxViewPanel) viewer.addDefaultView(false);
+        graphView.getChildren().add(viewPanel);
     }
 
     public Graph getGraph() {

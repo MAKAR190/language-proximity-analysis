@@ -4,7 +4,7 @@ import javafx.fxml.FXML;
 
 public class MainController {
 
-    @FXML private MenuBarController menuBarController;
+    // @FXML private MenuBarController menuBarController;
     @FXML private SidebarController sidebarController;
     @FXML private GraphViewController graphViewController;
 

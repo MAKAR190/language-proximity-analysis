@@ -6,6 +6,7 @@ import java.util.function.BiConsumer;
 import org.graphstream.graph.Graph;
 
 import com.language_proximity_analysis.graphstream.GraphManager;
+import com.language_proximity_analysis.graphstream.TextFormatter;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -106,7 +107,7 @@ public class SidebarController {
         }
 
         for (Graph graph : graphs) {
-            observableOptions.add(graph.getId());
+            observableOptions.add(TextFormatter.capitalizeFirstLetter(graph.getId()));
         }
     }
 }

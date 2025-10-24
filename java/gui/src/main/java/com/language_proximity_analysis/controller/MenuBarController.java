@@ -1,5 +1,5 @@
-package com.language_proximity_analysis.controller;
+// package com.language_proximity_analysis.controller;
 
-public class MenuBarController {
+// public class MenuBarController {
 
-}
+// }

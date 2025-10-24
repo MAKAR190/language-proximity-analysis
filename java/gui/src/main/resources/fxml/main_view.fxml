@@ -9,10 +9,10 @@
 
     <children>
         <!-- Top Menu -->
-        <fx:include source="menu_bar.fxml" fx:id="menuBar"/>
+        <!-- <fx:include source="menu_bar.fxml" fx:id="menuBar"/> -->
 
         <!-- Main Split Area -->
-        <SplitPane dividerPositions="0.2" VBox.vgrow="ALWAYS">
+        <SplitPane dividerPositions="0.2" VBox.vgrow="ALWAYS" fx:id="splitPane">
             <items>
                 <!-- Sidebar -->
                 <fx:include source="sidebar.fxml" fx:id="sidebar"/>

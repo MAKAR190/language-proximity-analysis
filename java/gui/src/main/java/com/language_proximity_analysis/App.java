@@ -15,7 +15,6 @@ public class App extends Application {
         System.setProperty("org.graphstream.ui", "javafx");
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/main_view.fxml"));
         Scene scene = new Scene(loader.load(), 1000, 700);
-        // scene.getStylesheets().add(getClass().getResource("styles.css").toExternalForm());
         stage.setTitle("Graph Visualizer");
         stage.setScene(scene);
         stage.show();
