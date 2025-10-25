@@ -27,7 +27,7 @@ public class GraphManager {
 
     public static GraphManager getInstance(){
         if(instance == null){
-            return new GraphManager();
+            instance = new GraphManager();
         }
         return instance;
     }
