@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.language_proximity_analysis.controller.MainController"
+      prefWidth="640" prefHeight="400">
+
+    <children>
+        <!-- Top Menu -->
+        <!-- <fx:include source="menu_bar.fxml" fx:id="menuBar"/> -->
+
+        <!-- Main Split Area -->
+        <SplitPane dividerPositions="0.2" VBox.vgrow="ALWAYS" fx:id="splitPane">
+            <items>
+                <!-- Sidebar -->
+                <fx:include source="sidebar.fxml" fx:id="sidebar"/>
+
+                <!-- Graph Area -->
+                <fx:include source="graph_view.fxml" fx:id="graphView"/>
+            </items>
+        </SplitPane>
+    </children>
+</VBox>
