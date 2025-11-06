@@ -10,3 +10,5 @@ data/*.db
 
 # Environment
 .env.local
+
+db
