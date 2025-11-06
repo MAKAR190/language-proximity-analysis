@@ -1,4 +1,45 @@
 {
-  "topics": [],
+  "topics": [
+    {
+      "title": "Vegetables",
+      "url": "https://relatedwords.io/vegetables"
+    },
+    {
+      "title": "Fruits",
+      "url": "https://relatedwords.io/fruit"
+    },
+    {
+      "title": "Pets",
+      "url": "https://relatedwords.io/pets"
+    },
+    {
+      "title": "Musical Instruments",
+      "url": "https://relatedwords.io/instruments"
+    },
+    {
+      "title": "Industries",
+      "url": "https://relatedwords.io/industry"
+    },
+    {
+      "title": "Office",
+      "url": "https://relatedwords.io/office"
+    },
+    {
+      "title": "Home",
+      "url": "https://relatedwords.io/home"
+    },
+    {
+      "title": "Emotion",
+      "url": "https://relatedwords.io/emotion"
+    },
+    {
+      "title": "Health",
+      "url": "https://relatedwords.io/health"
+    },
+    {
+      "title": "Ride",
+      "url": "https://relatedwords.io/ride"
+    }
+  ],
   "languages": []
 }
