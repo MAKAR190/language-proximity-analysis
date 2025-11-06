@@ -119,6 +119,7 @@ class Scraper:
             processed_words = self.processor.process(words)
             self.storage.store(t, processed_words)
             self.output.append(TopicOutput(topic=t.title, words=processed_words))
+        return self._output
 
 if __name__ == "__main__":
     # Importing topics config for independent single module testing
