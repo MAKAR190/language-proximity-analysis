@@ -1,0 +1,36 @@
+graph{
+    padding: 50px, 50px;
+}
+
+node {
+    size: 64px;
+    fill-mode: image-scaled;
+    text-color: black;
+    text-alignment: under;
+    text-padding: 0, 10;
+    text-size: 14;
+}
+
+node.en{
+     fill-image: url('src\\main\\resources\\icons\\en.png');
+}
+
+node.fr{
+    fill-image: url('src\\main\\resources\\icons\\fr.png');
+}
+
+node.es{
+    fill-image: url('src\\main\\resources\\icons\\es.png');
+}
+
+node.pl{
+    fill-image: url('src\\main\\resources\\icons\\pl.png');
+}
+
+edge {
+    fill-color: #9e9e9e;
+    text-alignment: along;
+    text-offset: 0, 10;
+    text-size: 14;
+    size-mode: dyn-size;
+}
