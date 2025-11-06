@@ -7,6 +7,7 @@ target/
 
 # Ignore all data files, but keep the folder
 data/*.json
+data/*.txt
 data/*.db
 test_data/
 
