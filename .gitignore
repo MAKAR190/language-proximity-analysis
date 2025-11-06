@@ -13,3 +13,5 @@ test_data/
 
 # Environment
 .env.local
+
+db
