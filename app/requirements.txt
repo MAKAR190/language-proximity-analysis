@@ -1,2 +1,8 @@
 beautifulsoup4
 lxml
+json
+requests
+re
+uuid
+load_dotenv
+os

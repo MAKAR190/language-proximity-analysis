@@ -12,6 +12,6 @@ data/*.db
 test_data/
 
 # Environment
-.env.local
+app/.env.local
 
 /db/
