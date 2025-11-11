@@ -9,7 +9,7 @@ class WordTranslator:
     def __init__(self, api_url: str = "http://127.0.0.1:5000/translate"):
         self.api_url = api_url
         self.source_language = "en"
-        self.target_languages = ["es", "fr", "de", "it", "pt"]
+        self.target_languages = ["es", "fr", "pl"]
 
     def read_input_data(self, input_file: str) -> List[Dict[str, Any]]:
         if input_file.endswith('.txt'):
