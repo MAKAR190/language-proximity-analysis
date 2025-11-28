@@ -1,0 +1,98 @@
+{
+    "Vegetables": {
+        "nodes": [
+            {
+                "id": "vegetables_en"
+            },
+            {
+                "id": "vegetables_es"
+            },
+            {
+                "id": "vegetables_fr"
+            },
+            {
+                "id": "vegetables_pl"
+            }
+        ],
+        "edges": [
+            {
+                "source": "vegetables_en",
+                "target": "vegetables_es",
+                "weight": 0.4443
+            },
+            {
+                "source": "vegetables_en",
+                "target": "vegetables_fr",
+                "weight": 0.5242
+            },
+            {
+                "source": "vegetables_en",
+                "target": "vegetables_pl",
+                "weight": 0.2939
+            },
+            {
+                "source": "vegetables_es",
+                "target": "vegetables_fr",
+                "weight": 0.4608
+            },
+            {
+                "source": "vegetables_es",
+                "target": "vegetables_pl",
+                "weight": 0.2423
+            },
+            {
+                "source": "vegetables_fr",
+                "target": "vegetables_pl",
+                "weight": 0.2679
+            }
+        ]
+    },
+    "Fruits": {
+        "nodes": [
+            {
+                "id": "fruits_en"
+            },
+            {
+                "id": "fruits_es"
+            },
+            {
+                "id": "fruits_fr"
+            },
+            {
+                "id": "fruits_pl"
+            }
+        ],
+        "edges": [
+            {
+                "source": "fruits_en",
+                "target": "fruits_es",
+                "weight": 0.4092
+            },
+            {
+                "source": "fruits_en",
+                "target": "fruits_fr",
+                "weight": 0.4829
+            },
+            {
+                "source": "fruits_en",
+                "target": "fruits_pl",
+                "weight": 0.34
+            },
+            {
+                "source": "fruits_es",
+                "target": "fruits_fr",
+                "weight": 0.4404
+            },
+            {
+                "source": "fruits_es",
+                "target": "fruits_pl",
+                "weight": 0.3172
+            },
+            {
+                "source": "fruits_fr",
+                "target": "fruits_pl",
+                "weight": 0.3209
+            }
+        ]
+    }
+}
