@@ -1,0 +1,124 @@
+{
+  "topic_communities": [
+    {
+      "community_id": 1,
+      "en-fr": [
+        "Musical Instruments",
+        "Office"
+      ],
+      "es-fr": [
+        "Musical Instruments",
+        "Office"
+      ],
+      "en-es": [
+        "Musical Instruments",
+        "Office"
+      ],
+      "es-pl": [
+        "Musical Instruments",
+        "Office"
+      ],
+      "en-pl": [
+        "Musical Instruments",
+        "Office"
+      ],
+      "fr-pl": [
+        "Musical Instruments",
+        "Office"
+      ]
+    },
+    {
+      "community_id": 2,
+      "en-fr": [
+        "Vegetables",
+        "Fruits"
+      ],
+      "es-fr": [
+        "Vegetables",
+        "Fruits"
+      ],
+      "en-es": [
+        "Vegetables",
+        "Fruits"
+      ],
+      "en-pl": [
+        "Vegetables",
+        "Fruits"
+      ],
+      "fr-pl": [
+        "Vegetables",
+        "Fruits"
+      ],
+      "es-pl": [
+        "Vegetables",
+        "Fruits"
+      ]
+    },
+    {
+      "community_id": 3,
+      "es-fr": [
+        "Emotion",
+        "Ride"
+      ],
+      "en-fr": [
+        "Emotion",
+        "Ride"
+      ],
+      "en-es": [
+        "Emotion",
+        "Ride"
+      ],
+      "en-pl": [
+        "Emotion",
+        "Ride"
+      ],
+      "es-pl": [
+        "Emotion",
+        "Ride"
+      ],
+      "fr-pl": [
+        "Emotion",
+        "Ride"
+      ]
+    },
+    {
+      "community_id": 4,
+      "es-fr": [
+        "Pets",
+        "Industries",
+        "Home",
+        "Health"
+      ],
+      "en-fr": [
+        "Pets",
+        "Industries",
+        "Home",
+        "Health"
+      ],
+      "en-es": [
+        "Pets",
+        "Industries",
+        "Home",
+        "Health"
+      ],
+      "en-pl": [
+        "Pets",
+        "Industries",
+        "Home",
+        "Health"
+      ],
+      "es-pl": [
+        "Pets",
+        "Industries",
+        "Home",
+        "Health"
+      ],
+      "fr-pl": [
+        "Pets",
+        "Industries",
+        "Home",
+        "Health"
+      ]
+    }
+  ]
+}
