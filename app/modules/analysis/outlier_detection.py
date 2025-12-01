@@ -1,123 +1,149 @@
 import json
-import os
-from typing import Dict, List
+from typing import Dict, List, Any, Tuple, Optional
+from pathlib import Path
 
-WORD_DISTANCES_FILE = "../../../data/analysis/word_distance.json"
-TOPIC_GRAPH_FILE = "../../../data/analysis/topic_proximity.json"
-OUTPUT_DIR = "../../../data/analysis"
-OUTPUT_FILE = os.path.join(OUTPUT_DIR, "outliers.json")
+class OutlierDetector:
+    def __init__(
+        self,
+        word_distances_path: str,
+        topic_graph_path: str,
+        output_dir: str = "../../../data/analysis",
+        outlier_multiplier: float = 2.5,
+        min_topic_distance: float = 0.01,
+    ):
+        self.word_distances_path = Path(word_distances_path)
+        self.topic_graph_path = Path(topic_graph_path)
+        self.output_dir = Path(output_dir)
+        self.output_file = self.output_dir / "outliers.json"
 
-# Outlier if word distance > multiplier × topic distance
-OUTLIER_MULTIPLIER = 2.5
-MIN_TOPIC_DISTANCE = 0.01
+        self.outlier_multiplier = outlier_multiplier
+        self.min_topic_distance = min_topic_distance
 
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+        self.word_distances: List[Dict[str, Any]] = []
+        self.topic_distance_map: Dict[Tuple[str, str], float] = {}
 
-# ========================= LOAD DATA =========================
-with open(WORD_DISTANCES_FILE, 'r', encoding='utf-8') as f:
-    word_distances: List[Dict] = json.load(f)
+    def load_word_distances(self) -> None:
+        """Load list of word translation distances."""
+        with open(self.word_distances_path, 'r', encoding='utf-8') as f:
+            self.word_distances = json.load(f)
+        print(f"Loaded {len(self.word_distances)} word pairs.")
 
-print(f"Loaded {len(word_distances)} word pairs.")
+    def load_and_parse_topic_graph(self) -> None:
+        """Parse topic proximity graph and build (topic, lang_pair) → distance map."""
+        with open(self.topic_graph_path, 'r', encoding='utf-8') as f:
+            raw_graph = json.load(f)
 
-with open(TOPIC_GRAPH_FILE, 'r', encoding='utf-8') as f:
-    raw_topic_graph = json.load(f)
+        def get_lang(node_id: str) -> str:
+            return node_id.strip().split('_')[-1]
 
-# ========================= BUILD TOPIC DISTANCE LOOKUP =========================
-topic_distance_map = {}
+        for topic_name, topic_data in raw_graph.items():
+            topic_key = topic_name.strip().lower()
+            edges = topic_data.get("edges", [])
 
+            # First pass: normalize all edges to sorted lang pair
+            normalized_distances: Dict[str, float] = {}
+            for edge in edges:
+                lang1 = get_lang(edge["source"])
+                lang2 = get_lang(edge["target"])
+                weight = edge["weight"]
+                pair_key = f"{min(lang1, lang2)}-{max(lang1, lang2)}"
+                normalized_distances[pair_key] = weight
 
-def get_lang(code: str) -> str:
-    return code.split('_')[-1]
+            # Second pass: store both directions
+            for edge in edges:
+                lang1 = get_lang(edge["source"])
+                lang2 = get_lang(edge["target"])
+                normalized_pair = f"{min(lang1, lang2)}-{max(lang1, lang2)}"
+                weight = normalized_distances[normalized_pair]
 
+                forward = f"{lang1}-{lang2}"
+                reverse = f"{lang2}-{lang1}"
 
-for topic_name, topic_data in raw_topic_graph.items():
-    topic_key = topic_name.strip().lower()
-    edges = topic_data.get("edges", [])
+                self.topic_distance_map[(topic_key, forward)] = weight
+                self.topic_distance_map[(topic_key, reverse)] = weight
 
-    dist_lookup = {}
-    for edge in edges:
-        src = edge["source"]
-        tgt = edge["target"]
-        weight = edge["weight"]
+        print(f"Built topic distance map with {len(self.topic_distance_map)} entries.")
 
-        lang1 = get_lang(src)
-        lang2 = get_lang(tgt)
+    def find_topic_distance(self, topic: str, lang_pair: str) -> Optional[float]:
+        """Lookup topic distance, trying both language orders."""
+        key = (topic, lang_pair)
+        if key in self.topic_distance_map:
+            return self.topic_distance_map[key]
 
-        pair = tuple(sorted([lang1, lang2]))
-        pair_key = f"{pair[0]}-{pair[1]}"
-        dist_lookup[pair_key] = weight
-
-    for edge in edges:
-        src = edge["source"]
-        tgt = edge["target"]
-        weight = edge["weight"]
-        lang1 = get_lang(src)
-        lang2 = get_lang(tgt)
-        pair_forward = f"{lang1}-{lang2}"
-        pair_reverse = f"{lang2}-{lang1}"
-        normalized = f"{min(lang1, lang2)}-{max(lang1, lang2)}"
-
-        actual_weight = dist_lookup[normalized]
-
-        topic_distance_map[(topic_key, pair_forward)] = actual_weight
-        topic_distance_map[(topic_key, pair_reverse)] = actual_weight
-
-print(f"Loaded topic distances for {len(topic_distance_map)} topic-language pairs.")
-
-# ========================= DETECT OUTLIERS =========================
-outliers = []
-
-for item in word_distances:
-    topic = item["topic"].lower()
-    lang_pair = item["language_pair"]  # e.g. "en-es"
-    word_pair = item["word_pair"]  # [word1, word2]
-    distance = item["distance"]
-
-    key = (topic, lang_pair)
-    topic_dist = topic_distance_map.get(key)
-
-    if topic_dist is None:
         l1, l2 = lang_pair.split('-')
         reverse_pair = f"{l2}-{l1}"
-        key_rev = (topic, reverse_pair)
-        topic_dist = topic_distance_map.get(key_rev)
+        rev_key = (topic, reverse_pair)
+        return self.topic_distance_map.get(rev_key)
 
-    if topic_dist is None:
-        print(f"Warning: No topic distance for {topic} | {lang_pair} → skipping {word_pair}")
-        continue
+    def detect_outliers(self) -> List[Dict[str, Any]]:
+        """find word pairs significantly farther than their topic."""
+        outliers = []
 
-    if topic_dist < MIN_TOPIC_DISTANCE:
-        continue
+        for item in self.word_distances:
+            topic = item["topic"].lower()
+            lang_pair = item["language_pair"]
+            word_pair = item["word_pair"]
+            distance = item["distance"]
 
-    ratio = distance / topic_dist if topic_dist > 0 else float('inf')
+            topic_dist = self.find_topic_distance(topic, lang_pair)
 
-    if distance > topic_dist * OUTLIER_MULTIPLIER:
-        outliers.append({
-            "topic": topic,
-            "language_pair": lang_pair,
-            "word_pair": word_pair,
-            "distance": round(distance, 4),
-            "topic_distance": round(topic_dist, 4),
-            "ratio": round(ratio, 2)
-        })
+            if topic_dist is None:
+                print(f"  Warning: No topic distance for '{topic}' | {lang_pair} → skipping {word_pair}")
+                continue
 
-outliers.sort(key=lambda x: x["ratio"], reverse=True)
+            if topic_dist < self.min_topic_distance:
+                continue
 
-# ========================= SAVE RESULT =========================
-final_output = {
-    "outliers": [
-        {
-            "topic": o["topic"],
-            "language_pair": o["language_pair"],
-            "word_pair": o["word_pair"],
-            "distance": o["distance"]
+            ratio = distance / topic_dist
+
+            if distance > topic_dist * self.outlier_multiplier:
+                outliers.append({
+                    "topic": topic,
+                    "language_pair": lang_pair,
+                    "word_pair": word_pair,
+                    "distance": round(distance, 4),
+                    "topic_distance": round(topic_dist, 4),
+                    "ratio": round(ratio, 2)
+                })
+
+        # Sort by severity
+        outliers.sort(key=lambda x: x["ratio"], reverse=True)
+        return outliers
+
+    def save_results(self, outliers: List[Dict[str, Any]]) -> None:
+        self.output_dir.mkdir(parents=True, exist_ok=True)
+
+        final_output = {
+            "outliers": [
+                {
+                    "topic": o["topic"],
+                    "language_pair": o["language_pair"],
+                    "word_pair": o["word_pair"],
+                    "distance": o["distance"]
+                }
+                for o in outliers
+            ]
         }
-        for o in outliers
-    ]
-}
 
-with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-    json.dump(final_output, f, indent=2, ensure_ascii=False)
+        with open(self.output_file, 'w', encoding='utf-8') as f:
+            json.dump(final_output, f, indent=2, ensure_ascii=False)
 
-print(f"\nFound {len(outliers)} outliers.")
-print(f"Saved to: {OUTPUT_FILE}")
+        print(f"\nFound {len(outliers)} outliers.")
+        print(f"Results saved to: {self.output_file}")
+
+    def run(self) -> None:
+        """Run full pipeline."""
+        self.load_word_distances()
+        self.load_and_parse_topic_graph()
+        outliers = self.detect_outliers()
+        self.save_results(outliers)
+
+
+if __name__ == "__main__":
+    detector = OutlierDetector(
+        word_distances_path="../../../data/analysis/word_distance.json",
+        topic_graph_path="../../../data/analysis/topic_proximity.json",
+        outlier_multiplier=2.5,
+        min_topic_distance=0.01
+    )
+    detector.run()
