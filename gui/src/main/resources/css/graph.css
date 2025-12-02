@@ -4,7 +4,7 @@ graph{
 
 node {
     size: 64px;
-    fill-mode: image-scaled;
+    fill-mode: image-scaled-ratio-max;
     text-color: black;
     text-alignment: under;
     text-padding: 0, 10;

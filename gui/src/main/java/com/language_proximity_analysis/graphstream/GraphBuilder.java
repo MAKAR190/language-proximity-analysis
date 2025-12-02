@@ -12,10 +12,11 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 
 public class GraphBuilder {
+
     public static ArrayList<Graph> buildGraphsFromJson(JsonObject root) {
         ArrayList<Graph> graphs = new ArrayList<>();
         for (Map.Entry<String, JsonElement> entry : root.entrySet()) {
-            String graphId = entry.getKey();
+            String graphId = entry.getKey().toLowerCase();
             JsonObject graphData = entry.getValue().getAsJsonObject();
             Graph graph = new SingleGraph(graphId);
             for (JsonElement nodeEl : graphData.getAsJsonArray("nodes")) {
@@ -24,11 +25,13 @@ public class GraphBuilder {
                 String id = nodeData.get("id").getAsString();
                 Node node = graph.addNode(id);
 
-                String label = TextFormatter.toLabel(id);
-                node.setAttribute("ui.label", label);
-
-                String language = nodeData.get("language").getAsString();
-                node.setAttribute("ui.class", language);
+                String[] parts = TextFormatter.splitId(id);
+                if (parts.length == 2) {
+                    node.setAttribute("ui.label", parts[0]);
+                    node.setAttribute("ui.class", parts[1]);
+                } else {
+                    node.setAttribute("ui.class", parts[0]);
+                }
             }
 
             for (JsonElement edgeEl : graphData.getAsJsonArray("edges")) {
@@ -42,7 +45,7 @@ public class GraphBuilder {
                 if (edgeData.has("weight")) {
                     edge.setAttribute("ui.label", edgeData.get("weight"));
                     double weight = edgeData.get("weight").getAsDouble();
-                    edge.setAttribute("ui.size", weight*10);
+                    edge.setAttribute("ui.size", weight * 10);
                     // layoutWeight is multiplier for edge length
                     // default is 1, larger = longer edge, smaller = shorter edge
                     // our weight works opposite way, so we invert it and remap 0.0-1.0 into 0.5-2.0

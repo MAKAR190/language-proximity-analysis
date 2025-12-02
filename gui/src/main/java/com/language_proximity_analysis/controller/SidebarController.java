@@ -82,8 +82,9 @@ public class SidebarController {
     private void triggerUpdate() {
         if (onSelectionChanged != null) {
             String word = graphList.getSelectionModel().getSelectedItem();
-            if (word != null)
+            if (word != null){
                 onSelectionChanged.accept(word, (int) depthSlider.getValue());
+            }
         }
     }
 
