@@ -1,5 +1,1 @@
-# language-proximity-analysis
-
-- Aliaksei Zaneuski - project manager 
-- Artem Zana in charge of the report
-- Makar Lutskyi in charge of opening and maintaining a repository for the code
+Project Report: https://www.overleaf.com/read/cddxvvmjnssh#d44c49
