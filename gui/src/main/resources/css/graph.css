@@ -35,3 +35,19 @@ edge {
     text-size: 14;
     size-mode: dyn-size;
 }
+
+edge.identical {
+    fill-color: green;
+}
+
+edge.similar{
+    fill-color: yellow;
+}
+
+edge.different{
+    fill-color: orange;
+}
+
+edge.unrelated {
+    fill-color:  red;
+}

@@ -1,4 +1,4 @@
-package com.language_proximity_analysis.graphstream;
+package com.language_proximity_analysis.utils;
 
 public class TextFormatter {
     public static String[] splitId(String word) {

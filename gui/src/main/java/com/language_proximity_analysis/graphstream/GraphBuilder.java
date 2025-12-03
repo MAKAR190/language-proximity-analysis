@@ -10,6 +10,7 @@ import org.graphstream.graph.implementations.SingleGraph;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
+import com.language_proximity_analysis.utils.TextFormatter;
 
 public class GraphBuilder {
 
@@ -43,8 +44,9 @@ public class GraphBuilder {
                 Edge edge = graph.addEdge(edgeId, source, target, false); // undirected
 
                 if (edgeData.has("weight")) {
-                    edge.setAttribute("ui.label", edgeData.get("weight"));
                     double weight = edgeData.get("weight").getAsDouble();
+                    String formattedWeight = String.format("%.2f", weight);
+                     edge.setAttribute("ui.label", formattedWeight);
                     edge.setAttribute("ui.size", weight * 10);
                     // layoutWeight is multiplier for edge length
                     // default is 1, larger = longer edge, smaller = shorter edge
@@ -52,6 +54,16 @@ public class GraphBuilder {
                     double layoutWeight = 2.0 - 1.5 * weight;
                     edge.setAttribute("layout.weight", layoutWeight);
                     edge.setAttribute("weight", weight);
+
+                    if (weight == 1.0) {
+                        edge.setAttribute("ui.class", "identical");
+                    } else if (weight == 0.0) {
+                        edge.setAttribute("ui.class", "unrelated");
+                    } else if (weight > 0.5) {
+                        edge.setAttribute("ui.class", "similar");
+                    } else {
+                        edge.setAttribute("ui.class", "different");
+                    }
                 }
             }
 
