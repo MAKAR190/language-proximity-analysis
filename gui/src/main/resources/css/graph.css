@@ -8,6 +8,7 @@ node {
     text-color: black;
     text-alignment: under;
     text-padding: 0, 10;
+    size: 64px;
     text-size: 14;
 }
 
