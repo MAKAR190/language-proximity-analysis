@@ -23,6 +23,10 @@ public class GraphViewController {
 
     }
 
+    public StackPane getRoot() {
+        return graphView;
+    }
+
     public void updateGraph(String word, int depth) {
         if (viewer != null) {
             viewer.close();

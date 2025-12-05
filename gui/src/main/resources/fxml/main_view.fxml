@@ -9,16 +9,21 @@
 
     <children>
         <!-- Top Menu -->
-        <!-- <fx:include source="menu_bar.fxml" fx:id="menuBar"/> -->
+        <fx:include source="menu_bar.fxml" fx:id="menuBar"/>
 
         <!-- Main Split Area -->
         <SplitPane dividerPositions="0.2" VBox.vgrow="ALWAYS" fx:id="splitPane">
             <items>
                 <!-- Sidebar -->
                 <fx:include source="sidebar.fxml" fx:id="sidebar"/>
-
+                
                 <!-- Graph Area -->
+                <AnchorPane>
+                    <children>
                 <fx:include source="graph_view.fxml" fx:id="graphView"/>
+                <fx:include source="analysis_view.fxml" fx:id="analysisView"/>
+                    </children>
+                </AnchorPane>
             </items>
         </SplitPane>
     </children>
