@@ -7,7 +7,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" prefWidth="160" spacing="10" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.language_proximity_analysis.controller.SidebarController">
+<VBox alignment="CENTER" prefWidth="160" spacing="10" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.language_proximity_analysis.controller.GraphSidebarController">
 
         <Slider fx:id="depthSlider" blockIncrement="1" majorTickUnit="1" max="3" min="1" minorTickCount="0" showTickLabels="true" showTickMarks="true" snapToTicks="true">
                 <cursor>

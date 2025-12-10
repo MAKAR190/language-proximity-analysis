@@ -15,7 +15,7 @@
         <SplitPane dividerPositions="0.2" VBox.vgrow="ALWAYS" fx:id="splitPane">
             <items>
                 <!-- Sidebar -->
-                <fx:include source="sidebar.fxml" fx:id="sidebar"/>
+                <fx:include source="graph_sidebar.fxml" fx:id="graphSidebar"/>
                 
                 <!-- Graph Area -->
                 <AnchorPane>

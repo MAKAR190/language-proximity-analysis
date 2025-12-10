@@ -9,7 +9,7 @@ public class MainController {
     @FXML
     private MenuBarController menuBarController;
     @FXML
-    private SidebarController sidebarController;
+    private GraphSidebarController graphSidebarController;
     @FXML
     private GraphViewController graphViewController;
     @FXML
@@ -20,7 +20,7 @@ public class MainController {
     @FXML
     public void initialize() {
         menuBarController.setMainController(this);
-        sidebarController.setOnSelectionChanged((word, depth) -> graphViewController.updateGraph(word, depth));
+        graphSidebarController.setOnSelectionChanged((word, depth) -> graphViewController.updateGraph(word, depth));
         showGraphView();
     }
 
@@ -35,6 +35,7 @@ public class MainController {
     public void showAnalysisView() {
         analysisViewController.getRoot().setVisible(true);
         analysisViewController.getRoot().setManaged(true);
+        analysisViewController.updateInfo("en");
 
         graphViewController.getRoot().setVisible(false);
         graphViewController.getRoot().setManaged(false);

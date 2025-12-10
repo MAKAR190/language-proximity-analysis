@@ -17,7 +17,7 @@ import javafx.scene.control.Slider;
 import javafx.scene.control.TextField;
 import javafx.util.StringConverter;
 
-public class SidebarController {
+public class GraphSidebarController {
 
     @FXML
     private Slider depthSlider;
