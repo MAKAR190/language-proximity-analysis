@@ -3,13 +3,14 @@ package com.language_proximity_analysis.controller;
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.stream.Collectors;
 
-import org.graphstream.graph.Edge;
 import org.graphstream.graph.Graph;
 import org.graphstream.graph.Node;
 
 import com.language_proximity_analysis.graphstream.GraphManager;
-import com.language_proximity_analysis.model.TopicTableEntry;
+import com.language_proximity_analysis.model.TableEntry;
+import com.language_proximity_analysis.utils.CellFormatter;
 import com.language_proximity_analysis.utils.TextFormatter;
 
 import javafx.beans.property.ReadOnlyObjectWrapper;
@@ -22,11 +23,6 @@ import javafx.scene.control.TableView;
 import javafx.scene.layout.StackPane;
 
 public class AnalysisViewController {
-    // TO DO:
-    // heatmap
-    // select topic, select main language
-    // rows - words, columns - languages
-    // comparison to average value for given language pair
     @FXML
     private StackPane analysisView;
     private GraphManager graphManager = GraphManager.getInstance();
@@ -35,57 +31,81 @@ public class AnalysisViewController {
         return analysisView;
     }
 
-    // public void updateInfo(String id, String mainLanguage){
-    // boolean topicLevel = true;
-    // if(topicLevel){
-    // Graph graph = graphManager.findGraph(id, 2);
-    // for(Node node:graph){
-    // node.getId()
-    // }
-    // TopicTableEntry topicTableEntry = new TopicTableEntry();
+    @FXML
+    public void initialize() {
+        updateTable("en", null);
+    }
 
-    // }
-    // }
-
-    // for topics
-    public void updateInfo(String mainLanguage) {
+    public void updateTable(String mainLanguage, String topic) {
         analysisView.getChildren().clear();
-        ArrayList<TopicTableEntry> tableData = new ArrayList<>();
-        ArrayList<Graph> graphs = graphManager.getTopicGraphs();
+        ArrayList<Graph> graphs;
+        ArrayList<TableEntry> tableData = new ArrayList<>();
+        Graph avgGraph;
+        TableEntry avg = new TableEntry("avg");
+
+        if (topic != null) {
+            graphs = graphManager.getWordGraphs();
+            graphs = graphs.stream().filter(graph -> graph.getAttribute("topic").equals(topic.toLowerCase()))
+                    .collect(Collectors.toCollection(ArrayList::new));
+            avgGraph = graphManager.findGraph(topic.toLowerCase(), 2);
+        } else {
+            graphs = graphManager.getTopicGraphs();
+            avgGraph = graphManager.findGraph("language", 3);
+        }
+
+        for (Node node : avgGraph) {
+            if (node.getId().endsWith(mainLanguage)) {
+                node.edges().forEach(edge -> {
+                    Node opposite = edge.getOpposite(node);
+                    String[] idParts = TextFormatter.splitId(opposite.getId());
+                    String lang;
+                    if (topic != null) {
+                        lang = idParts[1];
+                    } else {
+                        lang = idParts[0];
+                    }
+                    avg.addProximity(lang, edge.getAttribute("weight", Double.class));
+                });
+            }
+        }
+
         for (Graph graph : graphs) {
-            TopicTableEntry topicTableEntry = new TopicTableEntry(graph.getId());
+            TableEntry tableEntry = new TableEntry(graph.getId());
             for (Node node : graph) {
                 if (node.getId().endsWith(mainLanguage)) {
                     node.edges().forEach(edge -> {
                         Node opposite = edge.getOpposite(node);
                         String lang = TextFormatter.splitId(opposite.getId())[1];
-                        topicTableEntry.addProximity(lang, edge.getAttribute("weight", Double.class));
+                        tableEntry.addProximity(lang, edge.getAttribute("weight", Double.class));
                     });
                 }
             }
-            tableData.add(topicTableEntry);
+            tableData.add(tableEntry);
+        }
+        TableView<TableEntry> table = new TableView<>();
+        TableColumn<TableEntry, String> topicCol;
+        if (topic == null) {
+            topicCol = new TableColumn<>("Topic");
+        } else {
+            topicCol = new TableColumn<>("Word");
         }
 
-        TableView<TopicTableEntry> table = new TableView<>();
-        TableColumn<TopicTableEntry, String> topicCol = new TableColumn<>("Topic");
-
         topicCol.setCellValueFactory(
-                data -> new ReadOnlyStringWrapper(data.getValue().getTopic()));
+                data -> new ReadOnlyStringWrapper(data.getValue().getName()));
 
         table.getColumns().add(topicCol);
 
         Set<String> languages = new LinkedHashSet<>();
-        for (TopicTableEntry entry : tableData) {
-            languages.addAll(entry.getProximity().keySet());
+        for (TableEntry entry : tableData) {
+            languages.addAll(entry.getValues().keySet());
         }
         for (String lang : languages) {
-            TableColumn<TopicTableEntry, Double> langCol = new TableColumn<>(lang);
+            TableColumn<TableEntry, Double> langCol = new TableColumn<>(lang);
 
             langCol.setCellValueFactory(cell -> {
-            Double val = cell.getValue().getProximity().get(lang);
-            return new ReadOnlyObjectWrapper<>(val);
+                Double val = cell.getValue().getValues().get(lang);
+                return new ReadOnlyObjectWrapper<>(val);
             });
-
             langCol.setCellFactory(col -> new TableCell<>() {
                 @Override
                 protected void updateItem(Double val, boolean empty) {
@@ -98,13 +118,7 @@ public class AnalysisViewController {
                     }
 
                     setText(String.format("%.3f", val));
-
-                    if (val < 0.5)
-                        setStyle("-fx-background-color: lightcoral;");
-                    else if (val >= 0.8)
-                        setStyle("-fx-background-color: lightgreen;");
-                    else
-                        setStyle(""); // default
+                    setStyle("-fx-background-color: " + CellFormatter.heatColor(val, avg.getValue(lang)));
                 }
             });
 

@@ -65,4 +65,12 @@ public class GraphManager {
         }
         return null;
     }
+
+    public ArrayList<String> getTopics(){
+        ArrayList<String> topics = new ArrayList<>();
+        for(Graph graph : topicGraphs){
+            topics.add(graph.getId());
+        }
+        return topics;
+    }
 }

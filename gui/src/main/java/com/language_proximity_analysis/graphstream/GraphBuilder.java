@@ -20,6 +20,9 @@ public class GraphBuilder {
             String graphId = entry.getKey().toLowerCase();
             JsonObject graphData = entry.getValue().getAsJsonObject();
             Graph graph = new SingleGraph(graphId);
+            if(graphData.has("topic")){
+                graph.setAttribute("topic", graphData.get("topic").getAsString());
+            }
             for (JsonElement nodeEl : graphData.getAsJsonArray("nodes")) {
                 JsonObject nodeData = nodeEl.getAsJsonObject();
 
@@ -46,7 +49,7 @@ public class GraphBuilder {
                 if (edgeData.has("weight")) {
                     double weight = edgeData.get("weight").getAsDouble();
                     String formattedWeight = String.format("%.2f", weight);
-                     edge.setAttribute("ui.label", formattedWeight);
+                    edge.setAttribute("ui.label", formattedWeight);
                     edge.setAttribute("ui.size", weight * 10);
                     // layoutWeight is multiplier for edge length
                     // default is 1, larger = longer edge, smaller = shorter edge

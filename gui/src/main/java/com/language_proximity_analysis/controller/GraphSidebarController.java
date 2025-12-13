@@ -15,10 +15,12 @@ import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
 import javafx.scene.control.Slider;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.VBox;
 import javafx.util.StringConverter;
 
 public class GraphSidebarController {
-
+    @FXML
+    private VBox graphSidebar;
     @FXML
     private Slider depthSlider;
     @FXML
@@ -28,6 +30,10 @@ public class GraphSidebarController {
     private GraphManager graphManager = GraphManager.getInstance();
 
     private BiConsumer<String, Integer> onSelectionChanged;
+
+    public VBox getRoot() {
+        return graphSidebar;
+    }
 
     public void setOnSelectionChanged(BiConsumer<String, Integer> callback) {
         this.onSelectionChanged = callback;
