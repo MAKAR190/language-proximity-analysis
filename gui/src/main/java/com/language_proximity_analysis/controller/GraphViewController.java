@@ -27,14 +27,15 @@ public class GraphViewController {
         return graphView;
     }
 
-    public void updateGraph(String word, int depth) {
+    public void updateGraph(String word, int depth){
         if (viewer != null) {
             viewer.close();
             graphView.getChildren().clear();
         }
         word = word.toLowerCase();
         graph = graphManager.findGraph(word, depth);
-        graph.setAttribute("ui.stylesheet", "url('src\\main\\resources\\css\\graph.css')");
+        String path = "url('"+getClass().getResource("/css/graph.css").toExternalForm()+"')";
+        graph.setAttribute("ui.stylesheet", path);
         viewer = new FxViewer(graph, FxViewer.ThreadingModel.GRAPH_IN_ANOTHER_THREAD);
         viewer.enableAutoLayout();
 
