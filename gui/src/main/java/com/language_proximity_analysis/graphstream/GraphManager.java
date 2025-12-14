@@ -14,9 +14,10 @@ public class GraphManager {
 
     private GraphManager() {
         try {
-            JsonObject wordJson = DataLoader.load("src\\main\\resources\\test_data\\words.json");
-            JsonObject topicJson = DataLoader.load("src\\main\\resources\\test_data\\topics.json");
-            JsonObject languageJson = DataLoader.load("src\\main\\resources\\test_data\\languages.json");
+            JsonObject wordJson = DataLoader.load("data/analysis/word_distance.json");
+            JsonObject topicJson = DataLoader.load("data/analysis/topic_proximity.json");
+            JsonObject languageJson = DataLoader.load("data/analysis/global_proximity.json");
+
             wordGraphs = GraphBuilder.buildGraphsFromJson(wordJson);
             topicGraphs = GraphBuilder.buildGraphsFromJson(topicJson);
             languageGraphs = GraphBuilder.buildGraphsFromJson(languageJson);
@@ -63,5 +64,13 @@ public class GraphManager {
             }
         }
         return null;
+    }
+
+    public ArrayList<String> getTopics(){
+        ArrayList<String> topics = new ArrayList<>();
+        for(Graph graph : topicGraphs){
+            topics.add(graph.getId());
+        }
+        return topics;
     }
 }

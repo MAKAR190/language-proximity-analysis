@@ -4,10 +4,11 @@ graph{
 
 node {
     size: 64px;
-    fill-mode: image-scaled;
+    fill-mode: image-scaled-ratio-max;
     text-color: black;
     text-alignment: under;
     text-padding: 0, 10;
+    size: 64px;
     text-size: 14;
 }
 
@@ -33,4 +34,20 @@ edge {
     text-offset: 0, 10;
     text-size: 14;
     size-mode: dyn-size;
+}
+
+edge.identical {
+    fill-color: green;
+}
+
+edge.similar{
+    fill-color: yellow;
+}
+
+edge.different{
+    fill-color: orange;
+}
+
+edge.unrelated {
+    fill-color:  red;
 }

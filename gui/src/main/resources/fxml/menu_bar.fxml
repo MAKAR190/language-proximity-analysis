@@ -1,4 +1,4 @@
-<!-- <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?import javafx.scene.control.*?>
 
 <MenuBar xmlns="http://javafx.com/javafx"
@@ -6,25 +6,12 @@
          fx:controller="com.language_proximity_analysis.controller.MenuBarController">
 
     <menus>
-        <Menu text="File">
+        <Menu text="Mode">
             <items>
-                <MenuItem text="New"/>
-                <MenuItem text="Open…"/>
-                <SeparatorMenuItem/>
-                <MenuItem text="Save"/>
-                <MenuItem text="Quit"/>
+                <MenuItem text="Graphs" onAction="#onGraphs"/>
+                <MenuItem text="Analysis" onAction="#onAnalysis"/>
             </items>
         </Menu>
-        <Menu text="Edit">
-            <items>
-                <MenuItem text="Undo"/>
-                <MenuItem text="Redo"/>
-            </items>
-        </Menu>
-        <Menu text="Help">
-            <items>
-                <MenuItem text="About"/>
-            </items>
-        </Menu>
+        
     </menus>
-</MenuBar> -->
+</MenuBar>
