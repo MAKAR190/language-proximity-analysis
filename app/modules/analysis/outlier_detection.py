@@ -2,14 +2,15 @@ import json
 from typing import Dict, List, Any, Tuple, Optional
 from pathlib import Path
 
+
 class OutlierDetector:
     def __init__(
-        self,
-        word_distances_path: str,
-        topic_graph_path: str,
-        output_dir: str = "../../../data/analysis",
-        outlier_multiplier: float = 2.5,
-        min_topic_distance: float = 0.01,
+            self,
+            word_distances_path: str,
+            topic_graph_path: str,
+            output_dir: str = "../../../data/analysis",
+            outlier_multiplier: float = 2.5,
+            min_topic_distance: float = 0.01,
     ):
         self.word_distances_path = Path(word_distances_path)
         self.topic_graph_path = Path(topic_graph_path)
@@ -25,7 +26,40 @@ class OutlierDetector:
     def load_word_distances(self) -> None:
         """Load list of word translation distances."""
         with open(self.word_distances_path, 'r', encoding='utf-8') as f:
-            self.word_distances = json.load(f)
+            raw_data = json.load(f)
+
+        self.word_distances = []
+        for main_word, data in raw_data.items():
+            topic = data["topic"]
+            for edge in data["edges"]:
+                source = edge["source"]
+                target = edge["target"]
+                weight = edge["weight"]
+
+                # Extract languages from node IDs (format: word_lang)
+                src_parts = source.split('_')
+                tgt_parts = target.split('_')
+
+                lang1 = src_parts[-1]
+                lang2 = tgt_parts[-1]
+
+                w1 = "_".join(src_parts[:-1])
+                w2 = "_".join(tgt_parts[:-1])
+
+                # Create consistent language pair key
+                l1, l2 = sorted([lang1, lang2])
+                lang_pair = f"{l1}-{l2}"
+
+                word_pair = f"{w1} ({lang1}) - {w2} ({lang2})"
+                distance = 1.0 - weight
+
+                self.word_distances.append({
+                    "topic": topic,
+                    "language_pair": lang_pair,
+                    "word_pair": word_pair,
+                    "distance": distance
+                })
+
         print(f"Loaded {len(self.word_distances)} word pairs.")
 
     def load_and_parse_topic_graph(self) -> None:
@@ -44,21 +78,24 @@ class OutlierDetector:
                 lang1 = get_lang(edge["source"])
                 lang2 = get_lang(edge["target"])
                 weight = edge["weight"]
+                # Convert weight (similarity) to distance
+                distance = 1.0 - weight
+
                 pair_key = f"{min(lang1, lang2)}-{max(lang1, lang2)}"
-                normalized_distances[pair_key] = weight
+                normalized_distances[pair_key] = distance
 
             # Second pass: store both directions
             for edge in edges:
                 lang1 = get_lang(edge["source"])
                 lang2 = get_lang(edge["target"])
                 normalized_pair = f"{min(lang1, lang2)}-{max(lang1, lang2)}"
-                weight = normalized_distances[normalized_pair]
+                distance = normalized_distances[normalized_pair]
 
                 forward = f"{lang1}-{lang2}"
                 reverse = f"{lang2}-{lang1}"
 
-                self.topic_distance_map[(topic_key, forward)] = weight
-                self.topic_distance_map[(topic_key, reverse)] = weight
+                self.topic_distance_map[(topic_key, forward)] = distance
+                self.topic_distance_map[(topic_key, reverse)] = distance
 
         print(f"Built topic distance map with {len(self.topic_distance_map)} entries.")
 
@@ -131,6 +168,7 @@ class OutlierDetector:
         self.load_and_parse_topic_graph()
         outliers = self.detect_outliers()
         self.save_results(outliers)
+
 
 if __name__ == "__main__":
     detector = OutlierDetector(

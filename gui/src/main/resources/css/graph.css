@@ -13,19 +13,19 @@ node {
 }
 
 node.en{
-     fill-image: url('src\\main\\resources\\icons\\en.png');
+     fill-image: url('../icons/en.png');
 }
 
 node.fr{
-    fill-image: url('src\\main\\resources\\icons\\fr.png');
+    fill-image: url('../icons/fr.png');
 }
 
 node.es{
-    fill-image: url('src\\main\\resources\\icons\\es.png');
+    fill-image: url('../icons/es.png');
 }
 
 node.pl{
-    fill-image: url('src\\main\\resources\\icons\\pl.png');
+    fill-image: url('../icons/pl.png');
 }
 
 edge {
