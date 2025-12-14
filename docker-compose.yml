@@ -1,0 +1,10 @@
+services:
+  pipeline:
+    build: .
+    container_name: language_analysis_pipeline
+    volumes:
+      - ./data:/language-proximity-analysis/data
+    env_file:
+      - ./app/.env.local
+    ports:
+      - "6080:6080"

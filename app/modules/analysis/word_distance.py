@@ -1,10 +1,8 @@
-# word_distance_analyzer.py
 import json
 import os
 import itertools
 from typing import List, Dict
-from common_functions import levenshtein, load_translations
-
+from .common_functions import levenshtein, load_translations
 
 class WordDistanceAnalyzer:
     def __init__(self, data_path: str, output_path: str):
@@ -64,7 +62,6 @@ class WordDistanceAnalyzer:
         print(f"\nWord distance analysis completed!")
         print(f"  Output → {self.output_path}")
         print(f"  Total word pairs analyzed: {len(self.word_distances)}")
-
 
 def main():
     base_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../.."))

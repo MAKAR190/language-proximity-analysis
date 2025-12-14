@@ -29,7 +29,6 @@ class OutlierDetector:
         print(f"Loaded {len(self.word_distances)} word pairs.")
 
     def load_and_parse_topic_graph(self) -> None:
-        """Parse topic proximity graph and build (topic, lang_pair) → distance map."""
         with open(self.topic_graph_path, 'r', encoding='utf-8') as f:
             raw_graph = json.load(f)
 
@@ -40,7 +39,6 @@ class OutlierDetector:
             topic_key = topic_name.strip().lower()
             edges = topic_data.get("edges", [])
 
-            # First pass: normalize all edges to sorted lang pair
             normalized_distances: Dict[str, float] = {}
             for edge in edges:
                 lang1 = get_lang(edge["source"])
@@ -65,7 +63,6 @@ class OutlierDetector:
         print(f"Built topic distance map with {len(self.topic_distance_map)} entries.")
 
     def find_topic_distance(self, topic: str, lang_pair: str) -> Optional[float]:
-        """Lookup topic distance, trying both language orders."""
         key = (topic, lang_pair)
         if key in self.topic_distance_map:
             return self.topic_distance_map[key]
@@ -76,7 +73,6 @@ class OutlierDetector:
         return self.topic_distance_map.get(rev_key)
 
     def detect_outliers(self) -> List[Dict[str, Any]]:
-        """find word pairs significantly farther than their topic."""
         outliers = []
 
         for item in self.word_distances:
@@ -106,7 +102,6 @@ class OutlierDetector:
                     "ratio": round(ratio, 2)
                 })
 
-        # Sort by severity
         outliers.sort(key=lambda x: x["ratio"], reverse=True)
         return outliers
 
@@ -132,12 +127,10 @@ class OutlierDetector:
         print(f"Results saved to: {self.output_file}")
 
     def run(self) -> None:
-        """Run full pipeline."""
         self.load_word_distances()
         self.load_and_parse_topic_graph()
         outliers = self.detect_outliers()
         self.save_results(outliers)
-
 
 if __name__ == "__main__":
     detector = OutlierDetector(

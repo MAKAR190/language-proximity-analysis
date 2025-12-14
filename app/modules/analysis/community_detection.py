@@ -4,7 +4,6 @@ from scipy.cluster.hierarchy import linkage, fcluster
 from scipy.spatial.distance import squareform, cosine
 from pathlib import Path
 
-
 class CommunityDetector:
 
     def __init__(self, input_file, output_file):
@@ -137,7 +136,6 @@ def main():
 
     clusterer = CommunityDetector(INPUT, OUTPUT)
     clusterer.run()
-
 
 if __name__ == '__main__':
     main()
