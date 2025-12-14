@@ -6,7 +6,7 @@ import java.util.function.BiConsumer;
 import org.graphstream.graph.Graph;
 
 import com.language_proximity_analysis.graphstream.GraphManager;
-import com.language_proximity_analysis.graphstream.TextFormatter;
+import com.language_proximity_analysis.utils.TextFormatter;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -15,10 +15,12 @@ import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
 import javafx.scene.control.Slider;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.VBox;
 import javafx.util.StringConverter;
 
-public class SidebarController {
-
+public class GraphSidebarController {
+    @FXML
+    private VBox graphSidebar;
     @FXML
     private Slider depthSlider;
     @FXML
@@ -28,6 +30,10 @@ public class SidebarController {
     private GraphManager graphManager = GraphManager.getInstance();
 
     private BiConsumer<String, Integer> onSelectionChanged;
+
+    public VBox getRoot() {
+        return graphSidebar;
+    }
 
     public void setOnSelectionChanged(BiConsumer<String, Integer> callback) {
         this.onSelectionChanged = callback;
@@ -82,8 +88,9 @@ public class SidebarController {
     private void triggerUpdate() {
         if (onSelectionChanged != null) {
             String word = graphList.getSelectionModel().getSelectedItem();
-            if (word != null)
+            if (word != null){
                 onSelectionChanged.accept(word, (int) depthSlider.getValue());
+            }
         }
     }
 

@@ -3,22 +3,38 @@
 <?import javafx.scene.control.*?>
 
 <VBox xmlns="http://javafx.com/javafx"
-      xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.language_proximity_analysis.controller.MainController"
-      prefWidth="640" prefHeight="400">
-
+    xmlns:fx="http://javafx.com/fxml"
+    fx:controller="com.language_proximity_analysis.controller.MainController"
+    prefWidth="640" prefHeight="400" stylesheets="@../css/table.css">
     <children>
         <!-- Top Menu -->
-        <!-- <fx:include source="menu_bar.fxml" fx:id="menuBar"/> -->
+        <fx:include source="menu_bar.fxml" fx:id="menuBar" />
 
         <!-- Main Split Area -->
         <SplitPane dividerPositions="0.2" VBox.vgrow="ALWAYS" fx:id="splitPane">
             <items>
                 <!-- Sidebar -->
-                <fx:include source="sidebar.fxml" fx:id="sidebar"/>
+                <AnchorPane>
+                    <fx:include source="graph_sidebar.fxml" fx:id="graphSidebar"
+                        AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                        AnchorPane.topAnchor="0.0" AnchorPane.bottomAnchor="0.0" />
 
+                    <fx:include source="analysis_sidebar.fxml" fx:id="analysisSidebar"
+                        AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                        AnchorPane.topAnchor="0.0" AnchorPane.bottomAnchor="0.0" />
+                </AnchorPane>
                 <!-- Graph Area -->
-                <fx:include source="graph_view.fxml" fx:id="graphView"/>
+                <AnchorPane>
+                    <children>
+                        <fx:include source="graph_view.fxml" fx:id="graphView"
+                            AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                            AnchorPane.topAnchor="0.0" AnchorPane.bottomAnchor="0.0" />
+
+                        <fx:include source="analysis_view.fxml" fx:id="analysisView"
+                            AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                            AnchorPane.topAnchor="0.0" AnchorPane.bottomAnchor="0.0" />
+                    </children>
+                </AnchorPane>
             </items>
         </SplitPane>
     </children>
