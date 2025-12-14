@@ -1,17 +1,8 @@
- # Input: topics
- # Output: [ { topic: "Fruits", words: [{ word: "apple" }, ...], ... } ]
-
-# ├─ fetcher: IFetcher → WikipediaFetcher / NewsFetcher
-# ├─ parser: IParser → HTMLParser / JSONParser
-# ├─ processor: IProcessor → TextProcessor
-# └─ storage: IStorage → JSONStorage / DatabaseStorage
-
 import json, requests, os, lxml
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
 from bs4 import BeautifulSoup
 
-# Types and Interfaces
 @dataclass
 class Topic:
     url: str
@@ -122,7 +113,6 @@ class Scraper:
         return self._output
 
 if __name__ == "__main__":
-    # Importing topics config for independent single module testing
     with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "../config.json")) as f:
         data = json.load(f)
 

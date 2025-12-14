@@ -1,0 +1,12 @@
+.git
+.gitignore
+.idea
+.venv
+__pycache__
+*.pyc
+app/__pycache__
+app/modules/__pycache__
+gui/target
+data/*
+app/.env
+app/.env.local

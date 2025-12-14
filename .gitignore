@@ -5,13 +5,17 @@ target/
 .vscode/
 .idea/
 
+# Pycache
+__pycache__
+*.pyc
+app/__pycache__
+app/modules/__pycache__
+
 # Ignore all data files, but keep the folder
-data/*.json
-data/*.txt
-data/*.db
+data/**/*.json
+data/**/*.txt
+data/**/*.db
 test_data/
 
 # Environment
 .env.local
-
-db
