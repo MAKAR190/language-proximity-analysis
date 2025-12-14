@@ -27,16 +27,11 @@ public class AnalysisSidebarController {
 
     private GraphManager graphManager = GraphManager.getInstance();
 
-    //private Consumer<String> onMainLanguageChanged;
     private BiConsumer<String, String> onSelectionChanged;
 
     public VBox getRoot() {
         return analysisSidebar;
     }
-
-    // public void setOnMainLanguageChanged(Consumer<String> callback) {
-    //     this.onMainLanguageChanged = callback;
-    // }
 
     public void setOnSelectionChanged(BiConsumer<String, String> callback) {
         this.onSelectionChanged = callback;
@@ -85,15 +80,6 @@ public class AnalysisSidebarController {
             onSelectionChanged.accept(languageChoiceBox.getValue(), word);
         }
     }
-
-    // private void triggerLanguageUpdate() {
-    //     if (onMainLanguageChanged != null) {
-    //         String lang = languageChoiceBox.getSelectionModel().getSelectedItem();
-    //         if (lang != null) {
-    //             onMainLanguageChanged.accept(lang);
-    //         }
-    //     }
-    // }
 
     private void updateOptionsList(ObservableList<String> observableOptions) {
         observableOptions.clear();

@@ -23,7 +23,6 @@ public class MainController {
         menuBarController.setMainController(this);
         graphSidebarController.setOnSelectionChanged((word, depth) -> graphViewController.updateGraph(word, depth));
         showGraphView();
-        //analysisSidebarController.setOnMainLanguageChanged((lang) -> analysisViewController.updateTable(lang, "vegetables"));
         analysisSidebarController.setOnSelectionChanged((lang, topic) -> analysisViewController.updateTable(lang, topic));
     }
 

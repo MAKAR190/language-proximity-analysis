@@ -5,8 +5,7 @@
 <VBox xmlns="http://javafx.com/javafx"
     xmlns:fx="http://javafx.com/fxml"
     fx:controller="com.language_proximity_analysis.controller.MainController"
-    prefWidth="640" prefHeight="400">
-
+    prefWidth="640" prefHeight="400" stylesheets="@../css/table.css">
     <children>
         <!-- Top Menu -->
         <fx:include source="menu_bar.fxml" fx:id="menuBar" />
@@ -27,13 +26,13 @@
                 <!-- Graph Area -->
                 <AnchorPane>
                     <children>
-                        <fx:include source="graph_view.fxml" fx:id="graphView" 
+                        <fx:include source="graph_view.fxml" fx:id="graphView"
                             AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
-                            AnchorPane.topAnchor="0.0" AnchorPane.bottomAnchor="0.0"/>
+                            AnchorPane.topAnchor="0.0" AnchorPane.bottomAnchor="0.0" />
 
-                        <fx:include source="analysis_view.fxml" fx:id="analysisView" 
+                        <fx:include source="analysis_view.fxml" fx:id="analysisView"
                             AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
-                            AnchorPane.topAnchor="0.0" AnchorPane.bottomAnchor="0.0"/>
+                            AnchorPane.topAnchor="0.0" AnchorPane.bottomAnchor="0.0" />
                     </children>
                 </AnchorPane>
             </items>

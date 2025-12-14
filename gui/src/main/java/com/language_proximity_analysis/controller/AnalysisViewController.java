@@ -2,6 +2,7 @@ package com.language_proximity_analysis.controller;
 
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
+import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -17,17 +18,24 @@ import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.beans.property.ReadOnlyStringWrapper;
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
+import javafx.geometry.Pos;
+import javafx.scene.control.Label;
 import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.layout.Priority;
 import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
 
 public class AnalysisViewController {
     @FXML
-    private StackPane analysisView;
+    private VBox analysisView;
+    // @FXML
+    // private Label avgLabel;
+
     private GraphManager graphManager = GraphManager.getInstance();
 
-    public StackPane getRoot() {
+    public VBox getRoot() {
         return analysisView;
     }
 
@@ -41,7 +49,7 @@ public class AnalysisViewController {
         ArrayList<Graph> graphs;
         ArrayList<TableEntry> tableData = new ArrayList<>();
         Graph avgGraph;
-        TableEntry avg = new TableEntry("avg");
+        TableEntry avg = new TableEntry("AVERAGE");
 
         if (topic != null) {
             graphs = graphManager.getWordGraphs();
@@ -68,6 +76,16 @@ public class AnalysisViewController {
                 });
             }
         }
+        // StringBuilder sb = new StringBuilder("Average value:");
+        // for (Map.Entry<String, Double> entry : avg.getValues().entrySet()) {
+        //     sb.append(" ").append(entry.getKey()).append(" - ")
+        //             .append(String.format("%.3f", entry.getValue())).append(",");
+        // }
+        // sb.deleteCharAt(sb.length() - 1);
+        // Label avgLabel = new Label(sb.toString());
+        // avgLabel.setStyle("-fx-font-size: 20px;");
+        // avgLabel.setAlignment(Pos.CENTER);
+        // analysisView.getChildren().add(avgLabel);
 
         for (Graph graph : graphs) {
             TableEntry tableEntry = new TableEntry(graph.getId());
@@ -82,18 +100,22 @@ public class AnalysisViewController {
             }
             tableData.add(tableEntry);
         }
+        tableData.add(avg);
         TableView<TableEntry> table = new TableView<>();
-        TableColumn<TableEntry, String> topicCol;
+        VBox.setVgrow(table, Priority.ALWAYS);
+        table.setColumnResizePolicy(
+                TableView.CONSTRAINED_RESIZE_POLICY_ALL_COLUMNS);
+        TableColumn<TableEntry, String> idCol;
         if (topic == null) {
-            topicCol = new TableColumn<>("Topic");
+            idCol = new TableColumn<>("Topic");
         } else {
-            topicCol = new TableColumn<>("Word");
+            idCol = new TableColumn<>("Word");
         }
 
-        topicCol.setCellValueFactory(
+        idCol.setCellValueFactory(
                 data -> new ReadOnlyStringWrapper(data.getValue().getName()));
 
-        table.getColumns().add(topicCol);
+        table.getColumns().add(idCol);
 
         Set<String> languages = new LinkedHashSet<>();
         for (TableEntry entry : tableData) {

@@ -5,9 +5,26 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox fx:id="analysisSidebar" alignment="CENTER" prefWidth="160" spacing="10" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.language_proximity_analysis.controller.AnalysisSidebarController">
-        <ChoiceBox fx:id="languageChoiceBox"></ChoiceBox>
-        <Slider fx:id="analysisDepthSlider" blockIncrement="1" majorTickUnit="1" max="2" min="1" minorTickCount="0" showTickLabels="true" showTickMarks="true" snapToTicks="true">
+<VBox fx:id="analysisSidebar" alignment="CENTER" prefWidth="160" spacing="10"
+        xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1"
+        fx:controller="com.language_proximity_analysis.controller.AnalysisSidebarController">
+        <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+                prefHeight="47.0">
+                <children>
+                        <Label text="Main Language">
+                                <padding>
+                                        <Insets right="10.0" top="5.0" />
+                                </padding>
+                        </Label>
+                        <ChoiceBox prefWidth="40.0" fx:id="languageChoiceBox"/>
+                </children>
+                <padding>
+                        <Insets left="10.0" top="10.0" />
+                </padding>
+        </HBox>
+
+        <Slider fx:id="analysisDepthSlider" blockIncrement="1" majorTickUnit="1" max="2" min="1"
+                minorTickCount="0" showTickLabels="true" showTickMarks="true" snapToTicks="true">
                 <cursor>
                         <Cursor fx:constant="HAND" />
                 </cursor>
