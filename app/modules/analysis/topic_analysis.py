@@ -37,7 +37,7 @@ class TopicAnalyzer:
                     pair_distances[key].append(normalized_dist)
                     max_word_length[key] = max(max_word_length.get(key,0), len(w1), len(w2))
 
-            nodes = [{"id": f"{topic.lower()}_{lang}"} for lang in languages]
+            nodes = [{"id": f"{lang}"} for lang in languages]
             edges = []
             for lang_a, lang_b in itertools.combinations(languages,2):
                 key = f"{lang_a}-{lang_b}"
@@ -47,8 +47,8 @@ class TopicAnalyzer:
                 mean_distance = mean(distances)
                 weight = 1 - mean_distance
                 edges.append({
-                    "source": f"{topic.lower()}_{lang_a}",
-                    "target": f"{topic.lower()}_{lang_b}",
+                    "source": f"{lang_a}",
+                    "target": f"{lang_b}",
                     "weight": round(weight,4)
                 })
 
