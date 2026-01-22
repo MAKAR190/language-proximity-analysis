@@ -30,9 +30,7 @@ import javafx.scene.layout.VBox;
 public class AnalysisViewController {
     @FXML
     private VBox analysisView;
-    // @FXML
-    // private Label avgLabel;
-
+    
     private GraphManager graphManager = GraphManager.getInstance();
 
     public VBox getRoot() {
@@ -66,26 +64,11 @@ public class AnalysisViewController {
                 node.edges().forEach(edge -> {
                     Node opposite = edge.getOpposite(node);
                     String[] idParts = TextFormatter.splitId(opposite.getId());
-                    String lang;
-                    if (topic != null) {
-                        lang = idParts[1];
-                    } else {
-                        lang = idParts[0];
-                    }
+                    String lang = idParts[0];
                     avg.addProximity(lang, edge.getAttribute("weight", Double.class));
                 });
             }
         }
-        // StringBuilder sb = new StringBuilder("Average value:");
-        // for (Map.Entry<String, Double> entry : avg.getValues().entrySet()) {
-        //     sb.append(" ").append(entry.getKey()).append(" - ")
-        //             .append(String.format("%.3f", entry.getValue())).append(",");
-        // }
-        // sb.deleteCharAt(sb.length() - 1);
-        // Label avgLabel = new Label(sb.toString());
-        // avgLabel.setStyle("-fx-font-size: 20px;");
-        // avgLabel.setAlignment(Pos.CENTER);
-        // analysisView.getChildren().add(avgLabel);
 
         for (Graph graph : graphs) {
             TableEntry tableEntry = new TableEntry(graph.getId());
@@ -93,7 +76,12 @@ public class AnalysisViewController {
                 if (node.getId().endsWith(mainLanguage)) {
                     node.edges().forEach(edge -> {
                         Node opposite = edge.getOpposite(node);
-                        String lang = TextFormatter.splitId(opposite.getId())[1];
+                        String lang;
+                        if (opposite.getId().contains("_")) {
+                            lang = TextFormatter.splitId(opposite.getId())[1];
+                        } else {
+                            lang = opposite.getId();
+                        }
                         tableEntry.addProximity(lang, edge.getAttribute("weight", Double.class));
                     });
                 }
