@@ -1,0 +1,482 @@
+{
+    "Vegetables": {
+        "nodes": [
+            {
+                "id": "en"
+            },
+            {
+                "id": "es"
+            },
+            {
+                "id": "fr"
+            },
+            {
+                "id": "pl"
+            }
+        ],
+        "edges": [
+            {
+                "source": "en",
+                "target": "es",
+                "weight": 0.4601
+            },
+            {
+                "source": "en",
+                "target": "fr",
+                "weight": 0.5121
+            },
+            {
+                "source": "en",
+                "target": "pl",
+                "weight": 0.2839
+            },
+            {
+                "source": "es",
+                "target": "fr",
+                "weight": 0.4955
+            },
+            {
+                "source": "es",
+                "target": "pl",
+                "weight": 0.2597
+            },
+            {
+                "source": "fr",
+                "target": "pl",
+                "weight": 0.2745
+            }
+        ]
+    },
+    "Fruits": {
+        "nodes": [
+            {
+                "id": "en"
+            },
+            {
+                "id": "es"
+            },
+            {
+                "id": "fr"
+            },
+            {
+                "id": "pl"
+            }
+        ],
+        "edges": [
+            {
+                "source": "en",
+                "target": "es",
+                "weight": 0.4476
+            },
+            {
+                "source": "en",
+                "target": "fr",
+                "weight": 0.5286
+            },
+            {
+                "source": "en",
+                "target": "pl",
+                "weight": 0.3505
+            },
+            {
+                "source": "es",
+                "target": "fr",
+                "weight": 0.4528
+            },
+            {
+                "source": "es",
+                "target": "pl",
+                "weight": 0.3247
+            },
+            {
+                "source": "fr",
+                "target": "pl",
+                "weight": 0.2977
+            }
+        ]
+    },
+    "Pets": {
+        "nodes": [
+            {
+                "id": "en"
+            },
+            {
+                "id": "es"
+            },
+            {
+                "id": "fr"
+            },
+            {
+                "id": "pl"
+            }
+        ],
+        "edges": [
+            {
+                "source": "en",
+                "target": "es",
+                "weight": 0.4701
+            },
+            {
+                "source": "en",
+                "target": "fr",
+                "weight": 0.4776
+            },
+            {
+                "source": "en",
+                "target": "pl",
+                "weight": 0.2796
+            },
+            {
+                "source": "es",
+                "target": "fr",
+                "weight": 0.479
+            },
+            {
+                "source": "es",
+                "target": "pl",
+                "weight": 0.2366
+            },
+            {
+                "source": "fr",
+                "target": "pl",
+                "weight": 0.2442
+            }
+        ]
+    },
+    "Musical Instruments": {
+        "nodes": [
+            {
+                "id": "en"
+            },
+            {
+                "id": "es"
+            },
+            {
+                "id": "fr"
+            },
+            {
+                "id": "pl"
+            }
+        ],
+        "edges": [
+            {
+                "source": "en",
+                "target": "es",
+                "weight": 0.5908
+            },
+            {
+                "source": "en",
+                "target": "fr",
+                "weight": 0.6869
+            },
+            {
+                "source": "en",
+                "target": "pl",
+                "weight": 0.4409
+            },
+            {
+                "source": "es",
+                "target": "fr",
+                "weight": 0.6465
+            },
+            {
+                "source": "es",
+                "target": "pl",
+                "weight": 0.4415
+            },
+            {
+                "source": "fr",
+                "target": "pl",
+                "weight": 0.4101
+            }
+        ]
+    },
+    "Industries": {
+        "nodes": [
+            {
+                "id": "en"
+            },
+            {
+                "id": "es"
+            },
+            {
+                "id": "fr"
+            },
+            {
+                "id": "pl"
+            }
+        ],
+        "edges": [
+            {
+                "source": "en",
+                "target": "es",
+                "weight": 0.5918
+            },
+            {
+                "source": "en",
+                "target": "fr",
+                "weight": 0.6142
+            },
+            {
+                "source": "en",
+                "target": "pl",
+                "weight": 0.3555
+            },
+            {
+                "source": "es",
+                "target": "fr",
+                "weight": 0.5974
+            },
+            {
+                "source": "es",
+                "target": "pl",
+                "weight": 0.3398
+            },
+            {
+                "source": "fr",
+                "target": "pl",
+                "weight": 0.2991
+            }
+        ]
+    },
+    "Office": {
+        "nodes": [
+            {
+                "id": "en"
+            },
+            {
+                "id": "es"
+            },
+            {
+                "id": "fr"
+            },
+            {
+                "id": "pl"
+            }
+        ],
+        "edges": [
+            {
+                "source": "en",
+                "target": "es",
+                "weight": 0.3964
+            },
+            {
+                "source": "en",
+                "target": "fr",
+                "weight": 0.4182
+            },
+            {
+                "source": "en",
+                "target": "pl",
+                "weight": 0.3485
+            },
+            {
+                "source": "es",
+                "target": "fr",
+                "weight": 0.468
+            },
+            {
+                "source": "es",
+                "target": "pl",
+                "weight": 0.3196
+            },
+            {
+                "source": "fr",
+                "target": "pl",
+                "weight": 0.3089
+            }
+        ]
+    },
+    "Home": {
+        "nodes": [
+            {
+                "id": "en"
+            },
+            {
+                "id": "es"
+            },
+            {
+                "id": "fr"
+            },
+            {
+                "id": "pl"
+            }
+        ],
+        "edges": [
+            {
+                "source": "en",
+                "target": "es",
+                "weight": 0.3759
+            },
+            {
+                "source": "en",
+                "target": "fr",
+                "weight": 0.4492
+            },
+            {
+                "source": "en",
+                "target": "pl",
+                "weight": 0.2743
+            },
+            {
+                "source": "es",
+                "target": "fr",
+                "weight": 0.4272
+            },
+            {
+                "source": "es",
+                "target": "pl",
+                "weight": 0.2469
+            },
+            {
+                "source": "fr",
+                "target": "pl",
+                "weight": 0.244
+            }
+        ]
+    },
+    "Emotion": {
+        "nodes": [
+            {
+                "id": "en"
+            },
+            {
+                "id": "es"
+            },
+            {
+                "id": "fr"
+            },
+            {
+                "id": "pl"
+            }
+        ],
+        "edges": [
+            {
+                "source": "en",
+                "target": "es",
+                "weight": 0.4746
+            },
+            {
+                "source": "en",
+                "target": "fr",
+                "weight": 0.6181
+            },
+            {
+                "source": "en",
+                "target": "pl",
+                "weight": 0.3224
+            },
+            {
+                "source": "es",
+                "target": "fr",
+                "weight": 0.5577
+            },
+            {
+                "source": "es",
+                "target": "pl",
+                "weight": 0.3107
+            },
+            {
+                "source": "fr",
+                "target": "pl",
+                "weight": 0.3039
+            }
+        ]
+    },
+    "Health": {
+        "nodes": [
+            {
+                "id": "en"
+            },
+            {
+                "id": "es"
+            },
+            {
+                "id": "fr"
+            },
+            {
+                "id": "pl"
+            }
+        ],
+        "edges": [
+            {
+                "source": "en",
+                "target": "es",
+                "weight": 0.4785
+            },
+            {
+                "source": "en",
+                "target": "fr",
+                "weight": 0.5396
+            },
+            {
+                "source": "en",
+                "target": "pl",
+                "weight": 0.3067
+            },
+            {
+                "source": "es",
+                "target": "fr",
+                "weight": 0.5386
+            },
+            {
+                "source": "es",
+                "target": "pl",
+                "weight": 0.3098
+            },
+            {
+                "source": "fr",
+                "target": "pl",
+                "weight": 0.2705
+            }
+        ]
+    },
+    "Ride": {
+        "nodes": [
+            {
+                "id": "en"
+            },
+            {
+                "id": "es"
+            },
+            {
+                "id": "fr"
+            },
+            {
+                "id": "pl"
+            }
+        ],
+        "edges": [
+            {
+                "source": "en",
+                "target": "es",
+                "weight": 0.3699
+            },
+            {
+                "source": "en",
+                "target": "fr",
+                "weight": 0.4025
+            },
+            {
+                "source": "en",
+                "target": "pl",
+                "weight": 0.2956
+            },
+            {
+                "source": "es",
+                "target": "fr",
+                "weight": 0.4317
+            },
+            {
+                "source": "es",
+                "target": "pl",
+                "weight": 0.2446
+            },
+            {
+                "source": "fr",
+                "target": "pl",
+                "weight": 0.2504
+            }
+        ]
+    }
+}

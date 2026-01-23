@@ -1,0 +1,172 @@
+{
+  "outliers": [
+    {
+      "topic": "musical instruments",
+      "language_pair": "en-fr",
+      "word_pair": "deed (en) - acte (fr)",
+      "distance": 1.0
+    },
+    {
+      "topic": "musical instruments",
+      "language_pair": "en-fr",
+      "word_pair": "drums (en) - batterie (fr)",
+      "distance": 1.0
+    },
+    {
+      "topic": "musical instruments",
+      "language_pair": "en-fr",
+      "word_pair": "impeachment (en) - destitution (fr)",
+      "distance": 1.0
+    },
+    {
+      "topic": "musical instruments",
+      "language_pair": "en-fr",
+      "word_pair": "law (en) - droit (fr)",
+      "distance": 1.0
+    },
+    {
+      "topic": "musical instruments",
+      "language_pair": "en-fr",
+      "word_pair": "harpsichord (en) - clavecin (fr)",
+      "distance": 0.9091
+    },
+    {
+      "topic": "musical instruments",
+      "language_pair": "es-fr",
+      "word_pair": "voz (es) - chant (fr)",
+      "distance": 1.0
+    },
+    {
+      "topic": "musical instruments",
+      "language_pair": "es-fr",
+      "word_pair": "sentido (es) - way (fr)",
+      "distance": 1.0
+    },
+    {
+      "topic": "musical instruments",
+      "language_pair": "en-fr",
+      "word_pair": "drum (en) - batterie (fr)",
+      "distance": 0.875
+    },
+    {
+      "topic": "musical instruments",
+      "language_pair": "en-fr",
+      "word_pair": "papers (en) - articles (fr)",
+      "distance": 0.875
+    },
+    {
+      "topic": "musical instruments",
+      "language_pair": "en-fr",
+      "word_pair": "layers (en) - couches (fr)",
+      "distance": 0.8571
+    },
+    {
+      "topic": "musical instruments",
+      "language_pair": "en-fr",
+      "word_pair": "tracks (en) - pistes (fr)",
+      "distance": 0.8333
+    },
+    {
+      "topic": "musical instruments",
+      "language_pair": "en-fr",
+      "word_pair": "vocals (en) - chant (fr)",
+      "distance": 0.8333
+    },
+    {
+      "topic": "musical instruments",
+      "language_pair": "en-fr",
+      "word_pair": "weapon (en) - arme (fr)",
+      "distance": 0.8333
+    },
+    {
+      "topic": "emotion",
+      "language_pair": "en-fr",
+      "word_pair": "contempt (en) - mepris (fr)",
+      "distance": 1.0
+    },
+    {
+      "topic": "emotion",
+      "language_pair": "en-fr",
+      "word_pair": "grief (en) - deuil (fr)",
+      "distance": 1.0
+    },
+    {
+      "topic": "emotion",
+      "language_pair": "en-fr",
+      "word_pair": "mind (en) - esprit (fr)",
+      "distance": 1.0
+    },
+    {
+      "topic": "emotion",
+      "language_pair": "en-fr",
+      "word_pair": "pain (en) - douleur (fr)",
+      "distance": 1.0
+    },
+    {
+      "topic": "emotion",
+      "language_pair": "en-fr",
+      "word_pair": "sadden (en) - triste (fr)",
+      "distance": 1.0
+    },
+    {
+      "topic": "emotion",
+      "language_pair": "en-fr",
+      "word_pair": "shyness (en) - timidite (fr)",
+      "distance": 1.0
+    },
+    {
+      "topic": "emotion",
+      "language_pair": "en-fr",
+      "word_pair": "thankfulness (en) - la gratitude (fr)",
+      "distance": 1.0
+    },
+    {
+      "topic": "emotion",
+      "language_pair": "en-fr",
+      "word_pair": "thought (en) - pensee (fr)",
+      "distance": 1.0
+    },
+    {
+      "topic": "musical instruments",
+      "language_pair": "es-fr",
+      "word_pair": "viento madera (es) - bois (fr)",
+      "distance": 0.9231
+    },
+    {
+      "topic": "industries",
+      "language_pair": "en-fr",
+      "word_pair": "factory (en) - usine (fr)",
+      "distance": 1.0
+    },
+    {
+      "topic": "industries",
+      "language_pair": "en-fr",
+      "word_pair": "field (en) - champ (fr)",
+      "distance": 1.0
+    },
+    {
+      "topic": "industries",
+      "language_pair": "en-fr",
+      "word_pair": "leading (en) - en tete (fr)",
+      "distance": 1.0
+    },
+    {
+      "topic": "musical instruments",
+      "language_pair": "es-fr",
+      "word_pair": "herramienta (es) - outil (fr)",
+      "distance": 0.9091
+    },
+    {
+      "topic": "musical instruments",
+      "language_pair": "en-fr",
+      "word_pair": "device (en) - dispositif (fr)",
+      "distance": 0.8
+    },
+    {
+      "topic": "musical instruments",
+      "language_pair": "en-fr",
+      "word_pair": "tool (en) - outil (fr)",
+      "distance": 0.8
+    }
+  ]
+}

@@ -1,0 +1,6052 @@
+[
+  {
+    "topic": "Vegetables",
+    "words": [
+      {
+        "en": "artichoke",
+        "es": "Alcachofa",
+        "fr": "Artichaut",
+        "pl": "Karczocha"
+      },
+      {
+        "en": "asparagus",
+        "es": "espárragos",
+        "fr": "Asperges",
+        "pl": "Szparagi"
+      },
+      {
+        "en": "avocado",
+        "es": "aguacate",
+        "fr": "avocat",
+        "pl": "awokado"
+      },
+      {
+        "en": "avocados",
+        "es": "Aguacates",
+        "fr": "avocats",
+        "pl": "awokado"
+      },
+      {
+        "en": "bean",
+        "es": "Bean",
+        "fr": "Bean",
+        "pl": "Fasolka"
+      },
+      {
+        "en": "beans",
+        "es": "judías",
+        "fr": "haricots",
+        "pl": "fasolka"
+      },
+      {
+        "en": "beet",
+        "es": "remolacha",
+        "fr": "Beet",
+        "pl": "Burak"
+      },
+      {
+        "en": "berries",
+        "es": "bayas",
+        "fr": "baies",
+        "pl": "Jagody"
+      },
+      {
+        "en": "broccoli",
+        "es": "Brócoli",
+        "fr": "Brocoli",
+        "pl": "Brokuły"
+      },
+      {
+        "en": "cabbage",
+        "es": "col",
+        "fr": "chou",
+        "pl": "kapusta"
+      },
+      {
+        "en": "cabbages",
+        "es": "Coles",
+        "fr": "choux",
+        "pl": "Kapusty"
+      },
+      {
+        "en": "carbohydrate",
+        "es": "Carbohidrato",
+        "fr": "glucides",
+        "pl": "węglowodany"
+      },
+      {
+        "en": "cardoon",
+        "es": "Cardoon",
+        "fr": "Cardoon",
+        "pl": "Cardoon"
+      },
+      {
+        "en": "carrot",
+        "es": "zanahoria",
+        "fr": "Carotte",
+        "pl": "marchewka"
+      },
+      {
+        "en": "carrots",
+        "es": "zanahorias",
+        "fr": "carottes",
+        "pl": "marchewki"
+      },
+      {
+        "en": "cassava",
+        "es": "yuca",
+        "fr": "manioc",
+        "pl": "maniok"
+      },
+      {
+        "en": "cauliflower",
+        "es": "coliflor",
+        "fr": "chou-fleur",
+        "pl": "kalafior"
+      },
+      {
+        "en": "celery",
+        "es": "Apo",
+        "fr": "céleri",
+        "pl": "seler"
+      },
+      {
+        "en": "cereal",
+        "es": "Cereal",
+        "fr": "céréales",
+        "pl": "płatki śniadaniowe"
+      },
+      {
+        "en": "coconut",
+        "es": "coco",
+        "fr": "noix de coco",
+        "pl": "Kokos"
+      },
+      {
+        "en": "cook",
+        "es": "Cocinero",
+        "fr": "Cuisinière",
+        "pl": "Cook"
+      },
+      {
+        "en": "coriander",
+        "es": "Cilantro",
+        "fr": "Coriandre",
+        "pl": "kolendra"
+      },
+      {
+        "en": "corn",
+        "es": "Maíz",
+        "fr": "maïs",
+        "pl": "Kukurydza"
+      },
+      {
+        "en": "cucumber",
+        "es": "Pepino",
+        "fr": "concombre",
+        "pl": "ogórek"
+      },
+      {
+        "en": "eggplant",
+        "es": "Berenjena",
+        "fr": "Aubergine",
+        "pl": "Bakłażan"
+      },
+      {
+        "en": "fennel",
+        "es": "Hinojo,",
+        "fr": "Fenouil",
+        "pl": "Koper włoski"
+      },
+      {
+        "en": "fiber",
+        "es": "fibra",
+        "fr": "Fibre",
+        "pl": "Światłowód"
+      },
+      {
+        "en": "figs",
+        "es": "Higos",
+        "fr": "Figs",
+        "pl": "Figi"
+      },
+      {
+        "en": "fish",
+        "es": "Peces",
+        "fr": "Poissons",
+        "pl": "Ryby"
+      },
+      {
+        "en": "flowers",
+        "es": "Flores",
+        "fr": "Fleurs",
+        "pl": "kwiaty"
+      },
+      {
+        "en": "foods",
+        "es": "Alimentos",
+        "fr": "Aliments",
+        "pl": "Produkty spożywcze"
+      },
+      {
+        "en": "frozen",
+        "es": "congelado",
+        "fr": "La Reine des neiges",
+        "pl": "zamrożone"
+      },
+      {
+        "en": "fruit",
+        "es": "Fruta",
+        "fr": "Fruits",
+        "pl": "Owoc"
+      },
+      {
+        "en": "fruits",
+        "es": "Frutas",
+        "fr": "Fruits",
+        "pl": "Owoce"
+      },
+      {
+        "en": "frying",
+        "es": "Freyendo",
+        "fr": "Friture",
+        "pl": "smażenie"
+      },
+      {
+        "en": "garden",
+        "es": "Jardín",
+        "fr": "Jardin",
+        "pl": "Ogród"
+      },
+      {
+        "en": "garlic",
+        "es": "ajo",
+        "fr": "Ail",
+        "pl": "czosnek"
+      },
+      {
+        "en": "grain",
+        "es": "Grano",
+        "fr": "Céréales",
+        "pl": "Zboża"
+      },
+      {
+        "en": "greens",
+        "es": "Verdes",
+        "fr": "Verts",
+        "pl": "Zielone"
+      },
+      {
+        "en": "healthy",
+        "es": "Saludable",
+        "fr": "En bonne santé",
+        "pl": "Zdrowe"
+      },
+      {
+        "en": "herb",
+        "es": "Herb",
+        "fr": "herb",
+        "pl": "Herb"
+      },
+      {
+        "en": "ingredients",
+        "es": "Ingredientes",
+        "fr": "Ingrédients",
+        "pl": "składniki"
+      },
+      {
+        "en": "kale",
+        "es": "Kale",
+        "fr": "Kale",
+        "pl": "Kale"
+      },
+      {
+        "en": "leaves",
+        "es": "hojas",
+        "fr": "Feuilles",
+        "pl": "Liście"
+      },
+      {
+        "en": "leek",
+        "es": "puerro",
+        "fr": "Poireau",
+        "pl": "por"
+      },
+      {
+        "en": "legume",
+        "es": "Leguminosa",
+        "fr": "Légumineuse",
+        "pl": "Roślina strączkowa"
+      },
+      {
+        "en": "less",
+        "es": "menos",
+        "fr": "moins",
+        "pl": "mniej"
+      },
+      {
+        "en": "lettuce",
+        "es": "Lechuga",
+        "fr": "Laitue",
+        "pl": "sałata"
+      },
+      {
+        "en": "lettuces",
+        "es": "Lechugas",
+        "fr": "Laitues",
+        "pl": "sałaty"
+      },
+      {
+        "en": "mangos",
+        "es": "Mangos",
+        "fr": "Mangues",
+        "pl": "Mango"
+      },
+      {
+        "en": "mayonnaise",
+        "es": "mayonesa",
+        "fr": "Mayonnaise",
+        "pl": "majonez"
+      },
+      {
+        "en": "meat",
+        "es": "Carne",
+        "fr": "Viande",
+        "pl": "Mięso"
+      },
+      {
+        "en": "milk",
+        "es": "Leche",
+        "fr": "Lait",
+        "pl": "mleko"
+      },
+      {
+        "en": "mushroom",
+        "es": "Champiñón",
+        "fr": "champignon",
+        "pl": "grzyb"
+      },
+      {
+        "en": "mushrooms",
+        "es": "champiñones",
+        "fr": "Champignons",
+        "pl": "grzyby"
+      },
+      {
+        "en": "nutrient",
+        "es": "Nutriente",
+        "fr": "Nutriment",
+        "pl": "Składnik odżywczy"
+      },
+      {
+        "en": "nutritious",
+        "es": "nutritivo",
+        "fr": "nutritif",
+        "pl": "pożywne"
+      },
+      {
+        "en": "nuts",
+        "es": "chiflado",
+        "fr": "Noix",
+        "pl": "orzechy"
+      },
+      {
+        "en": "okra",
+        "es": "Okra",
+        "fr": "Okra",
+        "pl": "okra"
+      },
+      {
+        "en": "onion",
+        "es": "cebolla",
+        "fr": "oignon",
+        "pl": "Cebula"
+      },
+      {
+        "en": "onions",
+        "es": "cebollas",
+        "fr": "Oignons",
+        "pl": "cebula"
+      },
+      {
+        "en": "organic",
+        "es": "Orgánico",
+        "fr": "Biologique",
+        "pl": "organiczne"
+      },
+      {
+        "en": "parsley",
+        "es": "Perejil",
+        "fr": "Persil",
+        "pl": "pietruszka"
+      },
+      {
+        "en": "peppers",
+        "es": "pimientos",
+        "fr": "piments",
+        "pl": "papryki"
+      },
+      {
+        "en": "pieplant",
+        "es": "Pie plant",
+        "fr": "Pieplant",
+        "pl": "Pieplant"
+      },
+      {
+        "en": "pineapples",
+        "es": "piñas",
+        "fr": "ananas",
+        "pl": "Ananasy"
+      },
+      {
+        "en": "plant",
+        "es": "Planta",
+        "fr": "Usine",
+        "pl": "Zakład"
+      },
+      {
+        "en": "plantain",
+        "es": "Plátano",
+        "fr": "banane",
+        "pl": "banan"
+      },
+      {
+        "en": "plants",
+        "es": "Plantas",
+        "fr": "Usines",
+        "pl": "Rośliny"
+      },
+      {
+        "en": "potato",
+        "es": "Patata",
+        "fr": "Patate",
+        "pl": "Ziemniak"
+      },
+      {
+        "en": "potatoes",
+        "es": "papas",
+        "fr": "pommes de terre",
+        "pl": "ziemniaki"
+      },
+      {
+        "en": "produce",
+        "es": "Productos",
+        "fr": "Produits",
+        "pl": "Produkty"
+      },
+      {
+        "en": "protein",
+        "es": "Proteína",
+        "fr": "Protéine",
+        "pl": "białko"
+      },
+      {
+        "en": "pumpkin",
+        "es": "calabaza",
+        "fr": "citrouille",
+        "pl": "dynia"
+      },
+      {
+        "en": "pumpkins",
+        "es": "Calabazas",
+        "fr": "citrouilles",
+        "pl": "dynie"
+      },
+      {
+        "en": "radish",
+        "es": "rábano",
+        "fr": "Radis",
+        "pl": "rzodkiew"
+      },
+      {
+        "en": "ratatouille",
+        "es": "ratatouille",
+        "fr": "ratatouille",
+        "pl": "ratatouille"
+      },
+      {
+        "en": "rhubarb",
+        "es": "Ruibarbo",
+        "fr": "Rhubarbe",
+        "pl": "Rabarbar"
+      },
+      {
+        "en": "roots",
+        "es": "Raíces",
+        "fr": "Racines",
+        "pl": "Korzenie"
+      },
+      {
+        "en": "salad",
+        "es": "ensalada",
+        "fr": "salade",
+        "pl": "Sałatka"
+      },
+      {
+        "en": "salads",
+        "es": "Ensaladas",
+        "fr": "Salades",
+        "pl": "Sałatki"
+      },
+      {
+        "en": "sandwiches",
+        "es": "bocadillos",
+        "fr": "sandwiches",
+        "pl": "Kanapki"
+      },
+      {
+        "en": "sauce",
+        "es": "salsa",
+        "fr": "Sauce",
+        "pl": "sos"
+      },
+      {
+        "en": "seed",
+        "es": "Semilla",
+        "fr": "Graines",
+        "pl": "Nasiono"
+      },
+      {
+        "en": "soy",
+        "es": "Soja",
+        "fr": "Soja",
+        "pl": "Soja"
+      },
+      {
+        "en": "spices",
+        "es": "Especias",
+        "fr": "Épices",
+        "pl": "Przyprawy"
+      },
+      {
+        "en": "spinach",
+        "es": "Espinacas",
+        "fr": "Épinards",
+        "pl": "szpinak"
+      },
+      {
+        "en": "squash",
+        "es": "Calabaza",
+        "fr": "Courge",
+        "pl": "Squash"
+      },
+      {
+        "en": "sunflower",
+        "es": "Girasol",
+        "fr": "Tournesol",
+        "pl": "słonecznik"
+      },
+      {
+        "en": "tomato",
+        "es": "tomate",
+        "fr": "Tomate",
+        "pl": "Pomidor"
+      },
+      {
+        "en": "tomatoes",
+        "es": "tomates",
+        "fr": "Tomates",
+        "pl": "pomidory"
+      },
+      {
+        "en": "veg",
+        "es": "Veg",
+        "fr": "Végétarienne",
+        "pl": "warzywa"
+      },
+      {
+        "en": "vegetable",
+        "es": "Hortícolas",
+        "fr": "légume",
+        "pl": "warzywa"
+      },
+      {
+        "en": "vegetarian",
+        "es": "vegetariano",
+        "fr": "Végétarienne",
+        "pl": "Wegetarianin"
+      },
+      {
+        "en": "veggie",
+        "es": "Vegetariano",
+        "fr": "végétarien",
+        "pl": "Warzywa"
+      },
+      {
+        "en": "vinegar",
+        "es": "vinagre",
+        "fr": "vinaigre",
+        "pl": "ocet"
+      },
+      {
+        "en": "watermelon",
+        "es": "sandía",
+        "fr": "pastèque",
+        "pl": "arbuz"
+      },
+      {
+        "en": "watermelons",
+        "es": "Sandías",
+        "fr": "Pastèques",
+        "pl": "Arbuzy"
+      },
+      {
+        "en": "wheat",
+        "es": "trigo",
+        "fr": "Blé",
+        "pl": "Pszenica"
+      },
+      {
+        "en": "yam",
+        "es": "ñame",
+        "fr": "Igname",
+        "pl": "Jam"
+      }
+    ]
+  },
+  {
+    "topic": "Fruits",
+    "words": [
+      {
+        "en": "achievement",
+        "es": "Logros",
+        "fr": "Réalisations",
+        "pl": "Osiągnięcia"
+      },
+      {
+        "en": "apple",
+        "es": "manzana",
+        "fr": "pomme",
+        "pl": "Apple"
+      },
+      {
+        "en": "apples",
+        "es": "manzanas",
+        "fr": "pommes",
+        "pl": "jabłka"
+      },
+      {
+        "en": "apricot",
+        "es": "albaricoque",
+        "fr": "abricot",
+        "pl": "morela"
+      },
+      {
+        "en": "avocado",
+        "es": "aguacate",
+        "fr": "avocat",
+        "pl": "awokado"
+      },
+      {
+        "en": "banana",
+        "es": "banana",
+        "fr": "banane",
+        "pl": "banan"
+      },
+      {
+        "en": "bananas",
+        "es": "plátanos",
+        "fr": "bananes",
+        "pl": "banany"
+      },
+      {
+        "en": "bean",
+        "es": "Bean",
+        "fr": "Bean",
+        "pl": "Fasolka"
+      },
+      {
+        "en": "benefits",
+        "es": "Beneficios",
+        "fr": "Avantages",
+        "pl": "Korzyści"
+      },
+      {
+        "en": "berries",
+        "es": "bayas",
+        "fr": "baies",
+        "pl": "Jagody"
+      },
+      {
+        "en": "berry",
+        "es": "baya",
+        "fr": "Baies",
+        "pl": "Jagoda"
+      },
+      {
+        "en": "blackberries",
+        "es": "Moras",
+        "fr": "Mûres",
+        "pl": "jeżyny"
+      },
+      {
+        "en": "blackberry",
+        "es": "Mora",
+        "fr": "Blackberry",
+        "pl": "jeżyna"
+      },
+      {
+        "en": "blueberries",
+        "es": "arándanos",
+        "fr": "myrtilles",
+        "pl": "borówki"
+      },
+      {
+        "en": "blueberry",
+        "es": "Arándano",
+        "fr": "myrtille",
+        "pl": "Jagoda"
+      },
+      {
+        "en": "cantaloupe",
+        "es": "melón cantalupo",
+        "fr": "cantaloup",
+        "pl": "melon"
+      },
+      {
+        "en": "cherries",
+        "es": "Cerezas",
+        "fr": "cerises",
+        "pl": "Wiśnie"
+      },
+      {
+        "en": "cherry",
+        "es": "Cherry",
+        "fr": "cerise",
+        "pl": "Cherry"
+      },
+      {
+        "en": "chocolate",
+        "es": "chocolate",
+        "fr": "chocolat",
+        "pl": "czekolada"
+      },
+      {
+        "en": "citrus",
+        "es": "cítricos",
+        "fr": "agrumes",
+        "pl": "Cytrusy"
+      },
+      {
+        "en": "coconut",
+        "es": "coco",
+        "fr": "noix de coco",
+        "pl": "Kokos"
+      },
+      {
+        "en": "cranberry",
+        "es": "Arándano",
+        "fr": "Canneberge",
+        "pl": "żurawina"
+      },
+      {
+        "en": "dessert",
+        "es": "postre",
+        "fr": "dessert",
+        "pl": "deser"
+      },
+      {
+        "en": "dried",
+        "es": "seco",
+        "fr": "séché",
+        "pl": "Suche"
+      },
+      {
+        "en": "drupe",
+        "es": "drupa",
+        "fr": "drupe",
+        "pl": "drupe"
+      },
+      {
+        "en": "durian",
+        "es": "Durián",
+        "fr": "Durian",
+        "pl": "durian"
+      },
+      {
+        "en": "fig",
+        "es": "higo",
+        "fr": "fig",
+        "pl": "rys"
+      },
+      {
+        "en": "flower",
+        "es": "Flor",
+        "fr": "Fleur",
+        "pl": "kwiat"
+      },
+      {
+        "en": "flowers",
+        "es": "Flores",
+        "fr": "Fleurs",
+        "pl": "kwiaty"
+      },
+      {
+        "en": "fresh",
+        "es": "fresco",
+        "fr": "frais",
+        "pl": "świeże"
+      },
+      {
+        "en": "fruit",
+        "es": "Fruta",
+        "fr": "Fruits",
+        "pl": "Owoc"
+      },
+      {
+        "en": "fruits",
+        "es": "Frutas",
+        "fr": "Fruits",
+        "pl": "Owoce"
+      },
+      {
+        "en": "grape",
+        "es": "uva",
+        "fr": "Raisin",
+        "pl": "Winogrona"
+      },
+      {
+        "en": "grapefruit",
+        "es": "Pomelo",
+        "fr": "Pamplemousse",
+        "pl": "grejpfrut"
+      },
+      {
+        "en": "grapes",
+        "es": "Uvas",
+        "fr": "Raisins",
+        "pl": "Winogrona"
+      },
+      {
+        "en": "guava",
+        "es": "Guayaba",
+        "fr": "Goyave",
+        "pl": "Guawa"
+      },
+      {
+        "en": "harvest",
+        "es": "Cosecha",
+        "fr": "Récolte",
+        "pl": "Żniwa"
+      },
+      {
+        "en": "jackfruit",
+        "es": "Yaca",
+        "fr": "Jaquier",
+        "pl": "Jackfruit"
+      },
+      {
+        "en": "jam",
+        "es": "Jam",
+        "fr": "Jam",
+        "pl": "jam"
+      },
+      {
+        "en": "juice",
+        "es": "Zumo",
+        "fr": "jus",
+        "pl": "sok"
+      },
+      {
+        "en": "juicy",
+        "es": "jugoso",
+        "fr": "juteux",
+        "pl": "soczyste"
+      },
+      {
+        "en": "kumquat",
+        "es": "Kumquat",
+        "fr": "kumquat",
+        "pl": "Kumkwat"
+      },
+      {
+        "en": "leaves",
+        "es": "hojas",
+        "fr": "Feuilles",
+        "pl": "Liście"
+      },
+      {
+        "en": "lemon",
+        "es": "limón",
+        "fr": "citron",
+        "pl": "Cytryna"
+      },
+      {
+        "en": "lime",
+        "es": "lima",
+        "fr": "chaux",
+        "pl": "Lime"
+      },
+      {
+        "en": "lychee",
+        "es": "Lichi",
+        "fr": "Litchi",
+        "pl": "Liczi"
+      },
+      {
+        "en": "mango",
+        "es": "Mango",
+        "fr": "Mango",
+        "pl": "mango"
+      },
+      {
+        "en": "mangoes",
+        "es": "Mangos",
+        "fr": "Mangues",
+        "pl": "mango"
+      },
+      {
+        "en": "mangos",
+        "es": "Mangos",
+        "fr": "Mangues",
+        "pl": "Mango"
+      },
+      {
+        "en": "meat",
+        "es": "Carne",
+        "fr": "Viande",
+        "pl": "Mięso"
+      },
+      {
+        "en": "melon",
+        "es": "melón",
+        "fr": "melon",
+        "pl": "Melon"
+      },
+      {
+        "en": "melons",
+        "es": "Melones",
+        "fr": "Melons",
+        "pl": "Melony"
+      },
+      {
+        "en": "milk",
+        "es": "Leche",
+        "fr": "Lait",
+        "pl": "mleko"
+      },
+      {
+        "en": "mulberry",
+        "es": "Morera",
+        "fr": "Mulberry",
+        "pl": "morwa"
+      },
+      {
+        "en": "nuts",
+        "es": "chiflado",
+        "fr": "Noix",
+        "pl": "orzechy"
+      },
+      {
+        "en": "olive",
+        "es": "oliva",
+        "fr": "olive",
+        "pl": "olive"
+      },
+      {
+        "en": "orange",
+        "es": "naranja",
+        "fr": "orange",
+        "pl": "pomarańczowy"
+      },
+      {
+        "en": "oranges",
+        "es": "Naranjas",
+        "fr": "oranges",
+        "pl": "Pomarańcze"
+      },
+      {
+        "en": "orchard",
+        "es": "Huerto",
+        "fr": "verger",
+        "pl": "sad"
+      },
+      {
+        "en": "pea",
+        "es": "Guisante",
+        "fr": "pois",
+        "pl": "groszek"
+      },
+      {
+        "en": "peach",
+        "es": "melocotón",
+        "fr": "Pêche",
+        "pl": "brzoskwinia"
+      },
+      {
+        "en": "peaches",
+        "es": "melocotones",
+        "fr": "pêches",
+        "pl": "brzoskwinie"
+      },
+      {
+        "en": "pear",
+        "es": "Pera",
+        "fr": "poire",
+        "pl": "gruszka"
+      },
+      {
+        "en": "pears",
+        "es": "peras",
+        "fr": "poires",
+        "pl": "gruszki"
+      },
+      {
+        "en": "pineapple",
+        "es": "Piña",
+        "fr": "Ananas",
+        "pl": "ananas"
+      },
+      {
+        "en": "pineapples",
+        "es": "piñas",
+        "fr": "ananas",
+        "pl": "Ananasy"
+      },
+      {
+        "en": "plum",
+        "es": "ciruela",
+        "fr": "prun",
+        "pl": "śliwka"
+      },
+      {
+        "en": "plums",
+        "es": "ciruelas",
+        "fr": "prunes",
+        "pl": "śliwki"
+      },
+      {
+        "en": "pome",
+        "es": "Pome",
+        "fr": "Pome",
+        "pl": "Pome"
+      },
+      {
+        "en": "pomegranate",
+        "es": "Granada",
+        "fr": "Grenade",
+        "pl": "Granat"
+      },
+      {
+        "en": "pomegranates",
+        "es": "Granadas",
+        "fr": "Grenades",
+        "pl": "Granaty"
+      },
+      {
+        "en": "pomelo",
+        "es": "Pomelo",
+        "fr": "Pomelo",
+        "pl": "Pomelo"
+      },
+      {
+        "en": "produce",
+        "es": "Productos",
+        "fr": "Produits",
+        "pl": "Produkty"
+      },
+      {
+        "en": "product",
+        "es": "Producto",
+        "fr": "Produit",
+        "pl": "Produkt"
+      },
+      {
+        "en": "pumpkin",
+        "es": "calabaza",
+        "fr": "citrouille",
+        "pl": "dynia"
+      },
+      {
+        "en": "raspberry",
+        "es": "frambuesa",
+        "fr": "framboise",
+        "pl": "malina"
+      },
+      {
+        "en": "ripened",
+        "es": "madura",
+        "fr": "mûri",
+        "pl": "dojrzałe"
+      },
+      {
+        "en": "root",
+        "es": "Raíz",
+        "fr": "Racine",
+        "pl": "Korzenie"
+      },
+      {
+        "en": "seed",
+        "es": "Semilla",
+        "fr": "Graines",
+        "pl": "Nasiono"
+      },
+      {
+        "en": "snack",
+        "es": "bocadillo",
+        "fr": "Snack",
+        "pl": "Przekąska"
+      },
+      {
+        "en": "snacks",
+        "es": "Aperitivos",
+        "fr": "Snacks",
+        "pl": "Przekąski"
+      },
+      {
+        "en": "spice",
+        "es": "especia",
+        "fr": "épice",
+        "pl": "Przyprawa"
+      },
+      {
+        "en": "squash",
+        "es": "Calabaza",
+        "fr": "Courge",
+        "pl": "Squash"
+      },
+      {
+        "en": "strawberries",
+        "es": "fresas",
+        "fr": "fraises",
+        "pl": "truskawki"
+      },
+      {
+        "en": "strawberry",
+        "es": "Fresa",
+        "fr": "Fraise",
+        "pl": "truskawka"
+      },
+      {
+        "en": "successful",
+        "es": "Exitoso",
+        "fr": "Réussi",
+        "pl": "Sukces"
+      },
+      {
+        "en": "sugar",
+        "es": "azúcar",
+        "fr": "sucre",
+        "pl": "cukier"
+      },
+      {
+        "en": "sweet",
+        "es": "Dulce",
+        "fr": "Génial",
+        "pl": "słodko"
+      },
+      {
+        "en": "tangelo",
+        "es": "Tangelo",
+        "fr": "Tangelo",
+        "pl": "tangelo"
+      },
+      {
+        "en": "tangerine",
+        "es": "Mandarina",
+        "fr": "Tangerine",
+        "pl": "Mandarynka"
+      },
+      {
+        "en": "tomato",
+        "es": "tomate",
+        "fr": "Tomate",
+        "pl": "Pomidor"
+      },
+      {
+        "en": "tomatoes",
+        "es": "tomates",
+        "fr": "Tomates",
+        "pl": "pomidory"
+      },
+      {
+        "en": "veg",
+        "es": "Veg",
+        "fr": "Végétarienne",
+        "pl": "warzywa"
+      },
+      {
+        "en": "vegetable",
+        "es": "Hortícolas",
+        "fr": "légume",
+        "pl": "warzywa"
+      },
+      {
+        "en": "vegetables",
+        "es": "Verduras",
+        "fr": "Légumes",
+        "pl": "warzywa"
+      },
+      {
+        "en": "veggie",
+        "es": "Vegetariano",
+        "fr": "végétarien",
+        "pl": "Warzywa"
+      },
+      {
+        "en": "veggies",
+        "es": "Verduras",
+        "fr": "Légumes",
+        "pl": "warzywa"
+      },
+      {
+        "en": "water",
+        "es": "Agua",
+        "fr": "Eau",
+        "pl": "Woda"
+      },
+      {
+        "en": "watermelon",
+        "es": "sandía",
+        "fr": "pastèque",
+        "pl": "arbuz"
+      },
+      {
+        "en": "watermelons",
+        "es": "Sandías",
+        "fr": "Pastèques",
+        "pl": "Arbuzy"
+      }
+    ]
+  },
+  {
+    "topic": "Pets",
+    "words": [
+      {
+        "en": "animal",
+        "es": "Animal",
+        "fr": "Animal",
+        "pl": "zwierzę"
+      },
+      {
+        "en": "animals",
+        "es": "Animales",
+        "fr": "Animaux",
+        "pl": "Zwierzęta"
+      },
+      {
+        "en": "attention",
+        "es": "Atención",
+        "fr": "Attention",
+        "pl": "uwaga"
+      },
+      {
+        "en": "babies",
+        "es": "bebés",
+        "fr": "bébés",
+        "pl": "Dzieci"
+      },
+      {
+        "en": "bad",
+        "es": "mala",
+        "fr": "Mauvais",
+        "pl": "złe"
+      },
+      {
+        "en": "beagle",
+        "es": "Beagle",
+        "fr": "Beagle",
+        "pl": "Beagle"
+      },
+      {
+        "en": "better",
+        "es": "mejor",
+        "fr": "Mieux",
+        "pl": "lepiej"
+      },
+      {
+        "en": "bird",
+        "es": "Ave",
+        "fr": "Oiseau",
+        "pl": "ptak"
+      },
+      {
+        "en": "caress",
+        "es": "caricia",
+        "fr": "caresse",
+        "pl": "pieszczota"
+      },
+      {
+        "en": "cat",
+        "es": "Gato",
+        "fr": "chat",
+        "pl": "Kot"
+      },
+      {
+        "en": "cats",
+        "es": "gatos",
+        "fr": "chats",
+        "pl": "koty"
+      },
+      {
+        "en": "chickens",
+        "es": "Gallinas",
+        "fr": "poules",
+        "pl": "kurczaki"
+      },
+      {
+        "en": "chihuahuas",
+        "es": "Chihuahuas",
+        "fr": "Chihuahuas",
+        "pl": "Chihuahuas"
+      },
+      {
+        "en": "children",
+        "es": "Hijos",
+        "fr": "Enfants",
+        "pl": "Dzieci"
+      },
+      {
+        "en": "collie",
+        "es": "Collie",
+        "fr": "Collie",
+        "pl": "Collie"
+      },
+      {
+        "en": "companions",
+        "es": "Compañeros",
+        "fr": "Compagnons",
+        "pl": "Towarzysze"
+      },
+      {
+        "en": "corgi",
+        "es": "Corgi",
+        "fr": "Corgi",
+        "pl": "Corgi"
+      },
+      {
+        "en": "cosmetics",
+        "es": "Cosmética",
+        "fr": "Cosmétiques",
+        "pl": "Kosmetyki"
+      },
+      {
+        "en": "coyotes",
+        "es": "Coyotes",
+        "fr": "Coyotes",
+        "pl": "Kojoty"
+      },
+      {
+        "en": "creature",
+        "es": "criatura",
+        "fr": "créature",
+        "pl": "stworzenie"
+      },
+      {
+        "en": "critters",
+        "es": "criaturas",
+        "fr": "Critters",
+        "pl": "Critters"
+      },
+      {
+        "en": "cuddles",
+        "es": "abrazos",
+        "fr": "câlins",
+        "pl": "przytulanie"
+      },
+      {
+        "en": "dachshund",
+        "es": "Teckel",
+        "fr": "Teckel",
+        "pl": "jamnik"
+      },
+      {
+        "en": "darling",
+        "es": "cariño",
+        "fr": "chéri",
+        "pl": "kochanie"
+      },
+      {
+        "en": "dearie",
+        "es": "querido",
+        "fr": "chéri",
+        "pl": "kochanie"
+      },
+      {
+        "en": "deary",
+        "es": "querido",
+        "fr": "chéri",
+        "pl": "kochanie"
+      },
+      {
+        "en": "dog",
+        "es": "Perro",
+        "fr": "Chien",
+        "pl": "pies"
+      },
+      {
+        "en": "doggie",
+        "es": "perrito",
+        "fr": "Toutou",
+        "pl": "piesek"
+      },
+      {
+        "en": "dogs",
+        "es": "Perros",
+        "fr": "Chiens",
+        "pl": "psy"
+      },
+      {
+        "en": "ducky",
+        "es": "Ducky",
+        "fr": "canard",
+        "pl": "Ducky"
+      },
+      {
+        "en": "eat",
+        "es": "Come",
+        "fr": "Mange",
+        "pl": "Jedz"
+      },
+      {
+        "en": "eggs",
+        "es": "Huevos",
+        "fr": "Œufs",
+        "pl": "Jajka"
+      },
+      {
+        "en": "elephant",
+        "es": "Elefante",
+        "fr": "éléphant",
+        "pl": "słoń"
+      },
+      {
+        "en": "familiars",
+        "es": "familiares",
+        "fr": "familiers",
+        "pl": "Familiars"
+      },
+      {
+        "en": "family",
+        "es": "Familia",
+        "fr": "Famille",
+        "pl": "Rodzina"
+      },
+      {
+        "en": "favored",
+        "es": "favoritos",
+        "fr": "favorisé",
+        "pl": "ulubiony"
+      },
+      {
+        "en": "favorite",
+        "es": "Favoritos",
+        "fr": "Préféré",
+        "pl": "ulubiony"
+      },
+      {
+        "en": "favourite",
+        "es": "Favorito",
+        "fr": "Favori",
+        "pl": "Ulubiony"
+      },
+      {
+        "en": "feline",
+        "es": "felino",
+        "fr": "Félin",
+        "pl": "Kot"
+      },
+      {
+        "en": "fluffy",
+        "es": "Esponjoso",
+        "fr": "duveteux",
+        "pl": "puszysty"
+      },
+      {
+        "en": "fondle",
+        "es": "Tocle",
+        "fr": "Flatte",
+        "pl": "Mazlę"
+      },
+      {
+        "en": "foxhound",
+        "es": "Foxhound",
+        "fr": "Foxhound",
+        "pl": "foxhound"
+      },
+      {
+        "en": "friends",
+        "es": "Amigos",
+        "fr": "Amis",
+        "pl": "Przyjaciele"
+      },
+      {
+        "en": "furry",
+        "es": "furry",
+        "fr": "Furry",
+        "pl": "Futro"
+      },
+      {
+        "en": "goldfish",
+        "es": "Pez dorado",
+        "fr": "Poisson rouge",
+        "pl": "złota rybka"
+      },
+      {
+        "en": "greyhound",
+        "es": "Greyhound",
+        "fr": "Lévrier",
+        "pl": "Chart"
+      },
+      {
+        "en": "greyhounds",
+        "es": "Galgos",
+        "fr": "Lévriers",
+        "pl": "charty"
+      },
+      {
+        "en": "guests",
+        "es": "Invitados",
+        "fr": "Invités",
+        "pl": "goście"
+      },
+      {
+        "en": "hamster",
+        "es": "Hámster",
+        "fr": "Hamster",
+        "pl": "chomik"
+      },
+      {
+        "en": "hemangiosarcoma",
+        "es": "Hemangiosarcoma",
+        "fr": "Hémangiosarcome",
+        "pl": "naczyniaka"
+      },
+      {
+        "en": "house",
+        "es": "Casa",
+        "fr": "Maison",
+        "pl": "Dom"
+      },
+      {
+        "en": "humans",
+        "es": "Humanos",
+        "fr": "Humains",
+        "pl": "Ludzie"
+      },
+      {
+        "en": "items",
+        "es": "Elementos",
+        "fr": "Objets",
+        "pl": "Przedmioty"
+      },
+      {
+        "en": "kennel",
+        "es": "Criadero",
+        "fr": "chenil",
+        "pl": "Hodowla"
+      },
+      {
+        "en": "kennels",
+        "es": "Criaderos",
+        "fr": "Chenils",
+        "pl": "Hodowle"
+      },
+      {
+        "en": "kibble",
+        "es": "Pienso",
+        "fr": "croquettes",
+        "pl": "Sucha karma"
+      },
+      {
+        "en": "kids",
+        "es": "Hijos",
+        "fr": "Enfants",
+        "pl": "dzieci"
+      },
+      {
+        "en": "kitten",
+        "es": "gatita",
+        "fr": "chaton",
+        "pl": "Kociak"
+      },
+      {
+        "en": "kittens",
+        "es": "gatitos",
+        "fr": "chatons",
+        "pl": "kocięta"
+      },
+      {
+        "en": "kitties",
+        "es": "gatitos",
+        "fr": "chats",
+        "pl": "kotki"
+      },
+      {
+        "en": "livestock",
+        "es": "Ganadería",
+        "fr": "Élevage",
+        "pl": "Hodowla zwierząt"
+      },
+      {
+        "en": "loved",
+        "es": "amado",
+        "fr": "Aimé",
+        "pl": "kochał"
+      },
+      {
+        "en": "minions",
+        "es": "Esbirros",
+        "fr": "Sbires",
+        "pl": "Minionki"
+      },
+      {
+        "en": "mounts",
+        "es": "Monturas",
+        "fr": "Montures",
+        "pl": "Wierzchowce"
+      },
+      {
+        "en": "mutt",
+        "es": "Chucho",
+        "fr": "Mutt",
+        "pl": "Kundel"
+      },
+      {
+        "en": "other",
+        "es": "Otro",
+        "fr": "Autres",
+        "pl": "Inne"
+      },
+      {
+        "en": "paws",
+        "es": "Paws",
+        "fr": "pattes",
+        "pl": "łapy"
+      },
+      {
+        "en": "people",
+        "es": "Personas",
+        "fr": "Population",
+        "pl": "Ludzie"
+      },
+      {
+        "en": "persons",
+        "es": "Personas",
+        "fr": "Personnes",
+        "pl": "Osoby"
+      },
+      {
+        "en": "pet",
+        "es": "mascota",
+        "fr": "animal de compagnie",
+        "pl": "Pupil"
+      },
+      {
+        "en": "pets",
+        "es": "mascotas",
+        "fr": "Animaux de compagnie",
+        "pl": "Zwierzęta domowe"
+      },
+      {
+        "en": "plants",
+        "es": "Plantas",
+        "fr": "Usines",
+        "pl": "Rośliny"
+      },
+      {
+        "en": "pomeranian",
+        "es": "Pomerania",
+        "fr": "Poméranie",
+        "pl": "Pomorzanie"
+      },
+      {
+        "en": "pooches",
+        "es": "perritos",
+        "fr": "Chien",
+        "pl": "Pieski"
+      },
+      {
+        "en": "poodle",
+        "es": "caniche",
+        "fr": "Caniche",
+        "pl": "pudel"
+      },
+      {
+        "en": "praise",
+        "es": "Elogios",
+        "fr": "Louanges",
+        "pl": "Chwała"
+      },
+      {
+        "en": "preferred",
+        "es": "Preferido",
+        "fr": "Préféré",
+        "pl": "preferowane"
+      },
+      {
+        "en": "pup",
+        "es": "Cachorro",
+        "fr": "Petit",
+        "pl": "szczenię"
+      },
+      {
+        "en": "puppy",
+        "es": "cachorro",
+        "fr": "chiot",
+        "pl": "szczeniak"
+      },
+      {
+        "en": "pups",
+        "es": "cachorros",
+        "fr": "Louveteaux",
+        "pl": "Szczenięta"
+      },
+      {
+        "en": "purebred",
+        "es": "Pura raza",
+        "fr": "De race pure",
+        "pl": "Rasy czystej"
+      },
+      {
+        "en": "rabbit",
+        "es": "conejo",
+        "fr": "Rabbit",
+        "pl": "królik"
+      },
+      {
+        "en": "rabbits",
+        "es": "conejos",
+        "fr": "Lapins",
+        "pl": "króliki"
+      },
+      {
+        "en": "raccoons",
+        "es": "Mapaches",
+        "fr": "ratons laveurs",
+        "pl": "szopy pracze"
+      },
+      {
+        "en": "rodent",
+        "es": "roedor",
+        "fr": "rongeur",
+        "pl": "Gryzoń"
+      },
+      {
+        "en": "rottweiler",
+        "es": "Rottweiler",
+        "fr": "Rottweiler",
+        "pl": "Rottweiler"
+      },
+      {
+        "en": "rottweilers",
+        "es": "Rottweilers",
+        "fr": "Rottweilers",
+        "pl": "rottweilery"
+      },
+      {
+        "en": "schipperke",
+        "es": "Schipperke",
+        "fr": "Schipperke",
+        "pl": "schipperke"
+      },
+      {
+        "en": "schnauzer",
+        "es": "Schnauzer",
+        "fr": "Schnauzer",
+        "pl": "Sznaucer"
+      },
+      {
+        "en": "skunks",
+        "es": "Mofetas",
+        "fr": "Mouffettes",
+        "pl": ""
+      },
+      {
+        "en": "slaves",
+        "es": "Esclavos",
+        "fr": "Esclaves",
+        "pl": "Niewolnicy"
+      },
+      {
+        "en": "small",
+        "es": "pequeño",
+        "fr": "petit",
+        "pl": "mały"
+      },
+      {
+        "en": "spaniel",
+        "es": "Spaniel",
+        "fr": "Épagneul",
+        "pl": "spaniel"
+      },
+      {
+        "en": "strays",
+        "es": "Vagabundos",
+        "fr": "Errants",
+        "pl": "bezpańskie"
+      },
+      {
+        "en": "summons",
+        "es": "Citación",
+        "fr": "Convocation",
+        "pl": "wezwania"
+      },
+      {
+        "en": "thralls",
+        "es": "Esclavos",
+        "fr": "Thralls",
+        "pl": "Niewolnicy"
+      },
+      {
+        "en": "toys",
+        "es": "Juguetes",
+        "fr": "Jouets",
+        "pl": "zabawki"
+      },
+      {
+        "en": "treats",
+        "es": "Premios",
+        "fr": "Gâteries",
+        "pl": "Treats"
+      },
+      {
+        "en": "turtle",
+        "es": "Tortuga",
+        "fr": "Tortue",
+        "pl": "żółw"
+      },
+      {
+        "en": "wild",
+        "es": "Salvaje",
+        "fr": "Sauvage",
+        "pl": "dziki"
+      }
+    ]
+  },
+  {
+    "topic": "Musical Instruments",
+    "words": [
+      {
+        "en": "accordion",
+        "es": "Acordeón",
+        "fr": "Accordéon",
+        "pl": "Akordeon"
+      },
+      {
+        "en": "arm",
+        "es": "ARM",
+        "fr": "bras",
+        "pl": "ramię"
+      },
+      {
+        "en": "arrangement",
+        "es": "Arreglo",
+        "fr": "Arrangement",
+        "pl": "Układ"
+      },
+      {
+        "en": "assets",
+        "es": "Activos",
+        "fr": "Actifs",
+        "pl": "Aktywa"
+      },
+      {
+        "en": "audio",
+        "es": "Audio",
+        "fr": "Audio",
+        "pl": "Dźwięk"
+      },
+      {
+        "en": "bass",
+        "es": "Bajo",
+        "fr": "Basse",
+        "pl": "Bas"
+      },
+      {
+        "en": "bassoon",
+        "es": "Fagot",
+        "fr": "Basson",
+        "pl": "Fagot"
+      },
+      {
+        "en": "beat",
+        "es": "latido",
+        "fr": "Beat",
+        "pl": "Beat"
+      },
+      {
+        "en": "beats",
+        "es": "Beats",
+        "fr": "Beats",
+        "pl": "Beaty"
+      },
+      {
+        "en": "calliope",
+        "es": "Calíope",
+        "fr": "Calliope",
+        "pl": "Kaliope"
+      },
+      {
+        "en": "cat's-paw",
+        "es": "pata de gato",
+        "fr": "Patte de chat",
+        "pl": "Koci-łapa"
+      },
+      {
+        "en": "cello",
+        "es": "Violonchelo",
+        "fr": "Violoncelle",
+        "pl": "Wiolonczela"
+      },
+      {
+        "en": "clarinet",
+        "es": "Clarinete",
+        "fr": "Clarinette",
+        "pl": "Klarnet"
+      },
+      {
+        "en": "clavichord",
+        "es": "Clavicordio",
+        "fr": "Clavicorde",
+        "pl": "klawichord"
+      },
+      {
+        "en": "containers",
+        "es": "Contenedores",
+        "fr": "Conteneurs",
+        "pl": "Kontenery"
+      },
+      {
+        "en": "deed",
+        "es": "acto",
+        "fr": "acte",
+        "pl": "Akt własności"
+      },
+      {
+        "en": "derivative",
+        "es": "Derivada",
+        "fr": "Dérivée",
+        "pl": "Pochodna"
+      },
+      {
+        "en": "derivatives",
+        "es": "Derivados",
+        "fr": "Dérivés",
+        "pl": "Pochodne"
+      },
+      {
+        "en": "device",
+        "es": "Dispositivo",
+        "fr": "Dispositif",
+        "pl": "Urządzenie"
+      },
+      {
+        "en": "devices",
+        "es": "Dispositivos",
+        "fr": "Dispositifs",
+        "pl": "Urządzenia"
+      },
+      {
+        "en": "document",
+        "es": "documento",
+        "fr": "document",
+        "pl": "Dokument"
+      },
+      {
+        "en": "drum",
+        "es": "Batería",
+        "fr": "Batterie",
+        "pl": "Bęben"
+      },
+      {
+        "en": "drums",
+        "es": "Batería",
+        "fr": "Batterie",
+        "pl": "Perkusja"
+      },
+      {
+        "en": "effects",
+        "es": "Efectos",
+        "fr": "Effets",
+        "pl": "Skutki"
+      },
+      {
+        "en": "element",
+        "es": "elemento",
+        "fr": "élément",
+        "pl": "Element"
+      },
+      {
+        "en": "elements",
+        "es": "Elementos",
+        "fr": "Éléments",
+        "pl": "Elementy"
+      },
+      {
+        "en": "equipment",
+        "es": "Equipamiento",
+        "fr": "Équipement",
+        "pl": "Wyposażenie"
+      },
+      {
+        "en": "flute",
+        "es": "Flauta",
+        "fr": "Flûte",
+        "pl": "flet"
+      },
+      {
+        "en": "guitar",
+        "es": "Guitarra",
+        "fr": "Guitare",
+        "pl": "Gitara"
+      },
+      {
+        "en": "guitars",
+        "es": "Guitarras",
+        "fr": "Guitares",
+        "pl": "Gitary"
+      },
+      {
+        "en": "harmonica",
+        "es": "Armónica",
+        "fr": "Harmonica",
+        "pl": "Harmonijka"
+      },
+      {
+        "en": "harp",
+        "es": "Arpa",
+        "fr": "Harpe",
+        "pl": "Harfa"
+      },
+      {
+        "en": "harpsichord",
+        "es": "Clavecín",
+        "fr": "Clavecin",
+        "pl": "Klawesyn"
+      },
+      {
+        "en": "impeachment",
+        "es": "Destitución",
+        "fr": "Destitution",
+        "pl": "Impeachment"
+      },
+      {
+        "en": "instrument",
+        "es": "Instrumento",
+        "fr": "Instrument",
+        "pl": "Instrument"
+      },
+      {
+        "en": "instrumental",
+        "es": "Instrumental",
+        "fr": "Instrumental",
+        "pl": "Instrumentalna"
+      },
+      {
+        "en": "instrumentate",
+        "es": "Instrumentado",
+        "fr": "Instrument",
+        "pl": "Instrumentacja"
+      },
+      {
+        "en": "instrumentation",
+        "es": "Instrumentación",
+        "fr": "Instrumentation",
+        "pl": "Instrumentacja"
+      },
+      {
+        "en": "jurisprudence",
+        "es": "Jurisprudencia",
+        "fr": "Jurisprudence",
+        "pl": "Orzekanie"
+      },
+      {
+        "en": "law",
+        "es": "Derecho",
+        "fr": "Droit",
+        "pl": "Prawo"
+      },
+      {
+        "en": "layers",
+        "es": "Capas",
+        "fr": "Couches",
+        "pl": "Warstwy"
+      },
+      {
+        "en": "lute",
+        "es": "Laúd",
+        "fr": "Luth",
+        "pl": "lutnia"
+      },
+      {
+        "en": "lyre",
+        "es": "Lira",
+        "fr": "lyre",
+        "pl": "Lira"
+      },
+      {
+        "en": "mandolin",
+        "es": "Mandolina",
+        "fr": "Mandoline",
+        "pl": "Mandolina"
+      },
+      {
+        "en": "marimba",
+        "es": "Marimba",
+        "fr": "Marimba",
+        "pl": "Marimba"
+      },
+      {
+        "en": "means",
+        "es": "medios",
+        "fr": "Moyens",
+        "pl": "Środki"
+      },
+      {
+        "en": "measure",
+        "es": "Medida",
+        "fr": "Mesure",
+        "pl": "miara"
+      },
+      {
+        "en": "mechanism",
+        "es": "Mecanismo",
+        "fr": "Mécanisme",
+        "pl": "Mechanizm"
+      },
+      {
+        "en": "melodies",
+        "es": "Melodías",
+        "fr": "Mélodies",
+        "pl": "Melodie"
+      },
+      {
+        "en": "method",
+        "es": "Método",
+        "fr": "Méthode",
+        "pl": "Metoda"
+      },
+      {
+        "en": "mic",
+        "es": "Micrófono",
+        "fr": "Mic",
+        "pl": "mikrofon"
+      },
+      {
+        "en": "microphones",
+        "es": "Micrófonos",
+        "fr": "Microphones",
+        "pl": "Mikrofony"
+      },
+      {
+        "en": "midi",
+        "es": "MIDI",
+        "fr": "MIDI",
+        "pl": "midi"
+      },
+      {
+        "en": "music",
+        "es": "Música",
+        "fr": "Musique",
+        "pl": "Muzyka"
+      },
+      {
+        "en": "musicians",
+        "es": "Músicos",
+        "fr": "Musiciens",
+        "pl": "Muzycy"
+      },
+      {
+        "en": "notes",
+        "es": "Notas",
+        "fr": "Notes",
+        "pl": "Przypisy"
+      },
+      {
+        "en": "oboe",
+        "es": "Oboe",
+        "fr": "Hautbois",
+        "pl": "Obój"
+      },
+      {
+        "en": "orchestra",
+        "es": "Orquesta",
+        "fr": "Orchestre",
+        "pl": "Orkiestra"
+      },
+      {
+        "en": "orchestral",
+        "es": "Orquestal",
+        "fr": "orchestral",
+        "pl": "Orkiestrowe"
+      },
+      {
+        "en": "orchestration",
+        "es": "Orquestación",
+        "fr": "Orchestration",
+        "pl": "Orkiestracja"
+      },
+      {
+        "en": "organ",
+        "es": "Órgano",
+        "fr": "Orgue",
+        "pl": "Organy"
+      },
+      {
+        "en": "papers",
+        "es": "Artículos",
+        "fr": "Articles",
+        "pl": "Artykuły"
+      },
+      {
+        "en": "parts",
+        "es": "Partes",
+        "fr": "Parties",
+        "pl": "Części"
+      },
+      {
+        "en": "pawn",
+        "es": "Peón",
+        "fr": "Pion",
+        "pl": "pionek"
+      },
+      {
+        "en": "percussion",
+        "es": "Percusión",
+        "fr": "Percussions",
+        "pl": "perkusja"
+      },
+      {
+        "en": "piano",
+        "es": "piano",
+        "fr": "piano",
+        "pl": "Fortepian"
+      },
+      {
+        "en": "piece",
+        "es": "Pieza",
+        "fr": "Pièce",
+        "pl": "Utwór"
+      },
+      {
+        "en": "plugins",
+        "es": "Plugins",
+        "fr": "Plugins",
+        "pl": "Wtyczki"
+      },
+      {
+        "en": "presets",
+        "es": "Presets",
+        "fr": "Presets",
+        "pl": "Presety"
+      },
+      {
+        "en": "products",
+        "es": "Productos",
+        "fr": "Produits",
+        "pl": "Produkty"
+      },
+      {
+        "en": "recording",
+        "es": "Grabación",
+        "fr": "Enregistrement",
+        "pl": "Nagrania"
+      },
+      {
+        "en": "sample",
+        "es": "Ejemplo",
+        "fr": "Exemple",
+        "pl": "Próbka"
+      },
+      {
+        "en": "samples",
+        "es": "Samples",
+        "fr": "Échantillons",
+        "pl": "Próbki"
+      },
+      {
+        "en": "saxophone",
+        "es": "Saxofón",
+        "fr": "Saxophone",
+        "pl": "Saksofon"
+      },
+      {
+        "en": "securities",
+        "es": "Valores",
+        "fr": "Titres",
+        "pl": "Papiery wartościowe"
+      },
+      {
+        "en": "singers",
+        "es": "Cantantes",
+        "fr": "Chanteurs",
+        "pl": "Śpiewacy"
+      },
+      {
+        "en": "sound",
+        "es": "Sonido",
+        "fr": "Son",
+        "pl": "dźwięk"
+      },
+      {
+        "en": "sounds",
+        "es": "sonidos",
+        "fr": "sons",
+        "pl": "Dźwięki"
+      },
+      {
+        "en": "synthesizer",
+        "es": "sintetizador",
+        "fr": "Synthétiseur",
+        "pl": "Syntezator"
+      },
+      {
+        "en": "synths",
+        "es": "Sintetizadores",
+        "fr": "Synthés",
+        "pl": "syntezatory"
+      },
+      {
+        "en": "system",
+        "es": "Sistema",
+        "fr": "Système",
+        "pl": "System"
+      },
+      {
+        "en": "techniques",
+        "es": "Técnicas",
+        "fr": "Techniques",
+        "pl": "Techniki"
+      },
+      {
+        "en": "tomes",
+        "es": "Tomos",
+        "fr": "Grimoires",
+        "pl": "Tomy"
+      },
+      {
+        "en": "tool",
+        "es": "Herramienta",
+        "fr": "outil",
+        "pl": "Narzędzie"
+      },
+      {
+        "en": "tools",
+        "es": "Herramientas",
+        "fr": "Outils",
+        "pl": "Narzędzia"
+      },
+      {
+        "en": "tracks",
+        "es": "Vías",
+        "fr": "Pistes",
+        "pl": "Utwory"
+      },
+      {
+        "en": "trombone",
+        "es": "Trombón",
+        "fr": "Trombone",
+        "pl": "Puzon"
+      },
+      {
+        "en": "trumpet",
+        "es": "Trompeta",
+        "fr": "Trompette",
+        "pl": "Trąbka"
+      },
+      {
+        "en": "tuba",
+        "es": "Tuba",
+        "fr": "Tuba",
+        "pl": "Tuba"
+      },
+      {
+        "en": "violin",
+        "es": "Violín",
+        "fr": "Violon",
+        "pl": "Skrzypce"
+      },
+      {
+        "en": "vocal",
+        "es": "Voz",
+        "fr": "Voix",
+        "pl": "Wokal"
+      },
+      {
+        "en": "vocals",
+        "es": "Voz",
+        "fr": "Chant",
+        "pl": "Wokal"
+      },
+      {
+        "en": "voice",
+        "es": "Voz",
+        "fr": "Voix",
+        "pl": "głos"
+      },
+      {
+        "en": "voices",
+        "es": "Voces",
+        "fr": "Voix",
+        "pl": "Głosy"
+      },
+      {
+        "en": "vsts",
+        "es": "VSTS",
+        "fr": "VSTS",
+        "pl": "VSTS"
+      },
+      {
+        "en": "way",
+        "es": "sentido",
+        "fr": "Way",
+        "pl": "Way"
+      },
+      {
+        "en": "weapon",
+        "es": "Arma",
+        "fr": "Arme",
+        "pl": "broń"
+      },
+      {
+        "en": "weapons",
+        "es": "Armas",
+        "fr": "Armes",
+        "pl": "Broń"
+      },
+      {
+        "en": "woodwind",
+        "es": "Viento madera",
+        "fr": "Bois",
+        "pl": "Drewniane instrumenty dęte"
+      },
+      {
+        "en": "xylophone",
+        "es": "xilófono",
+        "fr": "xylophone",
+        "pl": "ksylofon"
+      }
+    ]
+  },
+  {
+    "topic": "Industries",
+    "words": [
+      {
+        "en": "academia",
+        "es": "Academias",
+        "fr": "Milieu universitaire",
+        "pl": "Środowisko akademickie"
+      },
+      {
+        "en": "academic",
+        "es": "Académico",
+        "fr": "Académique",
+        "pl": "Nauka"
+      },
+      {
+        "en": "agriculture",
+        "es": "Agricultura",
+        "fr": "Agriculture",
+        "pl": "Rolnictwo"
+      },
+      {
+        "en": "area",
+        "es": "Área",
+        "fr": "Superficie",
+        "pl": "Obszar"
+      },
+      {
+        "en": "auto",
+        "es": "Automático",
+        "fr": "auto",
+        "pl": "Automatycznie"
+      },
+      {
+        "en": "automotive",
+        "es": "Automoción",
+        "fr": "Automobile",
+        "pl": "Motoryzacja"
+      },
+      {
+        "en": "aviation",
+        "es": "Aviación",
+        "fr": "Aviation",
+        "pl": "Lotnictwo"
+      },
+      {
+        "en": "bfsi",
+        "es": "BFSI",
+        "fr": "BFSI",
+        "pl": "BFSI"
+      },
+      {
+        "en": "business",
+        "es": "Negocios",
+        "fr": "Affaires",
+        "pl": "Biznes"
+      },
+      {
+        "en": "businesses",
+        "es": "Negocios",
+        "fr": "Entreprises",
+        "pl": "Firmy"
+      },
+      {
+        "en": "career",
+        "es": "Carrera",
+        "fr": "Carrière",
+        "pl": "Kariera"
+      },
+      {
+        "en": "commerce",
+        "es": "Comercio",
+        "fr": "Commerce",
+        "pl": "Handel"
+      },
+      {
+        "en": "commercial",
+        "es": "Comercial",
+        "fr": "Commercial",
+        "pl": "Reklama"
+      },
+      {
+        "en": "commoditization",
+        "es": "Commoditización",
+        "fr": "Commoditisation",
+        "pl": "Komodytyzacja"
+      },
+      {
+        "en": "community",
+        "es": "Comunidad",
+        "fr": "Communauté",
+        "pl": "Społeczność"
+      },
+      {
+        "en": "companies",
+        "es": "Empresas",
+        "fr": "Entreprises",
+        "pl": "Firmy"
+      },
+      {
+        "en": "company",
+        "es": "Compañía",
+        "fr": "Entreprise",
+        "pl": "Firma"
+      },
+      {
+        "en": "companys",
+        "es": "Empresas",
+        "fr": "Entreprises",
+        "pl": "Firmy"
+      },
+      {
+        "en": "conglomerate",
+        "es": "Conglomerado",
+        "fr": "Conglomérat",
+        "pl": "konglomerat"
+      },
+      {
+        "en": "consumer",
+        "es": "Consumidor",
+        "fr": "Consommateur",
+        "pl": "Konsumenci"
+      },
+      {
+        "en": "consumers",
+        "es": "Consumidores",
+        "fr": "Consommateurs",
+        "pl": "Konsumenci"
+      },
+      {
+        "en": "corporate",
+        "es": "Corporativo",
+        "fr": "Entreprise",
+        "pl": "Spółka korporacyjna"
+      },
+      {
+        "en": "corporation",
+        "es": "Corporación",
+        "fr": "Corporations",
+        "pl": "Korporacja"
+      },
+      {
+        "en": "country",
+        "es": "País",
+        "fr": "Pays",
+        "pl": "Kraj"
+      },
+      {
+        "en": "create",
+        "es": "crear",
+        "fr": "créer",
+        "pl": "stwórz"
+      },
+      {
+        "en": "culture",
+        "es": "Cultura",
+        "fr": "Culture",
+        "pl": "Kultura"
+      },
+      {
+        "en": "demand",
+        "es": "Demanda",
+        "fr": "Demande",
+        "pl": "Popyt"
+      },
+      {
+        "en": "diligence",
+        "es": "Diligencia",
+        "fr": "Diligence",
+        "pl": "Pilność"
+      },
+      {
+        "en": "domain",
+        "es": "Dominio",
+        "fr": "Domaine",
+        "pl": "domena"
+      },
+      {
+        "en": "economy",
+        "es": "Economía",
+        "fr": "Économie",
+        "pl": "Gospodarka"
+      },
+      {
+        "en": "electronics",
+        "es": "Electrónica",
+        "fr": "Électronique",
+        "pl": "Elektronika"
+      },
+      {
+        "en": "employer",
+        "es": "Empleador",
+        "fr": "employeur",
+        "pl": "pracodawca"
+      },
+      {
+        "en": "enterprises",
+        "es": "Empresas",
+        "fr": "Entreprises",
+        "pl": "przedsiębiorstwa"
+      },
+      {
+        "en": "exporter",
+        "es": "Exportador",
+        "fr": "Exportateur",
+        "pl": "Eksporter"
+      },
+      {
+        "en": "exports",
+        "es": "Exportaciones",
+        "fr": "Exportations",
+        "pl": "Eksport"
+      },
+      {
+        "en": "factory",
+        "es": "Fábrica",
+        "fr": "Usine",
+        "pl": "Fabryka"
+      },
+      {
+        "en": "field",
+        "es": "Campo",
+        "fr": "Champ",
+        "pl": "Pole"
+      },
+      {
+        "en": "firms",
+        "es": "Empresas",
+        "fr": "Entreprises",
+        "pl": "Firmy"
+      },
+      {
+        "en": "function",
+        "es": "Función",
+        "fr": "Fonction",
+        "pl": "Funkcja"
+      },
+      {
+        "en": "genre",
+        "es": "Género",
+        "fr": "Genre",
+        "pl": "Gatunek"
+      },
+      {
+        "en": "global",
+        "es": "Global",
+        "fr": "Global",
+        "pl": "Globalny"
+      },
+      {
+        "en": "globally",
+        "es": "A nivel global",
+        "fr": "À l’échelle mondiale",
+        "pl": "Globalnie"
+      },
+      {
+        "en": "government",
+        "es": "Gobierno",
+        "fr": "Gouvernement",
+        "pl": "Rząd"
+      },
+      {
+        "en": "hobby",
+        "es": "Afición",
+        "fr": "Passe-temps",
+        "pl": "Hobby"
+      },
+      {
+        "en": "industrial",
+        "es": "Industrial",
+        "fr": "Industriel",
+        "pl": "Przemysł przemysłowy"
+      },
+      {
+        "en": "industries",
+        "es": "Industrias",
+        "fr": "Industries",
+        "pl": "Przemysł"
+      },
+      {
+        "en": "industriousness",
+        "es": "Laboriosidad",
+        "fr": "Travail",
+        "pl": "Pracowitość"
+      },
+      {
+        "en": "industry",
+        "es": "Industria",
+        "fr": "Industrie",
+        "pl": "Przemysł"
+      },
+      {
+        "en": "industrywide",
+        "es": "A nivel industrial",
+        "fr": "À l’échelle de l’industrie",
+        "pl": "Na poziomie całego przemysłu"
+      },
+      {
+        "en": "innovate",
+        "es": "innovar",
+        "fr": "innover",
+        "pl": "Innowacje"
+      },
+      {
+        "en": "innovation",
+        "es": "Innovación",
+        "fr": "Innovation",
+        "pl": "Innowacje"
+      },
+      {
+        "en": "job",
+        "es": "Trabajo",
+        "fr": "Poste",
+        "pl": "Praca"
+      },
+      {
+        "en": "jobs",
+        "es": "Empleos",
+        "fr": "Emplois",
+        "pl": "Praca"
+      },
+      {
+        "en": "leading",
+        "es": "Líder",
+        "fr": "En tête",
+        "pl": "Liderzy"
+      },
+      {
+        "en": "location",
+        "es": "Ubicación",
+        "fr": "Emplacement",
+        "pl": "Lokalizacja"
+      },
+      {
+        "en": "makers",
+        "es": "Fabricantes",
+        "fr": "Fabricants",
+        "pl": "Twórcy"
+      },
+      {
+        "en": "manufacture",
+        "es": "manufactura",
+        "fr": "Fabrication",
+        "pl": "Produkcja"
+      },
+      {
+        "en": "manufacturer",
+        "es": "Fabricante",
+        "fr": "Fabricant",
+        "pl": "Producent"
+      },
+      {
+        "en": "manufacturers",
+        "es": "Fabricantes",
+        "fr": "Fabricants",
+        "pl": "Producenci"
+      },
+      {
+        "en": "manufacturing",
+        "es": "Fabricación",
+        "fr": "Fabrication",
+        "pl": "Produkcja"
+      },
+      {
+        "en": "market",
+        "es": "Mercado",
+        "fr": "Marché",
+        "pl": "Rynek"
+      },
+      {
+        "en": "media",
+        "es": "Medio",
+        "fr": "Médias",
+        "pl": "Media"
+      },
+      {
+        "en": "military",
+        "es": "Militar",
+        "fr": "Militaire",
+        "pl": "Wojsko"
+      },
+      {
+        "en": "mining",
+        "es": "Minería",
+        "fr": "Exploitation minière",
+        "pl": "Górnictwo"
+      },
+      {
+        "en": "niche",
+        "es": "Nicho",
+        "fr": "Niche",
+        "pl": "Nisza"
+      },
+      {
+        "en": "packagers",
+        "es": "Empaquetadores",
+        "fr": "Emballeurs",
+        "pl": "Pakatory"
+      },
+      {
+        "en": "position",
+        "es": "Posición",
+        "fr": "Poste",
+        "pl": "Pozycja"
+      },
+      {
+        "en": "private",
+        "es": "Privado",
+        "fr": "Privé",
+        "pl": "Prywatny"
+      },
+      {
+        "en": "producers",
+        "es": "Productores",
+        "fr": "Producteurs",
+        "pl": "Producenci"
+      },
+      {
+        "en": "product",
+        "es": "Producto",
+        "fr": "Produit",
+        "pl": "Produkt"
+      },
+      {
+        "en": "production",
+        "es": "Producción",
+        "fr": "Production",
+        "pl": "Produkcja"
+      },
+      {
+        "en": "products",
+        "es": "Productos",
+        "fr": "Produits",
+        "pl": "Produkty"
+      },
+      {
+        "en": "profession",
+        "es": "Profesión",
+        "fr": "Profession",
+        "pl": "Zawód"
+      },
+      {
+        "en": "professional",
+        "es": "Profesional",
+        "fr": "Professionnel",
+        "pl": "Profesja zawodowa"
+      },
+      {
+        "en": "public",
+        "es": "Público",
+        "fr": "Public",
+        "pl": "Publiczność"
+      },
+      {
+        "en": "quality",
+        "es": "Calidad",
+        "fr": "Qualité",
+        "pl": "Jakość"
+      },
+      {
+        "en": "research",
+        "es": "Investigación",
+        "fr": "Recherche",
+        "pl": "Badania"
+      },
+      {
+        "en": "retail",
+        "es": "venta al por menor",
+        "fr": "vente au détail",
+        "pl": "Handel detaliczny"
+      },
+      {
+        "en": "role",
+        "es": "Rol",
+        "fr": "Rôle",
+        "pl": "Rola"
+      },
+      {
+        "en": "sales",
+        "es": "Ventas",
+        "fr": "Ventes",
+        "pl": "Sprzedaż"
+      },
+      {
+        "en": "sector",
+        "es": "Sector",
+        "fr": "Secteur",
+        "pl": "Sektor"
+      },
+      {
+        "en": "sectors",
+        "es": "Sectores",
+        "fr": "Secteurs",
+        "pl": "Sektory"
+      },
+      {
+        "en": "service",
+        "es": "Servicio",
+        "fr": "Service",
+        "pl": "Służba"
+      },
+      {
+        "en": "society",
+        "es": "Sociedad",
+        "fr": "Société",
+        "pl": "Społeczeństwo"
+      },
+      {
+        "en": "subsector",
+        "es": "Subsector",
+        "fr": "Sous-secteur",
+        "pl": "Podsektor"
+      },
+      {
+        "en": "supplier",
+        "es": "proveedor",
+        "fr": "Fournisseur",
+        "pl": "dostawca"
+      },
+      {
+        "en": "suppliers",
+        "es": "Proveedores",
+        "fr": "Fournisseurs",
+        "pl": "dostawcy"
+      },
+      {
+        "en": "system",
+        "es": "Sistema",
+        "fr": "Système",
+        "pl": "System"
+      },
+      {
+        "en": "tech",
+        "es": "Tecnología",
+        "fr": "Tech",
+        "pl": "Technologia"
+      },
+      {
+        "en": "technical",
+        "es": "Técnico",
+        "fr": "Technique",
+        "pl": "Techniczność"
+      },
+      {
+        "en": "technologies",
+        "es": "Tecnologías",
+        "fr": "Technologies",
+        "pl": "Technologie"
+      },
+      {
+        "en": "technology",
+        "es": "Tecnología",
+        "fr": "Technologie",
+        "pl": "Technologia"
+      },
+      {
+        "en": "telecommunications",
+        "es": "Telecomunicaciones",
+        "fr": "Télécommunications",
+        "pl": "Telekomunikacja"
+      },
+      {
+        "en": "the",
+        "es": "el",
+        "fr": "le",
+        "pl": ""
+      },
+      {
+        "en": "tourism",
+        "es": "Turismo",
+        "fr": "Tourisme",
+        "pl": "Turystyka"
+      },
+      {
+        "en": "trade",
+        "es": "Comercio",
+        "fr": "Commerce",
+        "pl": "Handel"
+      },
+      {
+        "en": "type",
+        "es": "Tipo",
+        "fr": "Type",
+        "pl": "Typ"
+      },
+      {
+        "en": "vertical",
+        "es": "vertical",
+        "fr": "Vertical",
+        "pl": "pionowo"
+      },
+      {
+        "en": "work",
+        "es": "Obra",
+        "fr": "Œuvre",
+        "pl": "Praca"
+      },
+      {
+        "en": "world",
+        "es": "Mundo",
+        "fr": "Monde",
+        "pl": "Świat"
+      }
+    ]
+  },
+  {
+    "topic": "Office",
+    "words": [
+      {
+        "en": "admin",
+        "es": "Administración",
+        "fr": "admin",
+        "pl": "admin"
+      },
+      {
+        "en": "agency",
+        "es": "Agencia",
+        "fr": "Agence",
+        "pl": "Agencja"
+      },
+      {
+        "en": "appointment",
+        "es": "Nombramiento",
+        "fr": "Nomination",
+        "pl": "Nominacja"
+      },
+      {
+        "en": "appointments",
+        "es": "Nombramientos",
+        "fr": "Nominations",
+        "pl": "Nominacje"
+      },
+      {
+        "en": "art",
+        "es": "Arte",
+        "fr": "Art",
+        "pl": "Sztuka"
+      },
+      {
+        "en": "authority",
+        "es": "Autoridad",
+        "fr": "Autorité",
+        "pl": "Władza"
+      },
+      {
+        "en": "bank",
+        "es": "Banco",
+        "fr": "Banque",
+        "pl": "Bank"
+      },
+      {
+        "en": "bathroom",
+        "es": "Baño",
+        "fr": "salle de Bains",
+        "pl": "łazienka"
+      },
+      {
+        "en": "bedroom",
+        "es": "dormitorio",
+        "fr": "Chambre",
+        "pl": "sypialnia"
+      },
+      {
+        "en": "building",
+        "es": "Edificio",
+        "fr": "Bâtiment",
+        "pl": "Budynek"
+      },
+      {
+        "en": "bureau",
+        "es": "Buró",
+        "fr": "Bureau",
+        "pl": "Biuro"
+      },
+      {
+        "en": "business",
+        "es": "Negocios",
+        "fr": "Affaires",
+        "pl": "Biznes"
+      },
+      {
+        "en": "city",
+        "es": "Ciudad",
+        "fr": "Ville",
+        "pl": "Miasto"
+      },
+      {
+        "en": "classroom",
+        "es": "Aula",
+        "fr": "Salle de classe",
+        "pl": "Klasa"
+      },
+      {
+        "en": "clerk",
+        "es": "Secretario",
+        "fr": "Greffier",
+        "pl": "Urzędnik"
+      },
+      {
+        "en": "client",
+        "es": "cliente",
+        "fr": "Client",
+        "pl": "klient"
+      },
+      {
+        "en": "coaching",
+        "es": "Entrenador",
+        "fr": "Entraîneur",
+        "pl": "Trenerska"
+      },
+      {
+        "en": "coffice",
+        "es": "Coffice",
+        "fr": "Coffice",
+        "pl": "Coffice"
+      },
+      {
+        "en": "company",
+        "es": "Compañía",
+        "fr": "Entreprise",
+        "pl": "Firma"
+      },
+      {
+        "en": "computer",
+        "es": "Ordenador",
+        "fr": "Ordinateur",
+        "pl": "komputer"
+      },
+      {
+        "en": "corporate",
+        "es": "Corporativo",
+        "fr": "Entreprise",
+        "pl": "Spółka korporacyjna"
+      },
+      {
+        "en": "cubicle",
+        "es": "Cubículo",
+        "fr": "Box",
+        "pl": "Boks"
+      },
+      {
+        "en": "customer",
+        "es": "cliente",
+        "fr": "Client",
+        "pl": "klient"
+      },
+      {
+        "en": "department",
+        "es": "Departamento",
+        "fr": "Département",
+        "pl": "Wydział"
+      },
+      {
+        "en": "deputy",
+        "es": "Diputado",
+        "fr": "Adjoint",
+        "pl": "Zastępca"
+      },
+      {
+        "en": "desk",
+        "es": "Escritorio",
+        "fr": "Bureau",
+        "pl": "biurko"
+      },
+      {
+        "en": "desks",
+        "es": "Escritorios",
+        "fr": "Bureaux",
+        "pl": "biurka"
+      },
+      {
+        "en": "desktop",
+        "es": "Escritorio",
+        "fr": "Ordinateur de bureau",
+        "pl": "Pulpit"
+      },
+      {
+        "en": "doctor",
+        "es": "Doctor",
+        "fr": "Docteur",
+        "pl": "doktorze"
+      },
+      {
+        "en": "email",
+        "es": "Correo electrónico",
+        "fr": "Messagerie électronique",
+        "pl": "E-mail"
+      },
+      {
+        "en": "employee",
+        "es": "Empleado",
+        "fr": "Employé",
+        "pl": "pracownik"
+      },
+      {
+        "en": "game",
+        "es": "Juego",
+        "fr": "Jeu",
+        "pl": "Gra"
+      },
+      {
+        "en": "gaming",
+        "es": "Juegos",
+        "fr": "Jeux vidéo",
+        "pl": "Gry"
+      },
+      {
+        "en": "general",
+        "es": "General",
+        "fr": "Généralités",
+        "pl": "Ogólne"
+      },
+      {
+        "en": "group",
+        "es": "Grupo",
+        "fr": "Groupe",
+        "pl": "Grupa"
+      },
+      {
+        "en": "guest",
+        "es": "Invitado",
+        "fr": "Invités",
+        "pl": "Gość"
+      },
+      {
+        "en": "gym",
+        "es": "Gimnasio",
+        "fr": "Gymnase",
+        "pl": "Siłownia"
+      },
+      {
+        "en": "hat",
+        "es": "sombrero",
+        "fr": "chapeau",
+        "pl": "kapelusz"
+      },
+      {
+        "en": "headquarter",
+        "es": "Cuartel General",
+        "fr": "Quartier général",
+        "pl": "Siedziba"
+      },
+      {
+        "en": "headquarters",
+        "es": "Cuartel General",
+        "fr": "Quartier général",
+        "pl": "Siedziba"
+      },
+      {
+        "en": "hobby",
+        "es": "Afición",
+        "fr": "Passe-temps",
+        "pl": "Hobby"
+      },
+      {
+        "en": "home",
+        "es": "Inicio",
+        "fr": "Accueil",
+        "pl": "Dom"
+      },
+      {
+        "en": "house",
+        "es": "Casa",
+        "fr": "Maison",
+        "pl": "Dom"
+      },
+      {
+        "en": "inbox",
+        "es": "Bandeja de entrada",
+        "fr": "Boîte de réception",
+        "pl": "Skrzynka odbiorcza"
+      },
+      {
+        "en": "industrial",
+        "es": "Industrial",
+        "fr": "Industriel",
+        "pl": "Przemysł przemysłowy"
+      },
+      {
+        "en": "insurance",
+        "es": "Seguros",
+        "fr": "Assurance",
+        "pl": "Ubezpieczenia"
+      },
+      {
+        "en": "job",
+        "es": "Trabajo",
+        "fr": "Poste",
+        "pl": "Praca"
+      },
+      {
+        "en": "lab",
+        "es": "laboratorio",
+        "fr": "laboratoire",
+        "pl": "laboratorium"
+      },
+      {
+        "en": "letterhead",
+        "es": "Membrete",
+        "fr": "En-tête à en-tête",
+        "pl": "Papier firmowy"
+      },
+      {
+        "en": "library",
+        "es": "Biblioteca",
+        "fr": "Bibliothèque",
+        "pl": "Biblioteka"
+      },
+      {
+        "en": "living",
+        "es": "viviente",
+        "fr": "Vivre",
+        "pl": "Życie"
+      },
+      {
+        "en": "lobby",
+        "es": "vestíbulo",
+        "fr": "Hall d’entrée",
+        "pl": "lobby"
+      },
+      {
+        "en": "mailroom",
+        "es": "Sala de correo",
+        "fr": "Salle de courrier",
+        "pl": "Poczta"
+      },
+      {
+        "en": "man",
+        "es": "hombre",
+        "fr": "Homme",
+        "pl": "mężczyzna"
+      },
+      {
+        "en": "management",
+        "es": "Administración",
+        "fr": "Gestion",
+        "pl": "Zarządzanie"
+      },
+      {
+        "en": "manager",
+        "es": "director",
+        "fr": "Manager",
+        "pl": "Trener"
+      },
+      {
+        "en": "newsroom",
+        "es": "Redacción",
+        "fr": "Salle de rédaction",
+        "pl": "Redakcja"
+      },
+      {
+        "en": "office",
+        "es": "Oficina",
+        "fr": "Bureau",
+        "pl": "Biuro"
+      },
+      {
+        "en": "officer",
+        "es": "Oficial",
+        "fr": "Officier",
+        "pl": "Oficer"
+      },
+      {
+        "en": "official",
+        "es": "Oficial",
+        "fr": "Officiel",
+        "pl": "Oficjalny"
+      },
+      {
+        "en": "officials",
+        "es": "Oficiales",
+        "fr": "Officiels",
+        "pl": "Urzędnicy"
+      },
+      {
+        "en": "organization",
+        "es": "Organización",
+        "fr": "Organisation",
+        "pl": "Organizacja"
+      },
+      {
+        "en": "part",
+        "es": "Parte",
+        "fr": "Partie",
+        "pl": "Część"
+      },
+      {
+        "en": "place",
+        "es": "Lugar",
+        "fr": "Lieu",
+        "pl": "Miejsce"
+      },
+      {
+        "en": "position",
+        "es": "Posición",
+        "fr": "Poste",
+        "pl": "Pozycja"
+      },
+      {
+        "en": "post",
+        "es": "Exponer",
+        "fr": "Publier",
+        "pl": "Post"
+      },
+      {
+        "en": "power",
+        "es": "Poder",
+        "fr": "Puissance",
+        "pl": "Zasilanie"
+      },
+      {
+        "en": "presidency",
+        "es": "Presidencia",
+        "fr": "Présidence",
+        "pl": "Prezydentura"
+      },
+      {
+        "en": "professional",
+        "es": "Profesional",
+        "fr": "Professionnel",
+        "pl": "Profesja zawodowa"
+      },
+      {
+        "en": "receptionist",
+        "es": "Recepcionista",
+        "fr": "Réceptionniste",
+        "pl": "Recepcjonistka"
+      },
+      {
+        "en": "remote",
+        "es": "remoto",
+        "fr": "Télécommandé",
+        "pl": "Remote"
+      },
+      {
+        "en": "residential",
+        "es": "Residencial",
+        "fr": "Résidentiel",
+        "pl": "Mieszkalność mieszkalna"
+      },
+      {
+        "en": "retail",
+        "es": "venta al por menor",
+        "fr": "vente au détail",
+        "pl": "Handel detaliczny"
+      },
+      {
+        "en": "role",
+        "es": "Rol",
+        "fr": "Rôle",
+        "pl": "Rola"
+      },
+      {
+        "en": "room",
+        "es": "Habitación",
+        "fr": "Chambre",
+        "pl": "Pokój"
+      },
+      {
+        "en": "school",
+        "es": "Escuela",
+        "fr": "École",
+        "pl": "Szkoła"
+      },
+      {
+        "en": "seat",
+        "es": "Escaño",
+        "fr": "Siège",
+        "pl": "Siedziba"
+      },
+      {
+        "en": "secretarial",
+        "es": "Secretaría",
+        "fr": "Secrétariat",
+        "pl": "Sekretariat"
+      },
+      {
+        "en": "service",
+        "es": "Servicio",
+        "fr": "Service",
+        "pl": "Służba"
+      },
+      {
+        "en": "shop",
+        "es": "Tienda",
+        "fr": "Boutique",
+        "pl": "Zakup"
+      },
+      {
+        "en": "showroom",
+        "es": "Sala de exposición",
+        "fr": "Salle d’exposition",
+        "pl": "Salon wystawowy"
+      },
+      {
+        "en": "spare",
+        "es": "De repuesto",
+        "fr": "De rechange",
+        "pl": "spare"
+      },
+      {
+        "en": "staff",
+        "es": "Personal",
+        "fr": "Personnel",
+        "pl": "Personel"
+      },
+      {
+        "en": "staple",
+        "es": "Básico",
+        "fr": "Incontournable",
+        "pl": "Staple"
+      },
+      {
+        "en": "staples",
+        "es": "Grapas",
+        "fr": "Agrafes",
+        "pl": "Zszywki"
+      },
+      {
+        "en": "store",
+        "es": "Tienda",
+        "fr": "boutique",
+        "pl": "Sklep"
+      },
+      {
+        "en": "studio",
+        "es": "Estudio",
+        "fr": "Studio",
+        "pl": "Studio"
+      },
+      {
+        "en": "study",
+        "es": "Estudio",
+        "fr": "Études",
+        "pl": "Studia"
+      },
+      {
+        "en": "team",
+        "es": "Equipo",
+        "fr": "Équipe",
+        "pl": "Drużyna"
+      },
+      {
+        "en": "tech",
+        "es": "Tecnología",
+        "fr": "Tech",
+        "pl": "Technologia"
+      },
+      {
+        "en": "telegraph",
+        "es": "Telégrafo",
+        "fr": "télégraphe",
+        "pl": "telegraf"
+      },
+      {
+        "en": "telephone",
+        "es": "Teléfono",
+        "fr": "Téléphone",
+        "pl": "Telefon"
+      },
+      {
+        "en": "web",
+        "es": "Web",
+        "fr": "Web",
+        "pl": "Web"
+      },
+      {
+        "en": "windows",
+        "es": "Ventanas",
+        "fr": "Fenêtres",
+        "pl": "Okna"
+      },
+      {
+        "en": "work",
+        "es": "Obra",
+        "fr": "Œuvre",
+        "pl": "Praca"
+      },
+      {
+        "en": "workout",
+        "es": "Entrenamiento",
+        "fr": "Entraînement",
+        "pl": "trening"
+      },
+      {
+        "en": "workplace",
+        "es": "Lugar de trabajo",
+        "fr": "Lieu de travail",
+        "pl": "Miejsce pracy"
+      },
+      {
+        "en": "workshop",
+        "es": "Taller",
+        "fr": "Atelier",
+        "pl": "Warsztaty"
+      },
+      {
+        "en": "workspace",
+        "es": "Espacio de trabajo",
+        "fr": "Espace de travail",
+        "pl": "Przestrzeń robocza"
+      },
+      {
+        "en": "workstation",
+        "es": "Estación de trabajo",
+        "fr": "Poste de travail",
+        "pl": "Stacja robocza"
+      }
+    ]
+  },
+  {
+    "topic": "Home",
+    "words": [
+      {
+        "en": "abode",
+        "es": "morada",
+        "fr": "demeure",
+        "pl": "Dom"
+      },
+      {
+        "en": "ago",
+        "es": "hace",
+        "fr": "Ago",
+        "pl": "ago"
+      },
+      {
+        "en": "apartment",
+        "es": "Apartamento",
+        "fr": "appartement",
+        "pl": "Mieszkanie"
+      },
+      {
+        "en": "athletics",
+        "es": "Deportes",
+        "fr": "Sports",
+        "pl": "Sport"
+      },
+      {
+        "en": "auto",
+        "es": "Automático",
+        "fr": "auto",
+        "pl": "Automatycznie"
+      },
+      {
+        "en": "away",
+        "es": "Lejos",
+        "fr": "Partir",
+        "pl": "Daleko"
+      },
+      {
+        "en": "back",
+        "es": "Atrás",
+        "fr": "Précédent",
+        "pl": "Wstecz"
+      },
+      {
+        "en": "backyard",
+        "es": "Patio trasero",
+        "fr": "Arrière-cour",
+        "pl": "Ogród"
+      },
+      {
+        "en": "base",
+        "es": "Base",
+        "fr": "Base",
+        "pl": "Baza"
+      },
+      {
+        "en": "bathroom",
+        "es": "Baño",
+        "fr": "salle de Bains",
+        "pl": "łazienka"
+      },
+      {
+        "en": "bedroom",
+        "es": "dormitorio",
+        "fr": "Chambre",
+        "pl": "sypialnia"
+      },
+      {
+        "en": "building",
+        "es": "Edificio",
+        "fr": "Bâtiment",
+        "pl": "Budynek"
+      },
+      {
+        "en": "bungalow",
+        "es": "Bungalow",
+        "fr": "Bungalow",
+        "pl": "Bungalow"
+      },
+      {
+        "en": "business",
+        "es": "Negocios",
+        "fr": "Affaires",
+        "pl": "Biznes"
+      },
+      {
+        "en": "car",
+        "es": "Coche",
+        "fr": "voiture",
+        "pl": "Samochód"
+      },
+      {
+        "en": "chalet",
+        "es": "chalet",
+        "fr": "Chalet",
+        "pl": "Chata"
+      },
+      {
+        "en": "child",
+        "es": "Niño",
+        "fr": "enfant",
+        "pl": "dziecko"
+      },
+      {
+        "en": "city",
+        "es": "Ciudad",
+        "fr": "Ville",
+        "pl": "Miasto"
+      },
+      {
+        "en": "community",
+        "es": "Comunidad",
+        "fr": "Communauté",
+        "pl": "Społeczność"
+      },
+      {
+        "en": "condo",
+        "es": "Condominio",
+        "fr": "Condo",
+        "pl": "Mieszkanie"
+      },
+      {
+        "en": "condominium",
+        "es": "Condominio",
+        "fr": "Condominium",
+        "pl": "Mieszkanie mieszkaniowe"
+      },
+      {
+        "en": "cottage",
+        "es": "cabaña",
+        "fr": "Cottage",
+        "pl": "Domek"
+      },
+      {
+        "en": "country",
+        "es": "País",
+        "fr": "Pays",
+        "pl": "Kraj"
+      },
+      {
+        "en": "domestic",
+        "es": "Doméstico",
+        "fr": "domestique",
+        "pl": "Krajowe"
+      },
+      {
+        "en": "domicile",
+        "es": "Domicilio",
+        "fr": "Domicile",
+        "pl": "Miejsce zamieszkania"
+      },
+      {
+        "en": "doorstep",
+        "es": "Puerta",
+        "fr": "Seuil de porte",
+        "pl": "Prog"
+      },
+      {
+        "en": "duplex",
+        "es": "Dúplex",
+        "fr": "duplex",
+        "pl": "Duplex"
+      },
+      {
+        "en": "dwelling",
+        "es": "Vivienda",
+        "fr": "Habitation",
+        "pl": "Mieszkanie"
+      },
+      {
+        "en": "family",
+        "es": "Familia",
+        "fr": "Famille",
+        "pl": "Rodzina"
+      },
+      {
+        "en": "first",
+        "es": "Primero",
+        "fr": "Première",
+        "pl": "Pierwszy"
+      },
+      {
+        "en": "five",
+        "es": "Cinco",
+        "fr": "Cinq",
+        "pl": "Pięć"
+      },
+      {
+        "en": "food",
+        "es": "víveres",
+        "fr": "Alimentation",
+        "pl": "Jedzenie"
+      },
+      {
+        "en": "for",
+        "es": "para",
+        "fr": "pour",
+        "pl": "dla"
+      },
+      {
+        "en": "garage",
+        "es": "Garaje",
+        "fr": "Garage",
+        "pl": "garaż"
+      },
+      {
+        "en": "go",
+        "es": "¡Ve",
+        "fr": "Vas-y",
+        "pl": "Idź"
+      },
+      {
+        "en": "habitation",
+        "es": "Habitabilidad",
+        "fr": "Habitation",
+        "pl": "Zamieszkiwanie"
+      },
+      {
+        "en": "hearth",
+        "es": "hogar",
+        "fr": "Foyer",
+        "pl": "Ognisko"
+      },
+      {
+        "en": "hobby",
+        "es": "Afición",
+        "fr": "Passe-temps",
+        "pl": "Hobby"
+      },
+      {
+        "en": "home",
+        "es": "Inicio",
+        "fr": "Accueil",
+        "pl": "Dom"
+      },
+      {
+        "en": "homeowner",
+        "es": "Propietario",
+        "fr": "Propriétaire",
+        "pl": "Właściciel domu"
+      },
+      {
+        "en": "homestead",
+        "es": "Casa de Tierra",
+        "fr": "Ferme",
+        "pl": "Gospodarstwo"
+      },
+      {
+        "en": "hometown",
+        "es": "Ciudad natal",
+        "fr": "Ville natale",
+        "pl": "Miasto rodzinne"
+      },
+      {
+        "en": "homeward",
+        "es": "De regreso a casa",
+        "fr": "Retour vers la maison",
+        "pl": "Powrót do domu"
+      },
+      {
+        "en": "hotel",
+        "es": "Hotel",
+        "fr": "hôtel",
+        "pl": "Hotel"
+      },
+      {
+        "en": "house",
+        "es": "Casa",
+        "fr": "Maison",
+        "pl": "Dom"
+      },
+      {
+        "en": "household",
+        "es": "Hogar",
+        "fr": "Foyer",
+        "pl": "Gospodarstwo domowe"
+      },
+      {
+        "en": "in",
+        "es": "en",
+        "fr": "dans",
+        "pl": "w"
+      },
+      {
+        "en": "interior",
+        "es": "Interior",
+        "fr": "Intérieur",
+        "pl": "Wnętrze"
+      },
+      {
+        "en": "investment",
+        "es": "Inversión",
+        "fr": "Investissement",
+        "pl": "Inwestycje"
+      },
+      {
+        "en": "job",
+        "es": "Trabajo",
+        "fr": "Poste",
+        "pl": "Praca"
+      },
+      {
+        "en": "kids",
+        "es": "Hijos",
+        "fr": "Enfants",
+        "pl": "dzieci"
+      },
+      {
+        "en": "kitchen",
+        "es": "Cocina",
+        "fr": "Cuisine",
+        "pl": "Kuchnia"
+      },
+      {
+        "en": "life",
+        "es": "Vida",
+        "fr": "Vie",
+        "pl": "Życie"
+      },
+      {
+        "en": "lifestyle",
+        "es": "modo de vida",
+        "fr": "Mode de vie",
+        "pl": "Styl życia"
+      },
+      {
+        "en": "living",
+        "es": "viviente",
+        "fr": "Vivre",
+        "pl": "Życie"
+      },
+      {
+        "en": "location",
+        "es": "Ubicación",
+        "fr": "Emplacement",
+        "pl": "Lokalizacja"
+      },
+      {
+        "en": "longhouse",
+        "es": "Casa larga",
+        "fr": "Maison longue",
+        "pl": "Długi dom"
+      },
+      {
+        "en": "looking",
+        "es": "mirando",
+        "fr": "regardant",
+        "pl": "Patrząc"
+      },
+      {
+        "en": "mansion",
+        "es": "Mansión",
+        "fr": "Manoir",
+        "pl": "rezydencja"
+      },
+      {
+        "en": "mobile",
+        "es": "Móvil",
+        "fr": "Mobile",
+        "pl": "Mobilna"
+      },
+      {
+        "en": "motel",
+        "es": "motel",
+        "fr": "Motel",
+        "pl": "Motel"
+      },
+      {
+        "en": "national",
+        "es": "Nacional",
+        "fr": "National",
+        "pl": "Narodowe"
+      },
+      {
+        "en": "neighborhood",
+        "es": "Barrio",
+        "fr": "Quartier",
+        "pl": "Dzielnica"
+      },
+      {
+        "en": "nest",
+        "es": "Nido",
+        "fr": "Nid",
+        "pl": "gniazdo"
+      },
+      {
+        "en": "new",
+        "es": "Nuevo",
+        "fr": "Nouveau",
+        "pl": "Nowy"
+      },
+      {
+        "en": "next",
+        "es": "próximo",
+        "fr": "prochain",
+        "pl": "następny"
+      },
+      {
+        "en": "night",
+        "es": "Noche",
+        "fr": "Nuit",
+        "pl": "Noc"
+      },
+      {
+        "en": "office",
+        "es": "Oficina",
+        "fr": "Bureau",
+        "pl": "Biuro"
+      },
+      {
+        "en": "one",
+        "es": "Uno",
+        "fr": "Un",
+        "pl": "Jeden"
+      },
+      {
+        "en": "online",
+        "es": "en línea",
+        "fr": "en ligne",
+        "pl": "Online"
+      },
+      {
+        "en": "origin",
+        "es": "Origen",
+        "fr": "Origine",
+        "pl": "Pochodzenie"
+      },
+      {
+        "en": "out",
+        "es": "Fuera",
+        "fr": "Dehors",
+        "pl": "koniec"
+      },
+      {
+        "en": "parents",
+        "es": "Padres",
+        "fr": "Parents",
+        "pl": "Rodzice"
+      },
+      {
+        "en": "person",
+        "es": "Persona",
+        "fr": "personne",
+        "pl": "osoba"
+      },
+      {
+        "en": "personal",
+        "es": "Vida personal",
+        "fr": "Vie personnelle",
+        "pl": "Życie prywatne"
+      },
+      {
+        "en": "place",
+        "es": "Lugar",
+        "fr": "Lieu",
+        "pl": "Miejsce"
+      },
+      {
+        "en": "popular",
+        "es": "Popular",
+        "fr": "Populaire",
+        "pl": "popularny"
+      },
+      {
+        "en": "private",
+        "es": "Privado",
+        "fr": "Privé",
+        "pl": "Prywatny"
+      },
+      {
+        "en": "property",
+        "es": "Propiedad",
+        "fr": "Propriété",
+        "pl": "Własność"
+      },
+      {
+        "en": "residence",
+        "es": "Residencia",
+        "fr": "Résidence",
+        "pl": "Rezydencja"
+      },
+      {
+        "en": "residences",
+        "es": "Residencias",
+        "fr": "Résidences",
+        "pl": "Rezydencje"
+      },
+      {
+        "en": "residency",
+        "es": "Residencia",
+        "fr": "Résidence",
+        "pl": "Rezydentura"
+      },
+      {
+        "en": "return",
+        "es": "devolución",
+        "fr": "Retour",
+        "pl": "powrót"
+      },
+      {
+        "en": "room",
+        "es": "Habitación",
+        "fr": "Chambre",
+        "pl": "Pokój"
+      },
+      {
+        "en": "root",
+        "es": "Raíz",
+        "fr": "Racine",
+        "pl": "Korzenie"
+      },
+      {
+        "en": "run",
+        "es": "corre",
+        "fr": "Courir",
+        "pl": "Biegnij"
+      },
+      {
+        "en": "safe",
+        "es": "Seguro",
+        "fr": "Sûr",
+        "pl": "bezpieczne"
+      },
+      {
+        "en": "school",
+        "es": "Escuela",
+        "fr": "École",
+        "pl": "Szkoła"
+      },
+      {
+        "en": "second",
+        "es": "Segundo",
+        "fr": "Deuxième",
+        "pl": "drugi"
+      },
+      {
+        "en": "self",
+        "es": "propio",
+        "fr": "Self",
+        "pl": "jaźń"
+      },
+      {
+        "en": "shelter",
+        "es": "Refugio",
+        "fr": "Abri",
+        "pl": "Schronienie"
+      },
+      {
+        "en": "shop",
+        "es": "Tienda",
+        "fr": "Boutique",
+        "pl": "Zakup"
+      },
+      {
+        "en": "start",
+        "es": "Inicio",
+        "fr": "Départ",
+        "pl": "start"
+      },
+      {
+        "en": "store",
+        "es": "Tienda",
+        "fr": "boutique",
+        "pl": "Sklep"
+      },
+      {
+        "en": "village",
+        "es": "Pueblo",
+        "fr": "Village",
+        "pl": "Wieś"
+      },
+      {
+        "en": "weekend",
+        "es": "Fin de semana",
+        "fr": "Week-end",
+        "pl": "weekend"
+      },
+      {
+        "en": "when",
+        "es": "cuando",
+        "fr": "quand",
+        "pl": "gdy"
+      },
+      {
+        "en": "wife",
+        "es": "esposa",
+        "fr": "Femme",
+        "pl": "żona"
+      },
+      {
+        "en": "work",
+        "es": "Obra",
+        "fr": "Œuvre",
+        "pl": "Praca"
+      },
+      {
+        "en": "yard",
+        "es": "Patio",
+        "fr": "yard",
+        "pl": "Stocznia"
+      }
+    ]
+  },
+  {
+    "topic": "Emotion",
+    "words": [
+      {
+        "en": "affection",
+        "es": "Afecto",
+        "fr": "Affection",
+        "pl": "uczucie"
+      },
+      {
+        "en": "anger",
+        "es": "Enfado",
+        "fr": "colère",
+        "pl": "gniew"
+      },
+      {
+        "en": "angst",
+        "es": "Angustia",
+        "fr": "Angoisse",
+        "pl": "Niepokój"
+      },
+      {
+        "en": "anguish",
+        "es": "angustia",
+        "fr": "Angoisse",
+        "pl": "ból"
+      },
+      {
+        "en": "anxiety",
+        "es": "ansiedad",
+        "fr": "anxiété",
+        "pl": "lęk"
+      },
+      {
+        "en": "awe",
+        "es": "Asombro",
+        "fr": "awe",
+        "pl": "Oaw"
+      },
+      {
+        "en": "bitterness",
+        "es": "amargura",
+        "fr": "amertume",
+        "pl": "gorycz"
+      },
+      {
+        "en": "bravado",
+        "es": "Bravada",
+        "fr": "bravade",
+        "pl": "Brawura"
+      },
+      {
+        "en": "calmness",
+        "es": "calma",
+        "fr": "calme",
+        "pl": "spokój"
+      },
+      {
+        "en": "compassion",
+        "es": "compasión",
+        "fr": "compassion",
+        "pl": "współczucie"
+      },
+      {
+        "en": "consciousness",
+        "es": "Conciencia",
+        "fr": "Conscience",
+        "pl": "Świadomość"
+      },
+      {
+        "en": "contempt",
+        "es": "Desacato",
+        "fr": "Mépris",
+        "pl": "pogarda"
+      },
+      {
+        "en": "context",
+        "es": "Contexto",
+        "fr": "Contexte",
+        "pl": "Kontekst"
+      },
+      {
+        "en": "curiosity",
+        "es": "curiosidad",
+        "fr": "curiosité",
+        "pl": "ciekawość"
+      },
+      {
+        "en": "desire",
+        "es": "Deseo",
+        "fr": "désir",
+        "pl": "pożądanie"
+      },
+      {
+        "en": "despair",
+        "es": "Desesperación",
+        "fr": "désespoir",
+        "pl": "Rozpacz"
+      },
+      {
+        "en": "disappointment",
+        "es": "decepción",
+        "fr": "Déception",
+        "pl": "rozczarowanie"
+      },
+      {
+        "en": "discomfort",
+        "es": "Incomodidad",
+        "fr": "Inconfort",
+        "pl": "dyskomfort"
+      },
+      {
+        "en": "disgust",
+        "es": "asco",
+        "fr": "Dégoût",
+        "pl": "obrzydzenie"
+      },
+      {
+        "en": "distress",
+        "es": "Emergencia",
+        "fr": "Détresse",
+        "pl": "Niepokój"
+      },
+      {
+        "en": "effort",
+        "es": "Esfuerzo",
+        "fr": "effort",
+        "pl": "Wysiłek"
+      },
+      {
+        "en": "ego",
+        "es": "Ego",
+        "fr": "Ego",
+        "pl": "ego"
+      },
+      {
+        "en": "emotional",
+        "es": "emocional",
+        "fr": "émotionnellement",
+        "pl": "emocjonalne"
+      },
+      {
+        "en": "emotionally",
+        "es": "emocionalmente",
+        "fr": "Émotionnellement",
+        "pl": "emocjonalnie"
+      },
+      {
+        "en": "emotionless",
+        "es": "sin emociones",
+        "fr": "sans émotion",
+        "pl": "bez emocji"
+      },
+      {
+        "en": "empathy",
+        "es": "empatía",
+        "fr": "empathie",
+        "pl": "empatia"
+      },
+      {
+        "en": "emphasis",
+        "es": "énfasis",
+        "fr": "Emphase",
+        "pl": "Wyróżnienie"
+      },
+      {
+        "en": "emptiness",
+        "es": "vacío",
+        "fr": "Vide",
+        "pl": "pustka"
+      },
+      {
+        "en": "endocrinology",
+        "es": "Endocrinología",
+        "fr": "Endocrinologie",
+        "pl": "Endokrynologia"
+      },
+      {
+        "en": "energy",
+        "es": "Energía",
+        "fr": "Énergie",
+        "pl": "Energia"
+      },
+      {
+        "en": "enthusiasm",
+        "es": "entusiasmo",
+        "fr": "enthousiasme",
+        "pl": "entuzjazm"
+      },
+      {
+        "en": "envy",
+        "es": "envidia",
+        "fr": "envie",
+        "pl": "Zazdrość"
+      },
+      {
+        "en": "everloving",
+        "es": "eterno",
+        "fr": "Éternel",
+        "pl": "everloving"
+      },
+      {
+        "en": "evoked",
+        "es": "evocado",
+        "fr": "évoqué",
+        "pl": "wywołane"
+      },
+      {
+        "en": "evokes",
+        "es": "evoca",
+        "fr": "évoque",
+        "pl": "evokuje"
+      },
+      {
+        "en": "exasperation",
+        "es": "exasperación",
+        "fr": "Exaspération",
+        "pl": "Zniecierpliwienie"
+      },
+      {
+        "en": "excitement",
+        "es": "Emoción",
+        "fr": "excitation",
+        "pl": "ekscytacja"
+      },
+      {
+        "en": "experience",
+        "es": "Experiencia",
+        "fr": "Expérience",
+        "pl": "Doświadczenie"
+      },
+      {
+        "en": "expressive",
+        "es": "expresivo",
+        "fr": "expressif",
+        "pl": "ekspresyjne"
+      },
+      {
+        "en": "expressiveness",
+        "es": "Expresividad",
+        "fr": "Expressivité",
+        "pl": "ekspresja"
+      },
+      {
+        "en": "exuberance",
+        "es": "exuberancia",
+        "fr": "exubérance",
+        "pl": "Euforia"
+      },
+      {
+        "en": "exultation",
+        "es": "Exultación",
+        "fr": "Exultation",
+        "pl": "uniesienie"
+      },
+      {
+        "en": "fear",
+        "es": "miedo",
+        "fr": "peur",
+        "pl": "strach"
+      },
+      {
+        "en": "feeling",
+        "es": "Sentimiento",
+        "fr": "Ressentir",
+        "pl": "Uczucie"
+      },
+      {
+        "en": "feelings",
+        "es": "Sentimientos",
+        "fr": "Sentiments",
+        "pl": "uczucia"
+      },
+      {
+        "en": "frustration",
+        "es": "frustración",
+        "fr": "Frustration",
+        "pl": "Frustracja"
+      },
+      {
+        "en": "grief",
+        "es": "duelo",
+        "fr": "deuil",
+        "pl": "Żałoba"
+      },
+      {
+        "en": "guilt",
+        "es": "Culpa",
+        "fr": "Culpabilité",
+        "pl": "poczucie winy"
+      },
+      {
+        "en": "happiness",
+        "es": "Felicidad",
+        "fr": "Bonheur",
+        "pl": "szczęście"
+      },
+      {
+        "en": "hate",
+        "es": "odio",
+        "fr": "Haïe",
+        "pl": "Nienawiść"
+      },
+      {
+        "en": "hatred",
+        "es": "odio",
+        "fr": "Haine",
+        "pl": "nienawiść"
+      },
+      {
+        "en": "humility",
+        "es": "humildad",
+        "fr": "humilité",
+        "pl": "Pokora"
+      },
+      {
+        "en": "idea",
+        "es": "Idea",
+        "fr": "Idée",
+        "pl": "Idea"
+      },
+      {
+        "en": "indignation",
+        "es": "indignación",
+        "fr": "indignation",
+        "pl": "oburzenie"
+      },
+      {
+        "en": "intention",
+        "es": "Intención",
+        "fr": "Intention",
+        "pl": "Intencja"
+      },
+      {
+        "en": "intuition",
+        "es": "Intuición",
+        "fr": "Intuition",
+        "pl": "intuicja"
+      },
+      {
+        "en": "jealousy",
+        "es": "Celos",
+        "fr": "jalousie",
+        "pl": "Zazdrość"
+      },
+      {
+        "en": "joy",
+        "es": "Alegría",
+        "fr": "Joie",
+        "pl": "radość"
+      },
+      {
+        "en": "joyousness",
+        "es": "alegría",
+        "fr": "joie",
+        "pl": "radosność"
+      },
+      {
+        "en": "laughter",
+        "es": "risas",
+        "fr": "rires",
+        "pl": "śmiech"
+      },
+      {
+        "en": "love",
+        "es": "Con amor",
+        "fr": "Amour",
+        "pl": "miłość"
+      },
+      {
+        "en": "melancholy",
+        "es": "melancólica",
+        "fr": "mélancolie",
+        "pl": "melancholia"
+      },
+      {
+        "en": "mental",
+        "es": "mental",
+        "fr": "mental",
+        "pl": "mentalne"
+      },
+      {
+        "en": "mind",
+        "es": "mente",
+        "fr": "Esprit",
+        "pl": "umysł"
+      },
+      {
+        "en": "mood",
+        "es": "Ambiente",
+        "fr": "Humeur",
+        "pl": "nastrój"
+      },
+      {
+        "en": "motivation",
+        "es": "Motivación",
+        "fr": "Motivation",
+        "pl": "Motywacja"
+      },
+      {
+        "en": "nuance",
+        "es": "Matiz",
+        "fr": "Nuance",
+        "pl": "Niuanse"
+      },
+      {
+        "en": "pain",
+        "es": "Dolor",
+        "fr": "Douleur",
+        "pl": "Ból"
+      },
+      {
+        "en": "panic",
+        "es": "pánico",
+        "fr": "panique",
+        "pl": "Panika"
+      },
+      {
+        "en": "passion",
+        "es": "Pasión",
+        "fr": "Passion",
+        "pl": "Pasja"
+      },
+      {
+        "en": "pathos",
+        "es": "Patetismo",
+        "fr": "Pathos",
+        "pl": "Patos"
+      },
+      {
+        "en": "phobia",
+        "es": "Fobia",
+        "fr": "phobie",
+        "pl": "fobia"
+      },
+      {
+        "en": "pity",
+        "es": "Lástima",
+        "fr": "pitié",
+        "pl": "szkoda"
+      },
+      {
+        "en": "psychological",
+        "es": "psicológico",
+        "fr": "Psychologique",
+        "pl": "psychologiczne"
+      },
+      {
+        "en": "psychology",
+        "es": "Psicología",
+        "fr": "Psychologie",
+        "pl": "Psychologia"
+      },
+      {
+        "en": "reaction",
+        "es": "Reacción",
+        "fr": "Réaction",
+        "pl": "Reakcja"
+      },
+      {
+        "en": "remorse",
+        "es": "Remordimiento",
+        "fr": "Remords",
+        "pl": "Skrucha"
+      },
+      {
+        "en": "sadden",
+        "es": "triste",
+        "fr": "triste",
+        "pl": "Smutny"
+      },
+      {
+        "en": "sadness",
+        "es": "tristeza",
+        "fr": "tristesse",
+        "pl": "smutek"
+      },
+      {
+        "en": "sarcasm",
+        "es": "sarcasmo",
+        "fr": "Sarcasme",
+        "pl": "Sarkazm"
+      },
+      {
+        "en": "sensation",
+        "es": "Sensación",
+        "fr": "sensation",
+        "pl": "Sensacja"
+      },
+      {
+        "en": "sense",
+        "es": "Sentido",
+        "fr": "Sens",
+        "pl": "sens"
+      },
+      {
+        "en": "sensitivity",
+        "es": "Sensibilidad",
+        "fr": "Sensibilité",
+        "pl": "Czułość"
+      },
+      {
+        "en": "sentiment",
+        "es": "Sentimiento",
+        "fr": "Sentiment",
+        "pl": "Sentyment"
+      },
+      {
+        "en": "shaking",
+        "es": "temblando",
+        "fr": "tremblements",
+        "pl": "trzęsienie"
+      },
+      {
+        "en": "shame",
+        "es": "Qué vergüenza",
+        "fr": "Dommage",
+        "pl": "Wstyd"
+      },
+      {
+        "en": "shyness",
+        "es": "timidez",
+        "fr": "timidité",
+        "pl": "nieśmiałość"
+      },
+      {
+        "en": "silence",
+        "es": "Silencio",
+        "fr": "Silence",
+        "pl": "cisza"
+      },
+      {
+        "en": "sociology",
+        "es": "Sociología",
+        "fr": "Sociologie",
+        "pl": "Socjologia"
+      },
+      {
+        "en": "sorrow",
+        "es": "tristeza",
+        "fr": "Tristesse",
+        "pl": "Smutek"
+      },
+      {
+        "en": "spontaneity",
+        "es": "espontaneidad",
+        "fr": "spontanéité",
+        "pl": "spontaniczność"
+      },
+      {
+        "en": "stress",
+        "es": "Tensión",
+        "fr": "Contrainte",
+        "pl": "Stres"
+      },
+      {
+        "en": "surprise",
+        "es": "Sorpresa",
+        "fr": "Surprise",
+        "pl": "niespodzianka"
+      },
+      {
+        "en": "sympathy",
+        "es": "Simpatía",
+        "fr": "sympathie",
+        "pl": "Współczucie"
+      },
+      {
+        "en": "thankfulness",
+        "es": "agradecimiento",
+        "fr": "la gratitude",
+        "pl": "wdzięczność"
+      },
+      {
+        "en": "thought",
+        "es": "Pensamiento",
+        "fr": "pensée",
+        "pl": "myśl"
+      },
+      {
+        "en": "thrill",
+        "es": "emoción",
+        "fr": "Frisson",
+        "pl": "emocje"
+      },
+      {
+        "en": "timidity",
+        "es": "Timidez",
+        "fr": "timidité",
+        "pl": "Nieśmiałość"
+      },
+      {
+        "en": "vibe",
+        "es": "Ambiente",
+        "fr": "Vibe",
+        "pl": "klimat"
+      },
+      {
+        "en": "weakness",
+        "es": "Debilidad",
+        "fr": "Faiblesses",
+        "pl": "Słabość"
+      }
+    ]
+  },
+  {
+    "topic": "Health",
+    "words": [
+      {
+        "en": "ability",
+        "es": "Capacidad",
+        "fr": "Capacité",
+        "pl": "Zdolność"
+      },
+      {
+        "en": "addiction",
+        "es": "Adicción",
+        "fr": "Addiction",
+        "pl": "Uzależnienie"
+      },
+      {
+        "en": "adhd",
+        "es": "TDAH",
+        "fr": "TDAH",
+        "pl": "ADHD"
+      },
+      {
+        "en": "age",
+        "es": "Edad",
+        "fr": "Âge",
+        "pl": "wiek"
+      },
+      {
+        "en": "agriculture",
+        "es": "Agricultura",
+        "fr": "Agriculture",
+        "pl": "Rolnictwo"
+      },
+      {
+        "en": "anxiety",
+        "es": "ansiedad",
+        "fr": "anxiété",
+        "pl": "lęk"
+      },
+      {
+        "en": "armor",
+        "es": "Blindaje",
+        "fr": "Armure",
+        "pl": "Pancerz"
+      },
+      {
+        "en": "bathing",
+        "es": "Baños",
+        "fr": "Bain",
+        "pl": "kąpiel"
+      },
+      {
+        "en": "beauty",
+        "es": "Belleza",
+        "fr": "Beauté",
+        "pl": "piękno"
+      },
+      {
+        "en": "behavioral",
+        "es": "Conductual",
+        "fr": "Comportement",
+        "pl": "behawioralne"
+      },
+      {
+        "en": "benefit",
+        "es": "Beneficio",
+        "fr": "Avantage",
+        "pl": "Korzyść"
+      },
+      {
+        "en": "biostatistics",
+        "es": "Bioestadística",
+        "fr": "Biostatistique",
+        "pl": "Biostatystyka"
+      },
+      {
+        "en": "body",
+        "es": "Cuerpo",
+        "fr": "Carrosserie",
+        "pl": "Korpus"
+      },
+      {
+        "en": "bodyweight",
+        "es": "Peso corporal",
+        "fr": "Poids corporel",
+        "pl": "Masa ciała"
+      },
+      {
+        "en": "care",
+        "es": "Cuidado",
+        "fr": "Soins",
+        "pl": "Opieka"
+      },
+      {
+        "en": "childcare",
+        "es": "Cuidado infantil",
+        "fr": "Garde d’enfants",
+        "pl": "Opieka nad dziećmi"
+      },
+      {
+        "en": "cognition",
+        "es": "Cognición",
+        "fr": "Cognition",
+        "pl": "Poznanie"
+      },
+      {
+        "en": "condition",
+        "es": "Condición",
+        "fr": "Condition",
+        "pl": "Stan"
+      },
+      {
+        "en": "damage",
+        "es": "Daños",
+        "fr": "Dégâts",
+        "pl": "Uszkodzenia"
+      },
+      {
+        "en": "defense",
+        "es": "Defensa",
+        "fr": "Défense",
+        "pl": "Obrona"
+      },
+      {
+        "en": "diet",
+        "es": "Dieta",
+        "fr": "Régime alimentaire",
+        "pl": "Dieta"
+      },
+      {
+        "en": "disabilities",
+        "es": "Discapacidades",
+        "fr": "Handicaps",
+        "pl": "Niepełnosprawności"
+      },
+      {
+        "en": "disability",
+        "es": "Discapacidad",
+        "fr": "Handicap",
+        "pl": "Niepełnosprawność"
+      },
+      {
+        "en": "disease",
+        "es": "Enfermedad",
+        "fr": "Maladie",
+        "pl": "Choroba"
+      },
+      {
+        "en": "doctor",
+        "es": "Doctor",
+        "fr": "Docteur",
+        "pl": "doktorze"
+      },
+      {
+        "en": "doctors",
+        "es": "Médicos",
+        "fr": "Médecins",
+        "pl": "Lekarze"
+      },
+      {
+        "en": "drug",
+        "es": "Droga",
+        "fr": "Drogue",
+        "pl": "Lek"
+      },
+      {
+        "en": "education",
+        "es": "Educación",
+        "fr": "Éducation",
+        "pl": "Edukacja"
+      },
+      {
+        "en": "eduction",
+        "es": "Educación",
+        "fr": "Éducation",
+        "pl": "Edukacja"
+      },
+      {
+        "en": "energy",
+        "es": "Energía",
+        "fr": "Énergie",
+        "pl": "Energia"
+      },
+      {
+        "en": "environmental",
+        "es": "Medio ambiente",
+        "fr": "Environnement",
+        "pl": "środowisko"
+      },
+      {
+        "en": "epidemiological",
+        "es": "epidemiológico",
+        "fr": "Épidémiologie",
+        "pl": "epidemiologia"
+      },
+      {
+        "en": "epidemiology",
+        "es": "Epidemiología",
+        "fr": "Épidémiologie",
+        "pl": "Epidemiologia"
+      },
+      {
+        "en": "exercise",
+        "es": "Ejercicio",
+        "fr": "Exercice",
+        "pl": "Ćwiczenia"
+      },
+      {
+        "en": "fitness",
+        "es": "aptitud",
+        "fr": "aptitude",
+        "pl": "Sprawność fizyczna"
+      },
+      {
+        "en": "flab",
+        "es": "Flab",
+        "fr": "Flab",
+        "pl": "tłuszcz"
+      },
+      {
+        "en": "food",
+        "es": "víveres",
+        "fr": "Alimentation",
+        "pl": "Jedzenie"
+      },
+      {
+        "en": "genetic",
+        "es": "genético",
+        "fr": "génétique",
+        "pl": "Genetyczne"
+      },
+      {
+        "en": "gym",
+        "es": "Gimnasio",
+        "fr": "Gymnase",
+        "pl": "Siłownia"
+      },
+      {
+        "en": "happiness",
+        "es": "Felicidad",
+        "fr": "Bonheur",
+        "pl": "szczęście"
+      },
+      {
+        "en": "healing",
+        "es": "Sanación",
+        "fr": "Guérison",
+        "pl": "Leczenie"
+      },
+      {
+        "en": "health",
+        "es": "Salud",
+        "fr": "Santé",
+        "pl": "Zdrowie"
+      },
+      {
+        "en": "healthcare",
+        "es": "atención sanitaria",
+        "fr": "Soins de santé",
+        "pl": "Opieka zdrowotna"
+      },
+      {
+        "en": "healthiness",
+        "es": "Salud",
+        "fr": "Sain",
+        "pl": "Zdrowie"
+      },
+      {
+        "en": "healthy",
+        "es": "Saludable",
+        "fr": "En bonne santé",
+        "pl": "Zdrowe"
+      },
+      {
+        "en": "heart",
+        "es": "corazón",
+        "fr": "Cœur",
+        "pl": "Serce"
+      },
+      {
+        "en": "hidrosis",
+        "es": "Hidrosis",
+        "fr": "Hidrose",
+        "pl": "Hydroza"
+      },
+      {
+        "en": "hospital",
+        "es": "Hospital",
+        "fr": "Hôpital",
+        "pl": "Szpital"
+      },
+      {
+        "en": "hospitals",
+        "es": "Hospitales",
+        "fr": "Hôpitaux",
+        "pl": "Szpitale"
+      },
+      {
+        "en": "hygiene",
+        "es": "Higiene",
+        "fr": "Hygiène",
+        "pl": "Higiena"
+      },
+      {
+        "en": "illness",
+        "es": "Enfermedad",
+        "fr": "Maladie",
+        "pl": "Choroby"
+      },
+      {
+        "en": "immunizations",
+        "es": "Inmunizaciones",
+        "fr": "Immunisations",
+        "pl": "Szczepienia"
+      },
+      {
+        "en": "improve",
+        "es": "mejorar",
+        "fr": "améliorer",
+        "pl": "popraw"
+      },
+      {
+        "en": "infants",
+        "es": "Bebés",
+        "fr": "Nourrissons",
+        "pl": "Niemowlęta"
+      },
+      {
+        "en": "injury",
+        "es": "Herida",
+        "fr": "Blessure",
+        "pl": "Szkody"
+      },
+      {
+        "en": "insurance",
+        "es": "Seguros",
+        "fr": "Assurance",
+        "pl": "Ubezpieczenia"
+      },
+      {
+        "en": "life",
+        "es": "Vida",
+        "fr": "Vie",
+        "pl": "Życie"
+      },
+      {
+        "en": "lifestyle",
+        "es": "modo de vida",
+        "fr": "Mode de vie",
+        "pl": "Styl życia"
+      },
+      {
+        "en": "medical",
+        "es": "Médico",
+        "fr": "Médical",
+        "pl": "Medycyna"
+      },
+      {
+        "en": "medicare",
+        "es": "Medicare",
+        "fr": "Medicare",
+        "pl": "Medicare"
+      },
+      {
+        "en": "medicine",
+        "es": "Medicina",
+        "fr": "Médecine",
+        "pl": "Medycyna"
+      },
+      {
+        "en": "meditation",
+        "es": "Meditación",
+        "fr": "Méditation",
+        "pl": "medytacja"
+      },
+      {
+        "en": "mental",
+        "es": "mental",
+        "fr": "mental",
+        "pl": "mentalne"
+      },
+      {
+        "en": "nursing",
+        "es": "Enfermería",
+        "fr": "Soins infirmiers",
+        "pl": "Pielęgniarstwo"
+      },
+      {
+        "en": "nutrition",
+        "es": "Nutrición",
+        "fr": "Nutrition",
+        "pl": "Odżywianie"
+      },
+      {
+        "en": "nutritional",
+        "es": "Nutricional",
+        "fr": "Nutrition",
+        "pl": "Odżywcze"
+      },
+      {
+        "en": "obesity",
+        "es": "Obesidad",
+        "fr": "Obésité",
+        "pl": "Otyłość"
+      },
+      {
+        "en": "patient",
+        "es": "paciente",
+        "fr": "Patient",
+        "pl": "pacjent"
+      },
+      {
+        "en": "patients",
+        "es": "Pacientes",
+        "fr": "Patients",
+        "pl": "Pacjenci"
+      },
+      {
+        "en": "pension",
+        "es": "Pensión",
+        "fr": "Pension",
+        "pl": "Emerytura"
+      },
+      {
+        "en": "physical",
+        "es": "físico",
+        "fr": "physique",
+        "pl": "Fizyczne"
+      },
+      {
+        "en": "physiotherapist",
+        "es": "fisioterapeuta",
+        "fr": "kinésithérapeute",
+        "pl": "Fizjoterapeuta"
+      },
+      {
+        "en": "preventative",
+        "es": "Preventivo",
+        "fr": "Prévention",
+        "pl": "Zapobiegawcze"
+      },
+      {
+        "en": "preventive",
+        "es": "Preventivo",
+        "fr": "Préventif",
+        "pl": "Zapobiegawczy"
+      },
+      {
+        "en": "program",
+        "es": "Programa",
+        "fr": "Programme",
+        "pl": "Program"
+      },
+      {
+        "en": "prot",
+        "es": "Prot",
+        "fr": "Prot",
+        "pl": "Prot"
+      },
+      {
+        "en": "psychological",
+        "es": "psicológico",
+        "fr": "Psychologique",
+        "pl": "psychologiczne"
+      },
+      {
+        "en": "recovery",
+        "es": "Recuperación",
+        "fr": "Récupération",
+        "pl": "Odbudowa"
+      },
+      {
+        "en": "reproductive",
+        "es": "Reproductivo",
+        "fr": "Reproduction",
+        "pl": "Rozrodczy"
+      },
+      {
+        "en": "research",
+        "es": "Investigación",
+        "fr": "Recherche",
+        "pl": "Badania"
+      },
+      {
+        "en": "safety",
+        "es": "Seguridad",
+        "fr": "Sécurité",
+        "pl": "Bezpieczeństwo"
+      },
+      {
+        "en": "sanitation",
+        "es": "Saneamiento",
+        "fr": "Assainissement",
+        "pl": "Sanitaria"
+      },
+      {
+        "en": "sanity",
+        "es": "Cordura",
+        "fr": "Lucidité",
+        "pl": "Zdrowy rozsądek"
+      },
+      {
+        "en": "shield",
+        "es": "Escudo",
+        "fr": "Bouclier",
+        "pl": "tarcza"
+      },
+      {
+        "en": "social",
+        "es": "Social",
+        "fr": "Social",
+        "pl": "Społeczeństwo"
+      },
+      {
+        "en": "speed",
+        "es": "Velocidad",
+        "fr": "Vitesse",
+        "pl": "Prędkość"
+      },
+      {
+        "en": "stamina",
+        "es": "Resistencia",
+        "fr": "Endurance",
+        "pl": "wytrzymałość"
+      },
+      {
+        "en": "stomatology",
+        "es": "Estomatología",
+        "fr": "Stomatologie",
+        "pl": "Stomatologia"
+      },
+      {
+        "en": "strength",
+        "es": "Fuerza",
+        "fr": "Force",
+        "pl": "Siła"
+      },
+      {
+        "en": "stress",
+        "es": "Tensión",
+        "fr": "Contrainte",
+        "pl": "Stres"
+      },
+      {
+        "en": "substance",
+        "es": "Contenido",
+        "fr": "Substance",
+        "pl": "Istota"
+      },
+      {
+        "en": "sunburn",
+        "es": "Quemadura solar",
+        "fr": "coup de soleil",
+        "pl": "Oparzenie słoneczne"
+      },
+      {
+        "en": "therapy",
+        "es": "Terapia",
+        "fr": "Thérapie",
+        "pl": "Terapia"
+      },
+      {
+        "en": "vaccinator",
+        "es": "vacunador",
+        "fr": "Vaccinateur",
+        "pl": "szczepionka"
+      },
+      {
+        "en": "weight",
+        "es": "Peso",
+        "fr": "Poids",
+        "pl": "Waga"
+      },
+      {
+        "en": "welfare",
+        "es": "Bienestar",
+        "fr": "Bien-être",
+        "pl": "Opieka społeczna"
+      },
+      {
+        "en": "well",
+        "es": "bueno",
+        "fr": "Eh bien",
+        "pl": "no"
+      },
+      {
+        "en": "well-being",
+        "es": "Bienestar",
+        "fr": "Bien-être",
+        "pl": "dobrostan"
+      },
+      {
+        "en": "wellbeing",
+        "es": "Bienestar",
+        "fr": "Bien-être",
+        "pl": "Dobrostan"
+      },
+      {
+        "en": "wellness",
+        "es": "Bienestar",
+        "fr": "Bien-être",
+        "pl": "Wellness"
+      }
+    ]
+  },
+  {
+    "topic": "Ride",
+    "words": [
+      {
+        "en": "adventure",
+        "es": "aventura",
+        "fr": "Aventure",
+        "pl": "Przygoda"
+      },
+      {
+        "en": "attraction",
+        "es": "Atracción",
+        "fr": "Attraction",
+        "pl": "Atrakcje"
+      },
+      {
+        "en": "bait",
+        "es": "cebo",
+        "fr": "Appât",
+        "pl": "Przynęta"
+      },
+      {
+        "en": "bicycle",
+        "es": "Bicicleta",
+        "fr": "Vélo",
+        "pl": "Rower"
+      },
+      {
+        "en": "bike",
+        "es": "Bicicleta",
+        "fr": "Vélo",
+        "pl": "rower"
+      },
+      {
+        "en": "biked",
+        "es": "En bici",
+        "fr": "Vélo",
+        "pl": "jeździł na rowerze"
+      },
+      {
+        "en": "bikes",
+        "es": "Bicicletas",
+        "fr": "Motos",
+        "pl": "Rowery"
+      },
+      {
+        "en": "biking",
+        "es": "Ciclismo",
+        "fr": "Vélo",
+        "pl": "Jazda na rowerze"
+      },
+      {
+        "en": "boat",
+        "es": "Barco",
+        "fr": "Bateau",
+        "pl": "Łódź"
+      },
+      {
+        "en": "bus",
+        "es": "Autobús",
+        "fr": "Bus",
+        "pl": "Autobus"
+      },
+      {
+        "en": "buy",
+        "es": "comprar",
+        "fr": "Achetez",
+        "pl": "Kup"
+      },
+      {
+        "en": "cab",
+        "es": "Cabina",
+        "fr": "Cabine",
+        "pl": "Kabina"
+      },
+      {
+        "en": "canter",
+        "es": "Galope",
+        "fr": "galop",
+        "pl": "galop"
+      },
+      {
+        "en": "car",
+        "es": "Coche",
+        "fr": "voiture",
+        "pl": "Samochód"
+      },
+      {
+        "en": "carousel",
+        "es": "Carrusel",
+        "fr": "Carrousel",
+        "pl": "karuzela"
+      },
+      {
+        "en": "chariot",
+        "es": "Carro",
+        "fr": "char",
+        "pl": "rydwan"
+      },
+      {
+        "en": "climb",
+        "es": "ascensión",
+        "fr": "Ascension",
+        "pl": "Wspinaczka"
+      },
+      {
+        "en": "coaster",
+        "es": "Montaña rusa",
+        "fr": "montagne russe",
+        "pl": "Kolejka"
+      },
+      {
+        "en": "cod",
+        "es": "Bacalao",
+        "fr": "Morue",
+        "pl": "Dorsz"
+      },
+      {
+        "en": "commute",
+        "es": "viajar regularmente",
+        "fr": "Transport domicile-travail",
+        "pl": "Dojazdy"
+      },
+      {
+        "en": "crash",
+        "es": "estruendo",
+        "fr": "crash",
+        "pl": "crash"
+      },
+      {
+        "en": "cruising",
+        "es": "Cruceros",
+        "fr": "Croisière",
+        "pl": "Rejs"
+      },
+      {
+        "en": "cycle",
+        "es": "Ciclo",
+        "fr": "cycle",
+        "pl": "Cykl"
+      },
+      {
+        "en": "delivery",
+        "es": "Entrega",
+        "fr": "Livraison",
+        "pl": "Dostawa"
+      },
+      {
+        "en": "drive",
+        "es": "Impulso",
+        "fr": "Entraînement",
+        "pl": "Jazda"
+      },
+      {
+        "en": "excursion",
+        "es": "Excursión",
+        "fr": "Excursion",
+        "pl": "Wycieczka"
+      },
+      {
+        "en": "excursions",
+        "es": "Excursiones",
+        "fr": "Excursions",
+        "pl": "Wycieczki"
+      },
+      {
+        "en": "experience",
+        "es": "Experiencia",
+        "fr": "Expérience",
+        "pl": "Doświadczenie"
+      },
+      {
+        "en": "flight",
+        "es": "Vuelo",
+        "fr": "Fuite",
+        "pl": "Lot"
+      },
+      {
+        "en": "fly",
+        "es": "¡Fly",
+        "fr": "Mouche",
+        "pl": "Lataj"
+      },
+      {
+        "en": "food",
+        "es": "víveres",
+        "fr": "Alimentation",
+        "pl": "Jedzenie"
+      },
+      {
+        "en": "gallop",
+        "es": "Galop",
+        "fr": "Galop",
+        "pl": "galop"
+      },
+      {
+        "en": "get",
+        "es": "Obtener",
+        "fr": "Avoir",
+        "pl": "Pobierz"
+      },
+      {
+        "en": "go",
+        "es": "¡Ve",
+        "fr": "Vas-y",
+        "pl": "Idź"
+      },
+      {
+        "en": "grind",
+        "es": "moler",
+        "fr": "Moudre",
+        "pl": "grind"
+      },
+      {
+        "en": "handling",
+        "es": "Manejo",
+        "fr": "Manipulation",
+        "pl": "Prowadzenie"
+      },
+      {
+        "en": "have",
+        "es": "have",
+        "fr": "avoir",
+        "pl": "mają"
+      },
+      {
+        "en": "hike",
+        "es": "Caminata",
+        "fr": "Randonnée",
+        "pl": "Wędrówka"
+      },
+      {
+        "en": "hitch",
+        "es": "Hitch",
+        "fr": "Attelage",
+        "pl": "Hitch"
+      },
+      {
+        "en": "hopped",
+        "es": "saltando",
+        "fr": "hoppée",
+        "pl": "hoped"
+      },
+      {
+        "en": "horse",
+        "es": "Caballo",
+        "fr": "cheval",
+        "pl": "Koń"
+      },
+      {
+        "en": "jaunts",
+        "es": "Viajes",
+        "fr": "Voyages",
+        "pl": "wyprawy"
+      },
+      {
+        "en": "journey",
+        "es": "Viaje",
+        "fr": "Parcours",
+        "pl": "Podróż"
+      },
+      {
+        "en": "journeys",
+        "es": "Viajes",
+        "fr": "Voyages",
+        "pl": "Podróże"
+      },
+      {
+        "en": "joyride",
+        "es": "paseo",
+        "fr": "Promenade de plaisir",
+        "pl": "Jazda dla przyjemności"
+      },
+      {
+        "en": "live",
+        "es": "En directo",
+        "fr": "Live",
+        "pl": "na żywo"
+      },
+      {
+        "en": "locomote",
+        "es": "Locomote",
+        "fr": "Locomote",
+        "pl": "locomote"
+      },
+      {
+        "en": "motorbike",
+        "es": "moto",
+        "fr": "Moto",
+        "pl": "motocykl"
+      },
+      {
+        "en": "motorcycle",
+        "es": "Motocicleta",
+        "fr": "Moto",
+        "pl": "Motocykl"
+      },
+      {
+        "en": "mount",
+        "es": "Mount",
+        "fr": "Mont",
+        "pl": "Mount"
+      },
+      {
+        "en": "move",
+        "es": "¡Muévete",
+        "fr": "Bouge",
+        "pl": "ruszyć się"
+      },
+      {
+        "en": "outride",
+        "es": "Salida",
+        "fr": "Sortie",
+        "pl": "Outride"
+      },
+      {
+        "en": "override",
+        "es": "Anulación",
+        "fr": "Outremise",
+        "pl": "Nadpisanie"
+      },
+      {
+        "en": "own",
+        "es": "Own",
+        "fr": "Own",
+        "pl": "własne"
+      },
+      {
+        "en": "paddling",
+        "es": "Remo",
+        "fr": "pagayage",
+        "pl": "Wiosłowanie"
+      },
+      {
+        "en": "park",
+        "es": "Parque",
+        "fr": "Parc",
+        "pl": "Park"
+      },
+      {
+        "en": "pedaled",
+        "es": "pedaleado",
+        "fr": "pédalé",
+        "pl": "Na pedałach"
+      },
+      {
+        "en": "play",
+        "es": "Juego",
+        "fr": "Jeu",
+        "pl": "Sztuka"
+      },
+      {
+        "en": "prance",
+        "es": "Prance",
+        "fr": "Prance",
+        "pl": "Prance"
+      },
+      {
+        "en": "race",
+        "es": "Carrera",
+        "fr": "Course",
+        "pl": "Wyścig"
+      },
+      {
+        "en": "racers",
+        "es": "Corredores",
+        "fr": "Coureurs",
+        "pl": "Wyścigowcy"
+      },
+      {
+        "en": "racing",
+        "es": "Carreras",
+        "fr": "Courses",
+        "pl": "Wyścigi"
+      },
+      {
+        "en": "rag",
+        "es": "rag",
+        "fr": "rag",
+        "pl": "Rag"
+      },
+      {
+        "en": "rally",
+        "es": "Rally",
+        "fr": "Rallye",
+        "pl": "Rajd"
+      },
+      {
+        "en": "ridden",
+        "es": "Montado",
+        "fr": "Chevauché",
+        "pl": "Jeździł"
+      },
+      {
+        "en": "riders",
+        "es": "Jinetes",
+        "fr": "Cavaliers",
+        "pl": "Jeźdźcy"
+      },
+      {
+        "en": "rides",
+        "es": "Atracciones",
+        "fr": "Attractions",
+        "pl": "Przejazdy"
+      },
+      {
+        "en": "riding",
+        "es": "Circunscripción",
+        "fr": "Circonscription",
+        "pl": "Okręg"
+      },
+      {
+        "en": "rode",
+        "es": "cabalgado",
+        "fr": "Cheval",
+        "pl": "Jazda"
+      },
+      {
+        "en": "run",
+        "es": "corre",
+        "fr": "Courir",
+        "pl": "Biegnij"
+      },
+      {
+        "en": "saddle",
+        "es": "silla",
+        "fr": "Selle",
+        "pl": "siodło"
+      },
+      {
+        "en": "sailing",
+        "es": "Vela",
+        "fr": "Voile",
+        "pl": "żeglarstwo"
+      },
+      {
+        "en": "see",
+        "es": "véase",
+        "fr": "voir",
+        "pl": "Zobacz"
+      },
+      {
+        "en": "show",
+        "es": "Programa",
+        "fr": "Émission",
+        "pl": "Pokaz"
+      },
+      {
+        "en": "sit",
+        "es": "Siéntate",
+        "fr": "Assieds-toi",
+        "pl": "usiądź"
+      },
+      {
+        "en": "sleigh",
+        "es": "trineo",
+        "fr": "Traîneau",
+        "pl": "Sanie"
+      },
+      {
+        "en": "snowmobile",
+        "es": "Moto de nieve",
+        "fr": "Motoneige",
+        "pl": "skuter śnieżny"
+      },
+      {
+        "en": "suck",
+        "es": "¡Horrible",
+        "fr": "Nul",
+        "pl": "Do bani"
+      },
+      {
+        "en": "suspension",
+        "es": "Suspensión",
+        "fr": "Suspension",
+        "pl": "Zawieszenie"
+      },
+      {
+        "en": "swim",
+        "es": "Nadar",
+        "fr": "Natation",
+        "pl": "pływanie"
+      },
+      {
+        "en": "tame",
+        "es": "domesticado",
+        "fr": "apprivoisé",
+        "pl": "oswojony"
+      },
+      {
+        "en": "tantalize",
+        "es": "tentar",
+        "fr": "Tenter",
+        "pl": "Kusząca"
+      },
+      {
+        "en": "taunt",
+        "es": "Burla",
+        "fr": "provocation",
+        "pl": "drwienie"
+      },
+      {
+        "en": "taxi",
+        "es": "Taxi",
+        "fr": "Taxi",
+        "pl": "Taxi"
+      },
+      {
+        "en": "taxis",
+        "es": "Taxis",
+        "fr": "Taxis",
+        "pl": "Taksówki"
+      },
+      {
+        "en": "tease",
+        "es": "molestar",
+        "fr": "Tease",
+        "pl": "drażnić"
+      },
+      {
+        "en": "train",
+        "es": "tren",
+        "fr": "train",
+        "pl": "Pociąg"
+      },
+      {
+        "en": "travel",
+        "es": "Viajes",
+        "fr": "Voyage",
+        "pl": "Podróże"
+      },
+      {
+        "en": "traveling",
+        "es": "Viajes",
+        "fr": "Voyages",
+        "pl": "Podróżowanie"
+      },
+      {
+        "en": "trek",
+        "es": "emigrar",
+        "fr": "Trek",
+        "pl": "Trek"
+      },
+      {
+        "en": "trekking",
+        "es": "Senderismo",
+        "fr": "Randonnée",
+        "pl": "Trekking"
+      },
+      {
+        "en": "treks",
+        "es": "Excursiones",
+        "fr": "Randonnées",
+        "pl": "Treksaki"
+      },
+      {
+        "en": "trip",
+        "es": "Viaje",
+        "fr": "Voyage",
+        "pl": "wycieczka"
+      },
+      {
+        "en": "twit",
+        "es": "Idiota",
+        "fr": "Idiot",
+        "pl": "głupek"
+      },
+      {
+        "en": "uber",
+        "es": "Uber",
+        "fr": "Uber",
+        "pl": "Uber"
+      },
+      {
+        "en": "use",
+        "es": "Uso",
+        "fr": "Utilisation",
+        "pl": "Zastosowanie"
+      },
+      {
+        "en": "walk",
+        "es": "Camina",
+        "fr": "Marche",
+        "pl": "Spacer"
+      },
+      {
+        "en": "wheel",
+        "es": "Rueda",
+        "fr": "Roue",
+        "pl": "Koło"
+      },
+      {
+        "en": "work",
+        "es": "Obra",
+        "fr": "Œuvre",
+        "pl": "Praca"
+      },
+      {
+        "en": "workout",
+        "es": "Entrenamiento",
+        "fr": "Entraînement",
+        "pl": "trening"
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "language": {
+    "nodes": [
+      {
+        "id": "en"
+      },
+      {
+        "id": "es"
+      },
+      {
+        "id": "fr"
+      },
+      {
+        "id": "pl"
+      }
+    ],
+    "edges": [
+      {
+        "source": "en",
+        "target": "es",
+        "weight": 0.4656
+      },
+      {
+        "source": "en",
+        "target": "fr",
+        "weight": 0.5247
+      },
+      {
+        "source": "en",
+        "target": "pl",
+        "weight": 0.3258
+      },
+      {
+        "source": "es",
+        "target": "fr",
+        "weight": 0.5094
+      },
+      {
+        "source": "es",
+        "target": "pl",
+        "weight": 0.3034
+      },
+      {
+        "source": "fr",
+        "target": "pl",
+        "weight": 0.2904
+      }
+    ]
+  }
+}

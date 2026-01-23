@@ -1,0 +1,124 @@
+{
+  "topic_communities": [
+    {
+      "community_id": 1,
+      "en-fr": [
+        "Fruits",
+        "Musical Instruments",
+        "Ride"
+      ],
+      "es-fr": [
+        "Fruits",
+        "Musical Instruments",
+        "Ride"
+      ],
+      "en-es": [
+        "Fruits",
+        "Musical Instruments",
+        "Ride"
+      ],
+      "en-pl": [
+        "Fruits",
+        "Musical Instruments",
+        "Ride"
+      ],
+      "es-pl": [
+        "Fruits",
+        "Musical Instruments",
+        "Ride"
+      ],
+      "fr-pl": [
+        "Fruits",
+        "Musical Instruments",
+        "Ride"
+      ]
+    },
+    {
+      "community_id": 2,
+      "es-fr": [
+        "Office"
+      ],
+      "en-fr": [
+        "Office"
+      ],
+      "en-es": [
+        "Office"
+      ],
+      "en-pl": [
+        "Office"
+      ],
+      "es-pl": [
+        "Office"
+      ],
+      "fr-pl": [
+        "Office"
+      ]
+    },
+    {
+      "community_id": 3,
+      "en-fr": [
+        "Vegetables",
+        "Pets",
+        "Industries",
+        "Health"
+      ],
+      "es-fr": [
+        "Vegetables",
+        "Pets",
+        "Industries",
+        "Health"
+      ],
+      "en-es": [
+        "Vegetables",
+        "Pets",
+        "Industries",
+        "Health"
+      ],
+      "en-pl": [
+        "Vegetables",
+        "Pets",
+        "Industries",
+        "Health"
+      ],
+      "es-pl": [
+        "Vegetables",
+        "Pets",
+        "Industries",
+        "Health"
+      ],
+      "fr-pl": [
+        "Vegetables",
+        "Pets",
+        "Industries",
+        "Health"
+      ]
+    },
+    {
+      "community_id": 4,
+      "en-fr": [
+        "Home",
+        "Emotion"
+      ],
+      "es-fr": [
+        "Home",
+        "Emotion"
+      ],
+      "en-es": [
+        "Home",
+        "Emotion"
+      ],
+      "en-pl": [
+        "Home",
+        "Emotion"
+      ],
+      "es-pl": [
+        "Home",
+        "Emotion"
+      ],
+      "fr-pl": [
+        "Home",
+        "Emotion"
+      ]
+    }
+  ]
+}

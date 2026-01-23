@@ -11,10 +11,6 @@ __pycache__
 app/__pycache__
 app/modules/__pycache__
 
-# Ignore all data files, but keep the folder
-data/**/*.json
-data/**/*.txt
-data/**/*.db
 test_data/
 
 # Environment
